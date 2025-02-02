@@ -1,0 +1,31 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2513
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fswiss\fcharset0 Helvetica-Bold;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww28000\viewh15820\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 This file provides a description of the source data, shape files, and the processing steps for the maps included in the paper \'93Inefficient Water Pricing and Incentives for Conservation\'94, by Ujjayant Chakravorty, Manzoor H. Dar, and Kyle Emerick\
+\
+
+\f1\b Figure 1 in main text: \
+\
+
+\f0\b0 The figure was made using ARCGIS version 10.2.2. The file \'93Make Figure 1.mxd\'94 is the ARCMap document file that creates the map. The source shape file for the world country boundaries comes from the Database of Global Administrative Areas (GADM) version 3.6. The shape file with country boundaries is included as Figure 1/gadm36_0.shp. The version for producing the figure in the paper removes Antartica for better visual display (Figure 1/gadm36_0_NoAntartica.shp. The excel file \'93FAO Report_forGIS.xlsx\'94 contains the list of countries that have non-volumetric pricing. The steps to make the map are as follows. \
+\
+1. Add both the shape file and the excel file to the ARCGIS project. \
+2. Join the shape file with the FAO Report_forGIS.xlsx using the join by attribute function. The attribute to join the two datasets is the column \'93Country\'94. \
+3. The countries with non-volumetric pricing can now be shaded on the map by right clicking the shape file, selecting properties, clicking the symbology tab, highlighting show categories unique values, and setting the value field to nonvolumet. The shaded map can then be exported to a jpg file. \
+\
+\
+
+\f1\b Figure 2 in main text: 
+\f0\b0 \
+The figure was made using ARCGIS version 10.2.2. The location of each of the dots in the figure is a farmer in the sample. The data source for the longitude and latitude points is our baseline survey. The maps in each panel of Figure 2 were constructed by importing the longitude and latitude points into ArcGIS and then creating a feature class with the XY data. The maps show the spatial distribution of two variables in our survey datasets. Panels B-D in the map shows the distribution of the variable \'93anymarginal\'94, which is an indicator for volumetric pricing. It is located in the replication file rct1_baseline. Panel C further shows the distribution of the variable for whether a farmer is using their own hourly card to buy water. The variable comes from the replication dataset rct1_followup. The red circles in the map show the locations of the farmers where the variable a_paymethod is equal to 1. The upazila boundaries in each map come from the GADM database of Global Administrative Areas (see citation in the main text of the paper). \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\tx11430\li11454\fi14\pardirnatural\partightenfactor0
+\cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+\
+\
+}
