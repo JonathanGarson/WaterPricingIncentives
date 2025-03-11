@@ -6,3 +6,7 @@
 *.xlsx
 *.shp
 .Rproj.user
+
+# Folder
+
+/data
