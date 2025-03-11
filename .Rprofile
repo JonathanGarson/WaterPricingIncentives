@@ -5,6 +5,10 @@ if (!requireNamespace("here", quietly = TRUE)) {
 
 library(here)
 
+input_path = here("data")
+
+Sys.setenv(INPUT_PATH = input_path)
+
 # Define a single function to retrieve datasets
 get_data <- function(filename) {
   input_path <- Sys.getenv("INPUT_PATH")  # Retrieve the environment variable

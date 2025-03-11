@@ -8,4 +8,4 @@ library(modelsummary)
 
 # Data --------------------------------------------------------------------
 
-
+data_path = get_data("input_primary/rct1_watermeasure.csv")
