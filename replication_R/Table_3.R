@@ -60,27 +60,32 @@ dt[, (vars_to_convert) := lapply(.SD, function(x) x * 3), .SDcols = vars_to_conv
 dt[, loga_watercost := log(a_watercost)]
 
 outcomes <- c("a_irrigations", "a_timedry", "a_watercost", "loga_watercost")
-formula <- as.formula(paste("loga_watercost", "~ treatment + t_marg + anymarginal + i(Upazila)"))
+formula <- as.formula(paste("loga_watercost", "~ treatment + t_marg + anymarginal | Upazila"))
 mod1 <- feols(formula, data = dt, cluster = ~village_id, keep_data = TRUE)
 mean_control1 <- dt[treatment == 0, mean(get("loga_watercost"), na.rm = TRUE)]
 
-# Test 
-test_result <- linearHypothesis(mod1, "treatment + t_marg = 0")
-phet <- test_result$`Pr(>F)`[2]
+# compute p_value of the wald test by hand because I couldn't manage to handle the function wald
+beta <- coef(mod1)
+V <- vcov(mod1)
+R <- matrix(c(1, 1, 0), nrow = 1)
+wald_stat <- as.numeric((R %*% beta)^2 / (R %*% V %*% t(R)))
+p_value_manual <- 1 - pchisq(wald_stat, df = 1)
+
+print(wald_stat)
+print(p_value_manual)
 
 # Stock results
 results[[paste0("loga_watercost", "_het")]] <- list(
   model = mod1,
   mean_control = mean_control1,
-  heterogeneity_test = test_result,
-  heterogeneity_p_value = phet
+  heterogeneity_test = wald_stat,
+  heterogeneity_p_value = p_value_manual
 )
 
 cat("Modèle:", "loga_watercost_het", "\n")
-cat("Moyenne du groupe contrôle:", results[["loga_watercost_het"]]$mean_control, "\n")
-cat("P-value du test d'hétérogénéité:", results[["loga_watercost_het"]]$heterogeneity_p_value, "\n\n")
 print(summary(results[["loga_watercost_het"]]$model))
 cat("-------------------------------------------------------------\n\n")
+cat("P-value du test d'hétérogénéité:", results[["loga_watercost_het"]]$heterogeneity_p_value, "\n\n")
 
 # Revenues and profit ---------------------------------------------------------------------
 
@@ -104,7 +109,6 @@ for(i in c("a_yield_kgac", "a_rev_ac", "a_profit_ac", "a_nonwater_ac")) {
 # run regression
 outcomes <- c("log_a_yield_kgac", "log_a_rev_ac", "log_a_profit_ac")
 
-
 for (j in outcomes) {
   formula <- as.formula(paste(j, "~ treatment + t_marg + anymarginal | Upazila"))
   mod2 <- feols(formula, data = dt, cluster = "village_id",keep_data = TRUE)
@@ -115,11 +119,18 @@ for (j in outcomes) {
   test_result <- linearHypothesis(mod2, "treatment + t_marg = 0")
   phet <- test_result$`Pr(>F)`[2]
 
+  # compute p_value of the wald test by hand because I couldn't manage to handle the function wald
+  beta <- coef(mod2)
+  V <- vcov(mod2)
+  R <- matrix(c(1, 1, 0), nrow = 1)
+  wald_stat <- as.numeric((R %*% beta)^2 / (R %*% V %*% t(R)))
+  p_value_manual <- 1 - pchisq(wald_stat, df = 1)
+
   results[[paste0(j, "_het")]] <- list(
     model = mod2,
     mean_control = mean_control2,
-    heterogeneity_test = test_result,
-    heterogeneity_p_value = phet
+    heterogeneity_test = wald_stat,
+    heterogeneity_p_value = p_value_manual
   )
 
 }
@@ -164,17 +175,19 @@ mod_logcost <- feols(formula_logcost, data = dt_sub, cluster = "village_id", kee
 mf_logcost <- model.frame(mod_logcost)
 mean_control_logcost <- mean(mf_logcost$loga_watercost[mf_logcost$treatment == 0], na.rm = TRUE)
 
-# Tester l'hypothèse que treatment + t_hourcard = 0 à l'aide de linearHypothesis()
-lh_logcost <- linearHypothesis(mod_logcost, "treatment + t_hourcard = 0")
-# Extraire la p-value (seconde ligne, colonne "Pr(>Chisq)")
-p_value_logcost <- lh_logcost[2, "Pr(>Chisq)"]
+# compute p_value of the wald test by hand because I couldn't manage to handle the function wald
+beta <- coef(mod_logcost)
+V <- vcov(mod_logcost)
+R <- matrix(c(1, 1, 0), nrow = 1)
+wald_stat <- as.numeric((R %*% beta)^2 / (R %*% V %*% t(R)))
+p_value_manual <- 1 - pchisq(wald_stat, df = 1)
 
 # Stocker les résultats dans une liste sous le nom "logcost_card"
 results[["logcost_card"]] <- list(
   model = mod_logcost,
   mean_control = mean_control_logcost,
-  heterogeneity_test = lh_logcost,
-  heterogeneity_p_value = p_value_logcost
+  heterogeneity_test = wald_stat,
+  heterogeneity_p_value = p_value_manual
 )
 
 ### Régression sur log_a_profit_ac
@@ -182,15 +195,18 @@ formula_logprofit <- as.formula("log_a_profit_ac ~ treatment + t_hourcard + hour
 mod_logprofit <- feols(formula_logprofit, data = dt_sub, cluster = "village_id", keep_data = TRUE)
 mf_logprofit <- model.frame(mod_logprofit)
 mean_control_logprofit <- mean(mf_logprofit$log_a_profit_ac[mf_logprofit$treatment == 0], na.rm = TRUE)
-lh_logprofit <- linearHypothesis(mod_logprofit, "treatment + t_hourcard = 0")
-p_value_logprofit <- lh_logprofit[2, "Pr(>Chisq)"]
+beta <- coef(mod_logprofit)
+V <- vcov(mod_logprofit)
+R <- matrix(c(1, 1, 0), nrow = 1)
+wald_stat <- as.numeric((R %*% beta)^2 / (R %*% V %*% t(R)))
+p_value_manual <- 1 - pchisq(wald_stat, df = 1)
 
 # Stocke results
 results[["logprofit_card"]] <- list(
   model = mod_logprofit,
   mean_control = mean_control_logprofit,
-  heterogeneity_test = lh_logprofit,
-  heterogeneity_p_value = p_value_logprofit
+  heterogeneity_test = wald_stat,
+  heterogeneity_p_value = p_value_manual
 )
 
 cat("Modèle loga_watercost (logcost_card) :\n")
