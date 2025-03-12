@@ -97,42 +97,34 @@ dt[, loga_watercost := log(a_watercost)]
 # Liste des variables de résultats
 outcomes <- c("a_irrigations", "a_timedry", "a_watercost", "loga_watercost")
 
-# Créer une liste pour stocker les résultats
-results <- list()
+# Deuxième modèle : régression avec variables additionnelles
+formula2 <- as.formula(paste("loga_watercost", "~ treatment + t_marg + anymarginal + i(Upazila)"))
+mod1 <- feols(formula2, data = dt, cluster = ~village_id)
+mean_control1 <- dt[treatment == 0, mean(get("loga_watercost"), na.rm = TRUE)]
 
-for(j in outcomes){
-  
-  # Premier modèle : régression de base
-  # La syntaxe "i(Upazila)" crée les effets fixes pour Upazila
-  formula1 <- as.formula(paste(j, "~ treatment + i(Upazila)"))
-  reg1 <- feols(formula1, data = dt, cluster = ~village_id)
-  
-  # Calcul de la moyenne de j pour le groupe contrôle (treatment == 0) parmi les observations utilisées
-  mean_control <- dt[treatment == 0, mean(get(j), na.rm = TRUE)]
-  
-  # Stocker le résultat et la moyenne
-  results[[j]] <- list(reg = reg1, mean = mean_control)
-  
-  # Deuxième modèle : régression avec variables additionnelles
-  formula2 <- as.formula(paste(j, "~ treatment + t_marg + anymarginal + i(Upazila)"))
-  reg2 <- feols(formula2, data = dt, cluster = ~village_id)
-  
-  mean_control2 <- dt[treatment == 0, mean(get(j), na.rm = TRUE)]
-  
-  # Test de restriction : somme de treatment et t_marg égale à 0
-  test_result <- linearHypothesis(reg2, "treatment + t_marg = 0")
-  # Extraire le p-value du test ; la structure de test_result peut varier, ici on suppose une colonne "Pr(>F)"
-  phet <- test_result$`Pr(>F)`[2]
-  
-  # Stocker le second modèle et le p-value du test
-  results[[paste0(j, "_het")]] <- list(reg = reg2, mean = mean_control2, phet = phet)
-}
+# Test de restriction : somme de treatment et t_marg égale à 0
+test_result <- linearHypothesis(mod1, "treatment + t_marg = 0")
+# Extraire le p-value du test ; la structure de test_result peut varier, ici on suppose une colonne "Pr(>F)"
+phet <- test_result$`Pr(>F)`[2]
 
-# Pour afficher un résumé du premier modèle sur "a_irrigations", par exemple :
-print('a_irrigations')
-print(summary(results[["a_irrigations"]]$reg))
-print('a_irrigations_het')
-print(summary(results[["a_irrigations_het"]]$reg))
+# Stockage des résultats dans la liste results avec _het ajouté à la fin de la variable outcome
+results[[paste0("loga_watercost", "_het")]] <- list(
+  model = mod1,
+  mean_control = mean_control1,
+  heterogeneity_test = test_result,
+  heterogeneity_p_value = phet
+)
+
+
+cat("Modèle:", "loga_watercost_het", "\n")
+cat("Moyenne du groupe contrôle:", results[["loga_watercost_het"]]$mean_control, "\n")
+cat("P-value du test d'hétérogénéité:", results[["loga_watercost_het"]]$heterogeneity_p_value, "\n\n")
+print(summary(results[["loga_watercost_het"]]$model))
+cat("-------------------------------------------------------------\n\n")
+
+
+
+
 
 ### Revenues and profit
 
@@ -168,6 +160,203 @@ for(i in c("a_yield_kgac", "a_rev_ac", "a_profit_ac", "a_nonwater_ac")) {
   dt[, paste0("log_", i) := log(get(i))]
 }
 
-# Vérifier les résultats
-print(head(dt))
+## run regression
+# Liste des variables de résultats
+outcomes <- c("log_a_yield_kgac", "log_a_rev_ac", "log_a_profit_ac")
+
+# Liste pour stocker les résultats
+results <- list()
+
+for (j in outcomes) {
+  
+  # Deuxième modèle : régression avec variables d'hétérogénéité
+  # La formule inclut treatment, t_marg, anymarginal et les effets fixes pour Upazila
+  formula2 <- as.formula(paste(j, "~ treatment + t_marg + anymarginal | Upazila"))
+  
+  # Estimation du modèle avec erreurs standard clusterisées par village_id
+  mod2 <- feols(formula2, data = dt, cluster = "village_id")
+  
+  # Extraction de l'échantillon utilisé pour l'estimation
+  mf2 <- model.frame(mod2)
+  
+  # Calcul de la moyenne de j pour le groupe contrôle dans cet échantillon
+  mean_control2 <- mean(mf2[[j]][mf2$treatment == 0], na.rm = TRUE)
+  
+  # Stockage du modèle et des résultats dans la liste results
+  results[[paste0(j, "_het")]] <- list(
+    model = mod2,
+    mean_control = mean_control2,
+    heterogeneity_test = lh_test,
+    heterogeneity_p_value = p_value
+  )
+}
+
+cat("Modèle:", "log_a_yield_kgac_het", "\n")
+cat("Moyenne du groupe contrôle:", results[["log_a_yield_kgac_het"]]$mean_control, "\n")
+cat("P-value du test d'hétérogénéité:", results[["log_a_yield_kgac_het"]]$heterogeneity_p_value, "\n\n")
+print(summary(results[["log_a_yield_kgac_het"]]$model))
+cat("-------------------------------------------------------------\n\n")
+
+cat("Modèle:", "log_a_rev_ac_het", "\n")
+cat("Moyenne du groupe contrôle:", results[["log_a_rev_ac_het"]]$mean_control, "\n")
+cat("P-value du test d'hétérogénéité:", results[["log_a_rev_ac_het"]]$heterogeneity_p_value, "\n\n")
+print(summary(results[["log_a_rev_ac_het"]]$model))
+cat("-------------------------------------------------------------\n\n")
+
+cat("Modèle:", "log_a_profit_ac_het", "\n")
+cat("Moyenne du groupe contrôle:", results[["log_a_profit_ac_het"]]$mean_control, "\n")
+cat("P-value du test d'hétérogénéité:", results[["log_a_profit_ac_het"]]$heterogeneity_p_value, "\n\n")
+print(summary(results[["log_a_profit_ac_het"]]$model))
+cat("-------------------------------------------------------------\n\n")
+
+# Charger les packages nécessaires
+library(data.table)
+library(fixest)
+library(car)
+
+# On suppose que votre data.table s'appelle dt
+# Créer la variable hourcard : 1 si a_paymethod vaut 1, sinon 0
+dt[, hourcard := as.numeric(a_paymethod == 1)]
+# Créer l'interaction entre hourcard et treatment
+dt[, t_hourcard := hourcard * treatment]
+
+# Filtrer pour garder les observations où a_paymethod n'est pas manquant
+dt_sub <- dt[!is.na(a_paymethod)]
+
+### Régression sur loga_watercost
+
+# Spécifier la formule avec effets fixes par Upazila
+formula_logcost <- as.formula("loga_watercost ~ treatment + t_hourcard + hourcard | Upazila")
+
+# Estimer le modèle avec cluster sur village_id
+mod_logcost <- feols(formula_logcost, data = dt_sub, cluster = "village_id")
+
+# Calculer la moyenne de loga_watercost pour le groupe contrôle (treatment == 0) dans l'échantillon utilisé
+mf_logcost <- model.frame(mod_logcost)
+mean_control_logcost <- mean(mf_logcost$loga_watercost[mf_logcost$treatment == 0], na.rm = TRUE)
+
+# Tester l'hypothèse que treatment + t_hourcard = 0 à l'aide de linearHypothesis()
+lh_logcost <- linearHypothesis(mod_logcost, "treatment + t_hourcard = 0")
+# Extraire la p-value (seconde ligne, colonne "Pr(>Chisq)")
+p_value_logcost <- lh_logcost[2, "Pr(>Chisq)"]
+
+# Stocker les résultats dans une liste sous le nom "logcost_card"
+results <- list()
+results[["logcost_card"]] <- list(
+  model = mod_logcost,
+  mean_control = mean_control_logcost,
+  heterogeneity_test = lh_logcost,
+  heterogeneity_p_value = p_value_logcost
+)
+
+### Régression sur log_a_profit_ac
+
+# Spécifier la formule avec effets fixes par Upazila
+formula_logprofit <- as.formula("log_a_profit_ac ~ treatment + t_hourcard + hourcard | Upazila")
+
+# Estimer le modèle avec cluster sur village_id
+mod_logprofit <- feols(formula_logprofit, data = dt_sub, cluster = "village_id")
+
+# Calculer la moyenne de log_a_profit_ac pour le groupe contrôle dans l'échantillon utilisé
+mf_logprofit <- model.frame(mod_logprofit)
+mean_control_logprofit <- mean(mf_logprofit$log_a_profit_ac[mf_logprofit$treatment == 0], na.rm = TRUE)
+
+# Tester l'hypothèse que treatment + t_hourcard = 0
+lh_logprofit <- linearHypothesis(mod_logprofit, "treatment + t_hourcard = 0")
+p_value_logprofit <- lh_logprofit[2, "Pr(>Chisq)"]
+
+# Stocker les résultats dans une liste sous le nom "logprofit_card"
+results[["logprofit_card"]] <- list(
+  model = mod_logprofit,
+  mean_control = mean_control_logprofit,
+  heterogeneity_test = lh_logprofit,
+  heterogeneity_p_value = p_value_logprofit
+)
+
+### Affichage des résultats
+
+cat("Modèle loga_watercost (logcost_card) :\n")
+print(summary(results[["logcost_card"]]$model))
+cat("Moyenne du groupe contrôle (loga_watercost) : ", results[["logcost_card"]]$mean_control, "\n")
+cat("P-value du test (treatment + t_hourcard = 0) : ", results[["logcost_card"]]$heterogeneity_p_value, "\n\n")
+
+cat("Modèle log_a_profit_ac (logprofit_card) :\n")
+print(summary(results[["logprofit_card"]]$model))
+cat("Moyenne du groupe contrôle (log_a_profit_ac) : ", results[["logprofit_card"]]$mean_control, "\n")
+cat("P-value du test (treatment + t_hourcard = 0) : ", results[["logprofit_card"]]$heterogeneity_p_value, "\n")
+
+### Heterogeneity by holding own prepaid card
+
+# Créer la variable hourcard : 1 si a_paymethod vaut 1, sinon 0
+dt[, hourcard := as.numeric(a_paymethod == 1)]
+# Créer l'interaction entre hourcard et treatment
+dt[, t_hourcard := hourcard * treatment]
+
+# Filtrer pour garder les observations où a_paymethod n'est pas manquant
+dt_sub <- dt[!is.na(a_paymethod)]
+
+### Régression sur loga_watercost
+
+# Spécifier la formule avec effets fixes par Upazila
+formula_logcost <- as.formula("loga_watercost ~ treatment + t_hourcard + hourcard | Upazila")
+
+# Estimer le modèle avec cluster sur village_id
+mod_logcost <- feols(formula_logcost, data = dt_sub, cluster = "village_id")
+
+# Calculer la moyenne de loga_watercost pour le groupe contrôle (treatment == 0) dans l'échantillon utilisé
+mf_logcost <- model.frame(mod_logcost)
+mean_control_logcost <- mean(mf_logcost$loga_watercost[mf_logcost$treatment == 0], na.rm = TRUE)
+
+# Tester l'hypothèse que treatment + t_hourcard = 0 à l'aide de linearHypothesis()
+lh_logcost <- linearHypothesis(mod_logcost, "treatment + t_hourcard = 0")
+# Extraire la p-value (seconde ligne, colonne "Pr(>Chisq)")
+p_value_logcost <- lh_logcost[2, "Pr(>Chisq)"]
+
+# Stocker les résultats dans une liste sous le nom "logcost_card"
+results <- list()
+results[["logcost_card"]] <- list(
+  model = mod_logcost,
+  mean_control = mean_control_logcost,
+  heterogeneity_test = lh_logcost,
+  heterogeneity_p_value = p_value_logcost
+)
+
+### Régression sur log_a_profit_ac
+
+# Spécifier la formule avec effets fixes par Upazila
+formula_logprofit <- as.formula("log_a_profit_ac ~ treatment + t_hourcard + hourcard | Upazila")
+
+# Estimer le modèle avec cluster sur village_id
+mod_logprofit <- feols(formula_logprofit, data = dt_sub, cluster = "village_id")
+
+# Calculer la moyenne de log_a_profit_ac pour le groupe contrôle dans l'échantillon utilisé
+mf_logprofit <- model.frame(mod_logprofit)
+mean_control_logprofit <- mean(mf_logprofit$log_a_profit_ac[mf_logprofit$treatment == 0], na.rm = TRUE)
+
+# Tester l'hypothèse que treatment + t_hourcard = 0
+lh_logprofit <- linearHypothesis(mod_logprofit, "treatment + t_hourcard = 0")
+p_value_logprofit <- lh_logprofit[2, "Pr(>Chisq)"]
+
+# Stocker les résultats dans une liste sous le nom "logprofit_card"
+results[["logprofit_card"]] <- list(
+  model = mod_logprofit,
+  mean_control = mean_control_logprofit,
+  heterogeneity_test = lh_logprofit,
+  heterogeneity_p_value = p_value_logprofit
+)
+
+### Affichage des résultats
+
+cat("Modèle loga_watercost (logcost_card) :\n")
+print(summary(results[["logcost_card"]]$model))
+cat("Moyenne du groupe contrôle (loga_watercost) : ", results[["logcost_card"]]$mean_control, "\n")
+cat("P-value du test (treatment + t_hourcard = 0) : ", results[["logcost_card"]]$heterogeneity_p_value, "\n\n")
+
+cat("Modèle log_a_profit_ac (logprofit_card) :\n")
+print(summary(results[["logprofit_card"]]$model))
+cat("Moyenne du groupe contrôle (log_a_profit_ac) : ", results[["logprofit_card"]]$mean_control, "\n")
+cat("P-value du test (treatment + t_hourcard = 0) : ", results[["logprofit_card"]]$heterogeneity_p_value, "\n")
+
+
+
 
