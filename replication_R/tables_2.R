@@ -1,5 +1,6 @@
 # This files replicate the findings of Ujjayant Chakravorty, Kyle Emerick, and Manzoor Dar
 # For the paper "Inefficient water pricing and incentives for conservation" published in the American Economic Review in 2023
+# Table 2
 
 # Packages ----------------------------------------------------------------
 library(fixest)
@@ -108,79 +109,31 @@ reg_waterlevel_sup70_wth = feols(waterlevel ~ treatment_within*anymarginal, fixe
 
 # Table Generation --------------------------------------------------------
 # NOT WORKING YET
+models <- list(reg_waterlevel, reg_dryfield ,reg_waterlevel_overall_bw, reg_sup70_dryfield, reg_sup70_dryfield,reg_sup70_dryfield)  # Replace with your actual models
 
-# Panel A - Main Results
-models_panel_a <- list(
-  "Treatment" = reg_waterlevel,
-  "Treatment × Volumetric Pricing" = reg_het_water_vp,
-  "< 70 Days" = reg_inf70_waterlevel,
-  "> 70 Days" = reg_sup70_waterlevel
+# Create custom additional statistics for the table
+add_stats <- list(
+  c(control_mean1, control_mean2, control_mean3, control_mean4, control_mean5, control_mean6),
+  c(num_observations1, num_observations2, num_observations3, num_observations4, num_observations5, num_observations6),
+  c(p_value1, p_value2, p_value3, p_value4, p_value5, p_value6)
 )
 
-# Panel B - Between-Upazila Variation
-models_panel_b <- list(
-  "Treatment" = reg_waterlevel_overall_bw,
-  "< 70 Days" = reg_waterlevel_inf70_bw,
-  "> 70 Days" = reg_waterlevel_sup70_bw
-)
+add_stat_labels <- c("Control Mean", "Number of Observations", "p-value: Treat + Treat × Volumetric")
 
-# Panel C - Within-Upazila Variation
-models_panel_c <- list(
-  "Treatment" = reg_waterlevel_within,
-  "< 70 Days" = reg_waterlevel_inf70_wth,
-  "> 70 Days" = reg_waterlevel_sup70_wth
-)
+# Save the LaTeX table to a file
 
-# Create a custom title for each panel
-table_panel_a <- modelsummary(models_panel_a, title = "Panel A - Main Results", output = "markdown")
-table_panel_b <- modelsummary(models_panel_b, title = "Panel B - Between-Upazila Variation", output = "markdown")
-table_panel_c <- modelsummary(models_panel_c, title = "Panel C - Within-Upazila Variation", output = "markdown")
+stargazer(models, 
+          type = "html",
+          title = "Effects of Conservation Technology on Water Levels",
+          align = TRUE,
+          se = list(se_model1, se_model2, se_model3, se_model4, se_model5, se_model6),
+          omit.stat = c("ser", "adj.rsq", "f"),
+          add.lines = Map(c, add_stat_labels, add_stats),
+          dep.var.labels.include = FALSE,
+          column.labels = c("Overall", "0-70 days after planting", "70+ days after planting"),
+          covariate.labels = c("Treatment", "Treatment × Volumetric Pricing", "Volumetric Pricing"),
+          notes = "Standard errors in parentheses. Panels indicate variations across groups.",
+          notes.align = "l",
+          digits = 4,
+          out = "/Users/GARSON/sciencespo/m2/development/WaterPricingIncentives/replication_R/output/table_2.html")
 
-# Define a helper function to extract a coefficient estimate and standard error
-extract_coef <- function(model, term_pattern) {
-  # Use broom::tidy to extract coefficient info
-  tb <- broom::tidy(model)
-  # Use grepl on the 'term' column so that we can match the desired coefficient
-  row <- tb[grepl(term_pattern, tb$term), ]
-  if (nrow(row) == 0) {
-    return(NA)
-  }
-  # Format the coefficient and standard error (adjust number formatting as needed)
-  sprintf("%.3f (%.3f)", row$estimate[1], row$std.error[1])
-}
-
-# Build the results table by row.
-# Note: Adjust the term patterns if needed depending on how fixest names them.
-results_df <- data.frame(
-  Panel = c("Panel A: Treatment",
-            "Panel A: Treatment × anymarginal",
-            "Panel B: Treatment",
-            "Panel C: Treatment"),
-  
-  Overall = c(
-    extract_coef(reg_waterlevel, "^treatment$"),
-    extract_coef(reg_het_water_vp, "treatment:anymarginal"),
-    extract_coef(reg_waterlevel_overall_bw, "^treatment$"),
-    extract_coef(reg_waterlevel_within, "^treatment_within$")
-  ),
-  
-  `0-70 Days` = c(
-    extract_coef(reg_inf70_waterlevel_baseline, "^treatment$"),
-    extract_coef(reg_inf70_waterlevel, "treatment:anymarginal"),
-    extract_coef(reg_waterlevel_inf70_bw, "^treatment$"),
-    extract_coef(reg_waterlevel_inf70_wth, "^treatment_within$")
-  ),
-  
-  `70+ Days` = c(
-    extract_coef(reg_sup70_waterlevel_baseline, "^treatment$"),
-    extract_coef(reg_sup70_waterlevel, "treatment:anymarginal"),
-    extract_coef(reg_waterlevel_sup70_bw, "^treatment$"),
-    extract_coef(reg_waterlevel_sup70_wth, "^treatment_within$")
-  ),
-  
-  stringsAsFactors = FALSE
-)
-
-# Display the table as HTML
-kable(results_df, format = "latex", caption = "Compact Regression Table") %>% 
-  kable_save(output_folder("table2.tex"))
