@@ -10,6 +10,7 @@ library(car)
 # Constructing baseline_covariates dataset (derived) -----------------------
 
 dt_baseline <- fread("C:\\Users\\Dell\\replication_package\\data\\input_primary\\rct1_baseline.csv")
+dt_baseline = fread(get_data("input_primary/rct1_baseline.csv"))
 
 # calculate boro rice revenue per acre
 for(i in c("1", "2")) {
