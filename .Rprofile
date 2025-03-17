@@ -29,19 +29,15 @@ get_data <- function(filename) {
 }
 
 output_folder <- function(filename) {
-  input_path <- Sys.getenv("OUTPUT_PATH")  # Retrieve the environment variable
+  input_path <- Sys.getenv("output_path")  # Retrieve the environment variable
   
-  if (output_path == "") {
+  if (input_path == "") {
     stop("Error: OUTPUT_PATH is not set. Please define it first.")
   }
   
-  file_path <- file.path(output_path, filename)  # Construct full path
+  file_path <- file.path(input_path, filename)  # Construct full path
   
-  if (!file.exists(file_path)) {
-    stop(paste("Error: The file", file_path, "does not exist."))
-  }
-  
-  return(file_path)
+  return(file_path)  # Return full path
 }
 
 # Confirmation message

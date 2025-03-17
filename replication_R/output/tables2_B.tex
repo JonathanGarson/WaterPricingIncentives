@@ -1,0 +1,21 @@
+\begin{table}
+\centering
+\begin{tblr}[         %% tabularray outer open
+]                     %% tabularray outer close
+{                     %% tabularray inner open
+colspec={Q[]Q[]Q[]Q[]},
+column{2,3,4}={}{halign=c,},
+column{1}={}{halign=l,},
+hline{6}={1,2,3,4}{solid, black, 0.05em},
+}                     %% tabularray inner close
+\toprule
+& Interacted & Interacted  & Interacted   \\ \midrule %% TinyTableHeader
+Treatment & \num{0.094} & \num{0.016} & \num{0.143} \\
+& (\num{0.227}) & (\num{0.212}) & (\num{0.380}) \\
+Treatment x Volumetric Pricing Upazila Mean & \num{-0.476} & \num{-0.966} & \num{0.424} \\
+& (\num{0.328}) & (\num{0.326}) & (\num{0.541}) \\
+Num.Obs. & \num{7596} & \num{4187} & \num{3409} \\
+p-value & \num{0.073} & \num{0.000} & \num{0.095} \\
+\bottomrule
+\end{tblr}
+\end{table}
