@@ -2,23 +2,29 @@
 # For the paper "Inefficient water pricing and incentives for conservation" published in the American Economic Review in 2023
 # Table 2
 
+
 # Packages ----------------------------------------------------------------
 library(fixest)
 library(data.table)
 library(dplyr)
 library(modelsummary)
-library(broom)
-library(knitr)
 library(dplyr)
+library(car)
 
 # Data --------------------------------------------------------------------
 
 rct1 = fread(get_data("input_primary/rct1_watermeasure.csv"))
 rct1_baseline = fread(get_data("input_primary/rct1_baseline.csv"))
 
-# Table 2 -----------------------------------------------------------------
+# Function ----------------------------------------------------------------
 
-## Panel A - Main Results --------------------------------------------------
+p_value_joint_test = function(dataset){
+  hyp_test = linearHypothesis(dataset, "treatment + treatment:anymarginal = 0", test = "F")
+  p_value = hyp_test$`Pr(>F)`[2]
+  return(p_value)
+}
+
+# Panel A - Main Results --------------------------------------------------
 
 rct1 = rct1[!is.na(waterunit),] #we get rid of na
 set.seed(123)
@@ -34,20 +40,72 @@ reg_dryfield = feols(dryfield ~ treatment |Upazila, cluster = ~village_id ,data 
 reg_het_water_vp = feols(waterlevel ~ treatment*anymarginal | Upazila, cluster = ~village_id, data = rct1)
 reg_het_dryfield_vp = feols(dryfield ~ treatment*anymarginal | Upazila, cluster = ~village_id, data = rct1)
 
-### splitting data into pre and post flowering period (60 days - 80  --------
+p_value_overall = p_value_joint_test(reg_het_water_vp)
 
-#### 70 ----------------------------------------------------------------------
+# Control mean
+control_mean_overall = round(rct1[treatment == 0, .(mean = mean(waterlevel))], 2)
+
+## splitting data into pre and post flowering period (60 days - 80  --------
+
+### 70 ----------------------------------------------------------------------
 reg_inf70_waterlevel = feols(waterlevel ~ treatment*anymarginal | Upazila, cluster = ~village_id, data = rct1[dat <= 70])
 reg_sup70_waterlevel = feols(waterlevel ~ treatment*anymarginal | Upazila, cluster = ~village_id, data = rct1[dat > 70])
 reg_inf70_waterlevel_baseline = feols(waterlevel ~ treatment | Upazila, cluster = ~village_id, data = rct1[dat <= 70])
 reg_sup70_waterlevel_baseline = feols(waterlevel ~ treatment | Upazila, cluster = ~village_id, data = rct1[dat > 70])
+
+control_mean_inf70 = round(rct1[treatment == 0 & dat < 70, .(mean = mean(waterlevel))], 2)
+control_mean_sup70 = round(rct1[treatment == 0 & dat > 70, .(mean = mean(waterlevel))], 2)
+
+p_value_inf70 = p_value_joint_test(reg_inf70_waterlevel)
+p_value_sup70 = p_value_joint_test(reg_sup70_waterlevel)
 
 reg_inf70_dryfield = feols(dryfield ~ treatment*anymarginal | Upazila, cluster = ~village_id, data = rct1[dat <= 70])
 reg_sup70_dryfield = feols(dryfield ~ treatment*anymarginal | Upazila, cluster = ~village_id, data = rct1[dat > 70])
 reg_inf70_dryfield_baseline = feols(dryfield ~ treatment | Upazila, cluster = ~village_id, data = rct1[dat <= 70])
 reg_sup70_dryfield_baseline = feols(dryfield ~ treatment | Upazila, cluster = ~village_id, data = rct1[dat > 70])
 
-#### 60 ----------------------------------------------------------------------
+
+## Tables Panel A ----------------------------------------------------------
+control_mean_overall_value <- round(control_mean_overall$mean)
+control_mean_inf70_value <- as.numeric(control_mean_inf70$mean)
+control_mean_sup70_value <- as.numeric(control_mean_sup70$mean)
+
+control_mean_df <- data.frame(
+  term = "Control Mean",  # The row label
+  Overall_Baseline = control_mean_overall_value,  
+  Overall_Interacted = control_mean_overall_value,  
+  Inf70_Baseline = control_mean_inf70_value,  
+  Inf70_Interacted = control_mean_inf70_value,  
+  Sup70_Baseline = control_mean_sup70_value,  
+  Sup70_Interacted = control_mean_sup70_value  
+)
+
+p_value_df = data.frame(
+  term = "p-value",
+  Overall_Baseline = NA,  
+  Overall_Interacted = p_value_overall,  
+  Inf70_Baseline = NA,  
+  Inf70_Interacted = p_value_inf70,  
+  Sup70_Baseline = NA,  
+  Sup70_Interacted = p_value_sup70  
+)
+
+add_to_table = rbind(control_mean_df, p_value_df)
+
+modelsummary(
+  models = list(
+    "Overall" = list("Baseline" = reg_waterlevel, "Interacted" = reg_het_water_vp),
+    "0–70 days after planting" = list("Baseline" = reg_inf70_waterlevel_baseline, "Interacted" =reg_inf70_waterlevel),
+    "70+ days after planting" = list("Baseline" = reg_sup70_waterlevel_baseline, "Interacted" = reg_sup70_waterlevel)
+  ),
+  shape = "cbind",
+  gof_omit = "R2|Adj\\.|Within|AIC|BIC|RMSE|Std.Errors|FE",
+  coef_rename = c("Treatment", "Volumetric Pricing" ,"Treatment x Volumetric Pricing"),  # Disable automatic GOF statistics
+  add_rows = add_to_table,
+  output = "html"
+)
+
+### 60 ----------------------------------------------------------------------
 # reg_inf60_waterlevel = feols(waterlevel ~ treatment*anymarginal | Upazila, cluster = ~village_id, data = rct1[dat <= 60]) #significant results
 # reg_sup60_waterlevel = feols(waterlevel ~ treatment*anymarginal | Upazila, cluster = ~village_id, data = rct1[dat > 60])
 # reg_inf60_waterlevel_baseline = feols(waterlevel ~ treatment | Upazila, cluster = ~village_id, data = rct1[dat <= 60]) #significant results
@@ -58,7 +116,7 @@ reg_sup70_dryfield_baseline = feols(dryfield ~ treatment | Upazila, cluster = ~v
 # reg_inf60_dryfield_baseline = feols(dryfield ~ treatment | Upazila, cluster = ~village_id, data = rct1[dat <= 60]) #significant results
 # reg_sup60_dryfield_baseline = feols(dryfield ~ treatment | Upazila, cluster = ~village_id, data = rct1[dat > 60])
 
-#### 80 ----------------------------------------------------------------------
+### 80 ----------------------------------------------------------------------
 # reg_inf80_waterlevel = feols(waterlevel ~ treatment*anymarginal | Upazila, cluster = ~village_id, data = rct1[dat <= 80])
 # reg_sup80_waterlevel = feols(waterlevel ~ treatment*anymarginal | Upazila, cluster = ~village_id, data = rct1[dat > 80])
 # reg_inf80_waterlevel_baseline = feols(waterlevel ~ treatment | Upazila, cluster = ~village_id, data = rct1[dat <= 80]) 
@@ -78,33 +136,33 @@ reg_sup70_dryfield_baseline = feols(dryfield ~ treatment | Upazila, cluster = ~v
 # reg_waterlevel_no_fe_interac = feols(waterlevel ~ anymarginal*treatment , cluster = ~village_id, data = rct1)
 # reg_dryfield_no_fe_interac = feols(dryfield ~ anymarginal*treatment , cluster = ~village_id, data = rct1)
 
-## Panel B - Only in between Upazila variation in volumetric pricing -----------------
+# Panel B - Only in between Upazila variation in volumetric pricing -----------------
 rct1_baseline[, upamean_marg := mean(anymarginal), by = upazila]
 rct1_baseline[, t_upamean_marg := treatment*upamean_marg, by = upazila]
 upamean_db = rct1_baseline[, .(farmer_id, upamean_marg, t_upamean_marg)]
 rct1 = merge(rct1, upamean_db, by = "farmer_id")
 
 
-### Overall -----------------------------------------------------------------
+## Overall -----------------------------------------------------------------
 reg_waterlevel_overall_bw = feols(waterlevel ~ treatment + t_upamean_marg, fixef = c("Upazila"), cluster = ~village_id, data = rct1)
 
-### <70 days ---------------------------------------------------------------
+## <70 days ---------------------------------------------------------------
 reg_waterlevel_inf70_bw = feols(waterlevel ~ treatment + t_upamean_marg, fixef = c("Upazila"), cluster = ~village_id, data = rct1[dat <= 70])
 
-### >70 days ---------------------------------------------------------------
+## >70 days ---------------------------------------------------------------
 reg_waterlevel_sup70_bw = feols(waterlevel ~ treatment + t_upamean_marg, fixef = c("Upazila"), cluster = ~village_id, data = rct1[dat > 70])
 
-## Panel C - Within Upazila variation --------------------------------------
-### Overall -----------------------------------------------------------------
+# Panel C - Within Upazila variation --------------------------------------
+## Overall -----------------------------------------------------------------
 # reg_waterlevel_overall_wth = feols(waterlevel ~ treatment*anymarginal | Upazila^treatment, cluster = ~village_id, data = rct1) # this brings colinearity with the treatment due to the FE
 # We need changes to adapt it
 rct1[, treatment_within := treatment - mean(treatment, na.rm = TRUE), by = Upazila]
 reg_waterlevel_within = feols(waterlevel ~ treatment_within*anymarginal | Upazila, cluster = ~village_id, data = rct1)
 
-### <70 days ---------------------------------------------------------------
+## <70 days ---------------------------------------------------------------
 reg_waterlevel_inf70_wth = feols(waterlevel ~ treatment_within*anymarginal, fixef = c("Upazila"), cluster = ~village_id, data = rct1[dat <= 70])
 
-### >70 days ---------------------------------------------------------------
+## >70 days ---------------------------------------------------------------
 reg_waterlevel_sup70_wth = feols(waterlevel ~ treatment_within*anymarginal, fixef = c("Upazila"), cluster = ~village_id, data = rct1[dat > 70])
 
 # Table Generation --------------------------------------------------------
