@@ -201,7 +201,7 @@ table7 = modelsummary(
   shape = "cbind",
   coef_omit = c(4:8),
   coef_rename = c("Cart Treatment", "Pipe Price", "Pipe Price x \n Card Treatment" ),
-  gof_omit = "Adj\\.|Within|AIC|BIC|RMSE|Std.Errors|FE|F|Log.Lik.",
+  gof_omit = "Adj\\.|Within|AIC|BIC|RMSE|Std.Errors|Log.Lik.",
   add_rows = add_to_table,
   output = "latex"
 )
