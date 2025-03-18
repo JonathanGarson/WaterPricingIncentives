@@ -5,7 +5,7 @@
 # Packages ----------------------------------------------------------------
 library(fixest)
 library(data.table)
-library(stargazer)
+library(modelsummary)
 library(knitr)
 library(dplyr)
 library(lmtest)       
@@ -43,7 +43,7 @@ model_awdins= feols(awdmeas ~ cardtreat + price, fixef = 'upazila', cluster = ~v
 # Column 2
 model_awdins_i = feols(awdmeas ~ cardtreat + price + cardtreat_price, fixef = 'upazila', cluster = ~village_id, data = rct2)
 
-mean_control_awdins = rct2[cardtreat == 0, .(mean = mean(awdmeas, na.rm = TRUE)) ]
+mean_control_awdins = rct2[cardtreat == 0, mean(awdmeas, na.rm = TRUE)]
 
 # Water Level -------------------------------------------------------------
 # Column 3
@@ -54,7 +54,7 @@ model_wl= feols(waterlevel_comp ~ cardtreat + price, fixef = 'upazila', cluster 
 # Water Level, Interacted -------------------------------------------------------------
 # Column 3
 model_wl_i= feols(waterlevel_comp ~ cardtreat + price + cardtreat_price, fixef = 'upazila', cluster = ~village_id, data = rct2)
-mean_control_wl = rct2[cardtreat == 0, .(mean = mean(waterlevel_comp, na.rm = TRUE)) ]
+mean_control_wl = rct2[cardtreat == 0, mean(waterlevel_comp, na.rm = TRUE)]
 
 # AWD Purchased -----------------------------------------------------------
 # Column 5
@@ -65,8 +65,8 @@ coeftest_ldp <- coeftest(model_ldp, vcov. = vcov_ldp)
 mean_adoption_control <- rct2[cardtreat == 0, mean(adoption, na.rm = TRUE)]
 
 coef_ldp <- coef(model_ldp)
-elas_price_treat <- coef_ldp["price"] * 55 / (coef_ldp["(Intercept)"] + coef_ldp["cardtreat"] + coef_ldp["price"] * 55)
-elas_price_control <- coef_ldp["price"] * 55 / (coef_ldp["(Intercept)"] + coef_ldp["price"] * 55)
+epst_ldp <- coef_ldp["price"] * 55 / (coef_ldp["(Intercept)"] + coef_ldp["cardtreat"] + coef_ldp["price"] * 55)
+epsc_ldp <- coef_ldp["price"] * 55 / (coef_ldp["(Intercept)"] + coef_ldp["price"] * 55)
 
 # AWD Purchasing, Interaction -----------------------------------
 # Column 6
@@ -97,14 +97,6 @@ dm_ldp_i <- deltaMethod(coef_ldp_i, delta_expr_ldp_i, vcov = vcov_ldp_i)
 t_val_ldp_i <- dm_ldp_i[1, "Estimate"] / dm_ldp_i[1, "SE"]
 df_ldp_i <- df.residual(model_ldp_i)
 pelas_ldp_i <- 2 * (1 - pt(abs(t_val_ldp_i), df_ldp_i))
-
-lindem_i <- list(model = model_ldp_i,
-                 mean_adoption_control = mean_adoption_control_i,
-                 epst = epst_ldp_i,
-                 epsc = epsc_ldp_i,
-                 elasticity_diff = dm_ldp_i$Estimate,
-                 elasticity_diff_se = dm_ldp_i$SE,
-                 pelas = pelas_ldp_i)
 
 # AWD Use -----------------------------------------------------
 # Column 7 
@@ -149,24 +141,57 @@ pelas_ldu_i <- 2 * (1 - pt(abs(t_val_ldu_i), df_ldu_i))
 # Tables ------------------------------------------------------------------
 mean_df = data.frame(
   term = "Mean in control",
-  a = mean_control_awdins[1],
-  b = mean_control_awdins[1],
-  c = mean_control_wl[1],
-  d = mean_control_wl[1],
+  a = mean_control_awdins,
+  b = mean_control_awdins,
+  c = mean_control_wl,
+  d = mean_control_wl,
   e = mean_adoption_control,
   f = mean_adoption_control,
   h = mean_awd_use_control,
   j = mean_awd_use_control
 )
 
-# elasticity_treat 
-# 
-# elasticity_control
-# 
-# p_value
+elasticity_treat_df = data.frame(
+  term = "Elasticity at price = 55 (treat)",
+  a = NA,
+  b = NA,
+  c = NA,
+  d = NA,
+  e = epst_ldp,
+  f = epst_ldp_i,
+  h = epst_ldu,
+  j = epst_ldu_i
+)
 
-# add_to_table 
-modelsummary(
+elasticity_control_df = data.frame(
+  term = "Elasticity at price = 55 (control)",
+  a = NA,
+  b = NA,
+  c = NA,
+  d = NA,
+  e = epsc_ldp,
+  f = epsc_ldp_i,
+  h = epsc_ldu,
+  j = epsc_ldu_i
+)
+
+p_value = data.frame(
+  term = "p-value: Equal elasticities",
+  a = NA,
+  b = NA,
+  c = NA,
+  d = NA,
+  e = NA,
+  f = pelas_ldp_i,
+  h = NA,
+  j = pelas_ldu_i
+)
+
+add_to_table = rbind(mean_df, elasticity_treat_df)
+add_to_table = rbind(add_to_table, elasticity_control_df)
+add_to_table = rbind(add_to_table, p_value)
+
+table7 = modelsummary(
   models = list(
     "AWD Install" = list("(1)" = model_awdins, "(2)" = model_awdins_i),
     "Water Level" = list("(3)" = model_wl, "(4)" = model_wl_i),
@@ -175,9 +200,12 @@ modelsummary(
   ),
   shape = "cbind",
   coef_omit = c(4:8),
-  coef_rename = c("Cart Treatment", "Pipe Price", "Pipe Price \times \n Card Treatment" ),
-  gof_omit = "R2|Adj\\.|Within|AIC|BIC|RMSE|Std.Errors|FE|F|Log.Lik."
+  coef_rename = c("Cart Treatment", "Pipe Price", "Pipe Price x \n Card Treatment" ),
+  gof_omit = "Adj\\.|Within|AIC|BIC|RMSE|Std.Errors|FE|F|Log.Lik.",
+  add_rows = add_to_table,
+  output = "latex"
 )
 
-
+table7_char = as.character(table7)
+writeLines(table7_char, output_folder("table7.tex"))
 
