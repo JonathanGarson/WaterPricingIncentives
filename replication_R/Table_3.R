@@ -61,7 +61,7 @@ dt[, loga_watercost := log(a_watercost)]
 
 outcomes <- c("a_irrigations", "a_timedry", "a_watercost", "loga_watercost")
 formula <- as.formula(paste("loga_watercost", "~ treatment + t_marg + anymarginal | Upazila"))
-mod1 <- feols(formula, data = dt, cluster = ~village_id, keep_data = TRUE)
+mod1 <- feols(formula, data = dt, cluster = ~village_id)
 mean_control1 <- dt[treatment == 0, mean(get("loga_watercost"), na.rm = TRUE)]
 
 # compute p_value of the wald test by hand because I couldn't manage to handle the function wald
@@ -270,8 +270,6 @@ add_rows_df_table3 <- data.frame(
     get_scalar(results[["logprofit_card"]]$heterogeneity_p_value)
   )
 )
-
-
 
 # Générer la table LaTeX finale avec modelsummary
 options("modelsummary_format_numeric_latex" = "plain")

@@ -1,0 +1,53 @@
+\begin{table}
+\centering
+\begin{tblr}[         %% tabularray outer open
+]                     %% tabularray outer close
+{                     %% tabularray inner open
+colspec={Q[]Q[]Q[]Q[]},
+column{1}={}{halign=l,},
+cell{2}{2}={}{halign=c,},
+cell{2}{3}={}{halign=c,},
+cell{2}{4}={}{halign=c,},
+cell{3}{2}={}{halign=c,},
+cell{3}{3}={}{halign=c,},
+cell{3}{4}={}{halign=c,},
+cell{4}{2}={}{halign=c,},
+cell{4}{3}={}{halign=c,},
+cell{4}{4}={}{halign=c,},
+cell{5}{2}={}{halign=c,},
+cell{5}{3}={}{halign=c,},
+cell{5}{4}={}{halign=c,},
+cell{6}{2}={}{halign=c,},
+cell{6}{3}={}{halign=c,},
+cell{6}{4}={}{halign=c,},
+cell{7}{2}={}{halign=c,},
+cell{7}{3}={}{halign=c,},
+cell{7}{4}={}{halign=c,},
+cell{8}{2}={}{halign=c,},
+cell{8}{3}={}{halign=c,},
+cell{8}{4}={}{halign=c,},
+cell{9}{2}={}{halign=c,},
+cell{9}{3}={}{halign=c,},
+cell{9}{4}={}{halign=c,},
+cell{10}{2}={}{halign=c,},
+cell{10}{3}={}{halign=c,},
+cell{10}{4}={}{halign=c,},
+cell{1}{2}={}{halign=c, halign=c,},
+cell{1}{3}={}{halign=c, halign=c,},
+cell{1}{4}={}{halign=c, halign=c,},
+hline{9}={1,2,3,4}{solid, black, 0.05em},
+}                     %% tabularray inner close
+\toprule
+& Overall & 0–70 days after planting & 70+ days after planting \\ \cmidrule[lr]{3-3}\cmidrule[lr]{4-4}\cmidrule[lr]{2-2}
+& Interacted & Interacted  & Interacted   \\ \midrule %% TinyTableHeader
+Treatment & \num{0.119} & \num{-0.048} & \num{0.257} \\
+& (\num{0.220}) & (\num{0.208}) & (\num{0.376}) \\
+Volumetric Pricing & \num{-0.378} & \num{-0.366} & \num{-0.481} \\
+& (\num{0.312}) & (\num{0.318}) & (\num{0.440}) \\
+Treatment x Volumetric Pricing & \num{-0.542} & \num{-0.788} & \num{0.018} \\
+& (\num{0.287}) & (\num{0.287}) & (\num{0.473}) \\
+Num.Obs. & \num{7596} & \num{4187} & \num{3409} \\
+p-value & \num{0.021} & \num{0.006} & \num{0.969} \\
+\bottomrule
+\end{tblr}
+\end{table}
