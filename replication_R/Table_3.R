@@ -149,17 +149,13 @@ formula_logcost <- as.formula("loga_watercost ~ treatment + t_hourcard + hourcar
 mod_logcost <- feols(formula_logcost, data = dt_sub, cluster = "village_id", keep_data = TRUE)
 mf_logcost <- model.frame(mod_logcost)
 
-# compute p_value of the wald test by hand because I couldn't manage to handle the function wald
-beta <- coef(mod_logcost)
-V <- vcov(mod_logcost)
-R <- matrix(c(1, 1, 0), nrow = 1)
-wald_stat <- as.numeric((R %*% beta)^2 / (R %*% V %*% t(R)))
-p_value_manual <- 1 - pchisq(wald_stat, df = 1)
+# Test
+p_value = p_value_joint_test(mod_logcost, "treatment + t_hourcard = 0")
 
 # Stock results
 results[["logcost_card"]] <- list(
   model = mod_logcost,
-  heterogeneity_p_value = p_value_manual
+  heterogeneity_p_value = p_value
 )
 
 # Reg log_a_profit_ac
@@ -167,16 +163,13 @@ formula_logprofit <- as.formula("log_a_profit_ac ~ treatment + t_hourcard + hour
 mod_logprofit <- feols(formula_logprofit, data = dt_sub, cluster = "village_id", keep_data = TRUE)
 mf_logprofit <- model.frame(mod_logprofit)
 
-beta <- coef(mod_logprofit)
-V <- vcov(mod_logprofit)
-R <- matrix(c(1, 1, 0), nrow = 1)
-wald_stat <- as.numeric((R %*% beta)^2 / (R %*% V %*% t(R)))
-p_value_manual <- 1 - pchisq(wald_stat, df = 1)
+# Test
+p_value = p_value_joint_test(mod_logprofit, "treatment + t_hourcard = 0")
 
 # Stock results
 results[["logprofit_card"]] <- list(
   model = mod_logprofit,
-  heterogeneity_p_value = p_value_manual
+  heterogeneity_p_value = p_value
 )
 
 
