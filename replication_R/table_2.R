@@ -35,6 +35,7 @@ reg_waterlevel = feols(waterlevel ~ treatment |Upazila, cluster = ~village_id ,d
 reg_het_water_vp = feols(waterlevel ~ treatment*anymarginal | Upazila, cluster = ~village_id, data = rct1)
 
 p_value_overall = p_value_joint_test(reg_het_water_vp, "treatment + treatment:anymarginal = 0")
+# p_value_overall = fitstat(reg_het_water_vp, ~ f + wald)$wald$p
 
 # Control mean
 control_mean_overall = round(rct1[treatment == 0, .(mean = mean(waterlevel))], 2)$mean
@@ -47,6 +48,9 @@ reg_sup70_waterlevel_baseline = feols(waterlevel ~ treatment | Upazila, cluster 
 
 control_mean_inf70 = round(rct1[treatment == 0 & dat < 70, .(mean = mean(waterlevel))], 2)$mean
 control_mean_sup70 = round(rct1[treatment == 0 & dat > 70, .(mean = mean(waterlevel))], 2)$mean
+
+# p_value_inf70 = fitstat(reg_inf70_waterlevel, ~ f + wald)
+# p_value_sup70 = fitstat(reg_sup70_waterlevel, ~ f + wald)
 
 p_value_inf70 = p_value_joint_test(reg_inf70_waterlevel, "treatment + treatment:anymarginal = 0")
 p_value_sup70 = p_value_joint_test(reg_sup70_waterlevel, "treatment + treatment:anymarginal = 0")
@@ -77,9 +81,9 @@ add_to_table = rbind(control_mean_df, p_value_df)
 # Generate the LaTeX table
 table2A = modelsummary(
   models = list(
-    "Overall" = list("Baseline" = reg_waterlevel, "Interacted" = reg_het_water_vp),
-    "0–70 days after planting" = list("Baseline" = reg_inf70_waterlevel_baseline, "Interacted" = reg_inf70_waterlevel),
-    "70+ days after planting" = list("Baseline" = reg_sup70_waterlevel_baseline, "Interacted" = reg_sup70_waterlevel)
+    "Overall" = list("(1)" = reg_waterlevel, "(2)" = reg_het_water_vp),
+    "0–70 days after \nplanting" = list("(3)" = reg_inf70_waterlevel_baseline, "(4)" = reg_inf70_waterlevel),
+    "70+ days after \nplanting" = list("(5)" = reg_sup70_waterlevel_baseline, "(6)" = reg_sup70_waterlevel)
   ),
   shape = "cbind",
   gof_omit = "R2|Adj\\.|Within|AIC|BIC|RMSE|Std.Errors|FE",
@@ -101,14 +105,17 @@ rct1 = merge(rct1, upamean_db, by = "farmer_id")
 ## Overall -----------------------------------------------------------------
 reg_waterlevel_overall_bw = feols(waterlevel ~ treatment + t_upamean_marg, fixef = c("Upazila"), cluster = ~village_id, data = rct1)
 p_test_overall_B = p_value_joint_test(reg_waterlevel_overall_bw, "treatment + t_upamean_marg = 0")
+# p_test_overall_B = fitstat(reg_waterlevel_overall_bw, ~wald)$wald$p
 
 ## <70 days ---------------------------------------------------------------
 reg_waterlevel_inf70_bw = feols(waterlevel ~ treatment + t_upamean_marg, fixef = c("Upazila"), cluster = ~village_id, data = rct1[dat <= 70])
 p_test_overall_B_inf70 = p_value_joint_test(reg_waterlevel_inf70_bw, "treatment + t_upamean_marg = 0")
+# p_test_overall_B_inf70 = fitstat(reg_waterlevel_inf70_bw, ~wald)$wald$p
 
 ## >70 days ---------------------------------------------------------------
 reg_waterlevel_sup70_bw = feols(waterlevel ~ treatment + t_upamean_marg, fixef = c("Upazila"), cluster = ~village_id, data = rct1[dat > 70])
 p_test_overall_B_sup70 = p_value_joint_test(reg_waterlevel_sup70_bw, "treatment + t_upamean_marg = 0")
+# p_test_overall_B_sup70 = fitstat(reg_waterlevel_sup70_bw, ~wald)$wald$p
 
 ## Tables Panel B ----------------------------------------------------------
 add_to_table_B = data.frame(
@@ -120,9 +127,9 @@ add_to_table_B = data.frame(
 
 table2B = modelsummary(
   models = list(
-    "Overall" = list("Interacted" = reg_waterlevel_overall_bw),
-    "0–70 days after planting" = list("Interacted" =reg_waterlevel_inf70_bw),
-    "70+ days after planting" = list("Interacted" = reg_waterlevel_sup70_bw)
+    "Overall" = list("(1)" = reg_waterlevel_overall_bw),
+    "0–70 days after \nplanting" = list("(2)" =reg_waterlevel_inf70_bw),
+    "70+ days after \nplanting" = list("(3)" = reg_waterlevel_sup70_bw)
   ),
   shape = "cbind",
   gof_omit = "R2|Adj\\.|Within|AIC|BIC|RMSE|Std.Errors|FE",
@@ -140,37 +147,49 @@ rct1[, treatment_within := treatment - mean(treatment, na.rm = TRUE), by = Upazi
 rct1[, t_marg := anymarginal*treatment]
 
 # With interacted fixed effects for place and treatment
-reg_waterlevel_within_interact = feols(waterlevel ~ treatment + anymarginal + t_marg | Upazila^treatment, cluster = ~village_id, data = rct1)
+# reg_waterlevel_within_interact = feols(waterlevel ~ treatment + anymarginal + t_marg | Upazila^treatment, cluster = ~village_id, data = rct1)
 # With interacted fixed effects alternative
-reg_waterlevel_within_interact = feols(waterlevel ~ treatment + anymarginal + t_marg + i(Upazila, treatment, ref = "BAGMARA"), cluster = ~village_id, data = rct1)
-p_test_overall_C = p_value_joint_test(reg_waterlevel_within_interact , "treatment + anymarginal + t_marg = 0")
+# reg_waterlevel_within_interact = feols(waterlevel ~ treatment + anymarginal + t_marg + i(Upazila, treatment, ref = "BAGMARA"), cluster = ~village_id, data = rct1)
+# p_test_overall_C = p_value_joint_test(reg_waterlevel_within_interact , "treatment + anymarginal + t_marg = 0")
 
 # With demean treatment by upazila to avoid colinearity issues.
 reg_waterlevel_within = feols(waterlevel ~ treatment_within*anymarginal | Upazila, cluster = ~village_id, data = rct1)
-p_test_overall_C = p_value_joint_test(reg_waterlevel_within , "treatment_within + treatment_within:anymarginal = 0")
+p_test_overall_C = p_value_joint_test(reg_waterlevel_within , "treatment_within + anymarginal +treatment_within:anymarginal = 0")
+p_test_overall_C_fit = fitstat(reg_waterlevel_within, ~ f + wald)$wald$p
 
 ## <70 days ---------------------------------------------------------------
 reg_waterlevel_inf70_wth = feols(waterlevel ~ treatment_within*anymarginal, fixef = c("Upazila"), cluster = ~village_id, data = rct1[dat <= 70])
-p_test_inf70_C = p_value_joint_test(reg_waterlevel_inf70_wth, "treatment_within:anymarginal = 0")
+p_test_inf70_C = p_value_joint_test(reg_waterlevel_inf70_wth, "treatment_within + anymarginal + treatment_within:anymarginal = 0")
+p_test_inf70_C_fit = fitstat(reg_waterlevel_inf70_wth, ~ wald)$wald$p
 
 ## >70 days ---------------------------------------------------------------
 reg_waterlevel_sup70_wth = feols(waterlevel ~ treatment_within*anymarginal, fixef = c("Upazila"), cluster = ~village_id, data = rct1[dat > 70])
-p_test_sup70_C = p_value_joint_test(reg_waterlevel_sup70_wth, "treatment_within:anymarginal= 0")
+p_test_sup70_C = p_value_joint_test(reg_waterlevel_sup70_wth, "treatment_within + anymarginal + treatment_within:anymarginal= 0")
+p_test_sup70_C_fit = fitstat(reg_waterlevel_sup70_wth, ~ wald)$wald$p
 
 ## Tables Panel C ----------------------------------------------------------
 
-add_to_table_C = data.frame(
-  term = "p-value",
+p_value = data.frame(
+  term = "p-value (car)",
   Overall_Interacted = p_test_overall_C,  
   Inf70_Interacted = p_test_inf70_C,  
   Sup70_Interacted = p_test_sup70_C
 )
 
+p_value_fit = data.frame(
+  term = "p-value (fixest)",
+  Overall_Interacted = p_test_overall_C_fit,  
+  Inf70_Interacted = p_test_inf70_C_fit,  
+  Sup70_Interacted = p_test_sup70_C_fit
+)
+
+add_to_table_C = rbind(p_value, p_value_fit)
+
 table2C = modelsummary(
   models = list(
-    "Overall" = list("Interacted" = reg_waterlevel_within),
-    "0–70 days after planting" = list("Interacted" = reg_waterlevel_inf70_wth),
-    "70+ days after planting" = list("Interacted" = reg_waterlevel_sup70_wth)
+    "Overall" = list("(1)" = reg_waterlevel_within),
+    "0–70 days after \nplanting" = list("(2)" = reg_waterlevel_inf70_wth),
+    "70+ days after \nplanting" = list("(3)" = reg_waterlevel_sup70_wth)
   ),
   shape = "cbind",
   gof_omit = "R2|Adj\\.|Within|AIC|BIC|RMSE|Std.Errors|FE",
