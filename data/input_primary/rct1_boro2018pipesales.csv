@@ -1,0 +1,1462 @@
+upazila,village_id,farmer_id,DistrictName,Upazila,date_int,treatment_phase1,price,adoption,farmer_gender,relate
+4,2,11,Mymensingh,Haluaghat Upazila,Sun Jan 07 03:03:00 UTC 2018,0,90,0,2,1
+4,2,12,Mymensingh,Haluaghat Upazila,Sun Jan 07 03:38:00 UTC 2018,0,90,0,2,1
+4,2,13,Mymensingh,Haluaghat Upazila,Sun Jan 07 04:29:00 UTC 2018,0,90,0,2,1
+4,2,14,Mymensingh,Haluaghat Upazila,Sun Jan 07 05:26:00 UTC 2018,0,90,0,2,2
+4,2,15,Mymensingh,Haluaghat Upazila,Sun Jan 07 06:28:00 UTC 2018,0,90,0,2,1
+4,2,16,Mymensingh,Haluaghat Upazila,Sun Jan 07 07:04:00 UTC 2018,0,90,0,2,1
+4,2,17,Mymensingh,Haluaghat Upazila,Sun Jan 07 08:18:00 UTC 2018,0,90,0,2,1
+4,2,18,Mymensingh,Haluaghat Upazila,Sun Jan 07 09:26:00 UTC 2018,0,90,0,2,2
+4,2,19,Mymensingh,Haluaghat Upazila,Sun Jan 07 09:53:00 UTC 2018,0,90,0,2,1
+4,2,20,Mymensingh,Haluaghat Upazila,Sun Jan 07 11:12:00 UTC 2018,0,90,0,2,4
+4,6,51,Mymensingh,Haluaghat Upazila,Mon Jan 15 02:22:00 UTC 2018,1,80,0,2,1
+4,6,52,Mymensingh,Haluaghat Upazila,Mon Jan 15 03:04:00 UTC 2018,1,80,0,2,2
+4,6,53,Mymensingh,Haluaghat Upazila,Mon Jan 15 03:30:00 UTC 2018,1,80,0,2,4
+4,6,54,Mymensingh,Haluaghat Upazila,Mon Jan 15 04:02:00 UTC 2018,1,80,0,2,4
+4,6,55,Mymensingh,Haluaghat Upazila,Mon Jan 15 04:32:00 UTC 2018,1,80,0,2,1
+4,6,56,Mymensingh,Haluaghat Upazila,Mon Jan 15 05:27:00 UTC 2018,1,80,0,2,1
+4,6,57,Mymensingh,Haluaghat Upazila,Mon Jan 15 06:33:00 UTC 2018,1,80,0,2,1
+4,6,58,Mymensingh,Haluaghat Upazila,Mon Jan 15 06:57:00 UTC 2018,1,80,0,2,1
+4,6,59,Mymensingh,Haluaghat Upazila,Mon Jan 15 07:24:00 UTC 2018,1,80,0,2,4
+4,6,60,Mymensingh,Haluaghat Upazila,Mon Jan 15 07:57:00 UTC 2018,1,80,0,2,4
+4,10,91,Mymensingh,Haluaghat Upazila,Fri Jan 05 02:08:00 UTC 2018,1,60,0,2,1
+4,10,92,Mymensingh,Haluaghat Upazila,Fri Jan 05 02:22:00 UTC 2018,1,60,0,2,1
+4,10,93,Mymensingh,Haluaghat Upazila,Fri Jan 05 02:45:00 UTC 2018,1,60,0,2,1
+4,10,94,Mymensingh,Haluaghat Upazila,Fri Jan 05 03:13:00 UTC 2018,1,60,0,2,1
+4,10,95,Mymensingh,Haluaghat Upazila,Fri Jan 05 03:44:00 UTC 2018,1,60,0,2,1
+4,10,96,Mymensingh,Haluaghat Upazila,Fri Jan 05 04:08:00 UTC 2018,1,60,1,1,1
+4,10,97,Mymensingh,Haluaghat Upazila,Fri Jan 05 04:34:00 UTC 2018,1,60,0,2,1
+4,10,98,Mymensingh,Haluaghat Upazila,Fri Jan 05 04:59:00 UTC 2018,1,60,0,2,1
+4,10,99,Mymensingh,Haluaghat Upazila,Fri Jan 05 05:21:00 UTC 2018,1,60,0,2,1
+4,10,100,Mymensingh,Haluaghat Upazila,Fri Jan 05 05:47:00 UTC 2018,1,60,0,2,4
+4,14,121,Mymensingh,Haluaghat Upazila,Wed Jan 10 04:50:00 UTC 2018,1,80,0,2,4
+4,14,122,Mymensingh,Haluaghat Upazila,Wed Jan 10 04:50:00 UTC 2018,1,80,0,2,1
+4,14,123,Mymensingh,Haluaghat Upazila,Wed Jan 10 05:10:00 UTC 2018,1,80,0,2,4
+4,14,124,Mymensingh,Haluaghat Upazila,Wed Jan 10 05:05:00 UTC 2018,1,80,0,2,1
+4,14,125,Mymensingh,Haluaghat Upazila,Wed Jan 10 05:15:00 UTC 2018,1,80,0,2,1
+4,14,126,Mymensingh,Haluaghat Upazila,Wed Jan 10 06:55:00 UTC 2018,1,80,0,2,1
+4,14,127,Mymensingh,Haluaghat Upazila,Wed Jan 10 05:30:00 UTC 2018,1,80,0,2,7
+4,14,128,Mymensingh,Haluaghat Upazila,Wed Jan 10 07:30:00 UTC 2018,1,80,0,2,1
+4,14,129,Mymensingh,Haluaghat Upazila,Wed Jan 10 07:45:00 UTC 2018,1,80,0,2,4
+4,14,130,Mymensingh,Haluaghat Upazila,Wed Jan 10 06:20:00 UTC 2018,1,80,0,2,9
+4,15,131,Mymensingh,Haluaghat Upazila,Tue Jan 09 02:30:00 UTC 2018,1,60,0,2,1
+4,15,132,Mymensingh,Haluaghat Upazila,Tue Jan 09 02:59:00 UTC 2018,1,60,0,2,1
+4,15,133,Mymensingh,Haluaghat Upazila,Tue Jan 09 03:34:00 UTC 2018,1,60,0,2,2
+4,15,134,Mymensingh,Haluaghat Upazila,Tue Jan 09 04:04:00 UTC 2018,1,60,1,2,1
+4,15,135,Mymensingh,Haluaghat Upazila,Tue Jan 09 04:35:00 UTC 2018,1,60,0,2,1
+4,15,136,Mymensingh,Haluaghat Upazila,Tue Jan 09 05:03:00 UTC 2018,1,60,0,2,4
+4,15,137,Mymensingh,Haluaghat Upazila,Tue Jan 09 05:28:00 UTC 2018,1,60,0,1,1
+4,15,138,Mymensingh,Haluaghat Upazila,Tue Jan 09 06:03:00 UTC 2018,1,60,0,2,1
+4,15,139,Mymensingh,Haluaghat Upazila,Tue Jan 09 06:35:00 UTC 2018,1,60,0,2,2
+4,15,140,Mymensingh,Haluaghat Upazila,Tue Jan 09 07:07:00 UTC 2018,1,60,0,2,1
+4,19,171,Mymensingh,Haluaghat Upazila,Wed Jan 10 07:57:00 UTC 2018,1,40,1,2,1
+4,19,172,Mymensingh,Haluaghat Upazila,Wed Jan 10 08:20:00 UTC 2018,1,40,0,2,1
+4,19,173,Mymensingh,Haluaghat Upazila,Wed Jan 10 08:58:00 UTC 2018,1,40,0,2,1
+4,19,174,Mymensingh,Haluaghat Upazila,Wed Jan 10 09:21:00 UTC 2018,1,40,0,2,2
+4,19,176,Mymensingh,Haluaghat Upazila,Wed Jan 10 10:04:00 UTC 2018,1,40,0,2,1
+4,19,177,Mymensingh,Haluaghat Upazila,Wed Jan 10 10:26:00 UTC 2018,1,40,0,2,4
+4,19,178,Mymensingh,Haluaghat Upazila,Wed Jan 10 10:59:00 UTC 2018,1,40,0,2,1
+4,19,179,Mymensingh,Haluaghat Upazila,Wed Jan 10 11:15:00 UTC 2018,1,40,0,1,1
+4,19,180,Mymensingh,Haluaghat Upazila,Wed Jan 10 11:28:00 UTC 2018,1,40,0,2,1
+4,20,181,Mymensingh,Haluaghat Upazila,Sun Jan 07 04:30:00 UTC 2018,0,40,0,2,1
+4,20,182,Mymensingh,Haluaghat Upazila,Sun Jan 07 04:30:00 UTC 2018,0,40,0,2,4
+4,20,183,Mymensingh,Haluaghat Upazila,Sun Jan 07 04:30:00 UTC 2018,0,40,0,2,1
+4,20,184,Mymensingh,Haluaghat Upazila,Sun Jan 07 04:45:00 UTC 2018,0,40,0,2,4
+4,20,185,Mymensingh,Haluaghat Upazila,Sun Jan 07 05:00:00 UTC 2018,0,40,0,2,1
+4,20,186,Mymensingh,Haluaghat Upazila,Sun Jan 07 05:20:00 UTC 2018,0,40,0,2,1
+4,20,187,Mymensingh,Haluaghat Upazila,Sun Jan 07 05:15:00 UTC 2018,0,40,0,2,1
+4,20,188,Mymensingh,Haluaghat Upazila,Sun Jan 07 06:30:00 UTC 2018,0,40,0,1,1
+4,20,189,Mymensingh,Haluaghat Upazila,Sun Jan 07 06:50:00 UTC 2018,0,40,0,2,1
+4,20,190,Mymensingh,Haluaghat Upazila,Sun Jan 07 05:45:00 UTC 2018,0,40,0,1,3
+4,22,191,Mymensingh,Haluaghat Upazila,Thu Jan 11 02:45:00 UTC 2018,1,80,0,2,1
+4,22,192,Mymensingh,Haluaghat Upazila,Thu Jan 11 03:53:00 UTC 2018,1,80,0,2,1
+4,22,193,Mymensingh,Haluaghat Upazila,Thu Jan 11 04:34:00 UTC 2018,1,80,0,2,1
+4,22,194,Mymensingh,Haluaghat Upazila,Thu Jan 11 04:59:00 UTC 2018,1,80,0,2,1
+4,22,195,Mymensingh,Haluaghat Upazila,Thu Jan 11 05:25:00 UTC 2018,1,80,0,2,2
+4,22,196,Mymensingh,Haluaghat Upazila,Thu Jan 11 06:12:00 UTC 2018,1,80,0,2,1
+4,22,197,Mymensingh,Haluaghat Upazila,Thu Jan 11 06:25:00 UTC 2018,1,80,0,2,1
+4,22,198,Mymensingh,Haluaghat Upazila,Thu Jan 11 06:50:00 UTC 2018,1,80,0,2,2
+4,22,199,Mymensingh,Haluaghat Upazila,Thu Jan 11 07:09:00 UTC 2018,1,80,0,2,1
+4,22,200,Mymensingh,Haluaghat Upazila,Thu Jan 11 07:44:00 UTC 2018,1,80,0,2,1
+4,23,201,Mymensingh,Haluaghat Upazila,Sat Jan 13 02:17:00 UTC 2018,0,90,0,2,1
+4,23,202,Mymensingh,Haluaghat Upazila,Sat Jan 13 02:35:00 UTC 2018,0,90,0,2,1
+4,23,203,Mymensingh,Haluaghat Upazila,Sat Jan 13 02:50:00 UTC 2018,0,90,0,2,1
+4,23,204,Mymensingh,Haluaghat Upazila,Sat Jan 13 03:02:00 UTC 2018,0,90,0,2,1
+4,23,205,Mymensingh,Haluaghat Upazila,Sat Jan 13 03:18:00 UTC 2018,0,90,0,2,1
+4,23,206,Mymensingh,Haluaghat Upazila,Sat Jan 13 03:36:00 UTC 2018,0,90,0,2,1
+4,23,207,Mymensingh,Haluaghat Upazila,Sat Jan 13 03:59:00 UTC 2018,0,90,0,2,4
+4,23,208,Mymensingh,Haluaghat Upazila,Sat Jan 13 04:34:00 UTC 2018,0,90,0,2,4
+4,23,209,Mymensingh,Haluaghat Upazila,Sat Jan 13 04:52:00 UTC 2018,0,90,0,2,1
+4,23,210,Mymensingh,Haluaghat Upazila,Sat Jan 13 05:51:00 UTC 2018,0,90,0,2,1
+4,26,231,Mymensingh,Haluaghat Upazila,Sun Jan 14 02:34:00 UTC 2018,1,30,1,2,1
+4,26,232,Mymensingh,Haluaghat Upazila,Sun Jan 14 02:57:00 UTC 2018,1,30,1,2,5
+4,26,233,Mymensingh,Haluaghat Upazila,Sun Jan 14 03:25:00 UTC 2018,1,30,1,2,1
+4,26,234,Mymensingh,Haluaghat Upazila,Sun Jan 14 03:58:00 UTC 2018,1,30,1,2,5
+4,26,235,Mymensingh,Haluaghat Upazila,Sun Jan 14 04:20:00 UTC 2018,1,30,0,2,1
+4,26,236,Mymensingh,Haluaghat Upazila,Sun Jan 14 04:30:00 UTC 2018,1,30,0,2,1
+4,26,237,Mymensingh,Haluaghat Upazila,Sun Jan 14 05:04:00 UTC 2018,1,30,0,2,1
+4,26,238,Mymensingh,Haluaghat Upazila,Sun Jan 14 06:06:00 UTC 2018,1,30,0,2,2
+4,26,239,Mymensingh,Haluaghat Upazila,Sun Jan 14 06:42:00 UTC 2018,1,30,0,2,1
+4,26,240,Mymensingh,Haluaghat Upazila,Sun Jan 14 07:57:00 UTC 2018,1,30,0,2,5
+7,31,281,Mymensingh,Muktagachha Upazila,Sat Jan 13 02:41:00 UTC 2018,1,50,0,2,5
+7,31,282,Mymensingh,Muktagachha Upazila,Sat Jan 13 05:48:00 UTC 2018,1,50,0,2,1
+7,31,283,Mymensingh,Muktagachha Upazila,Sat Jan 13 06:25:00 UTC 2018,1,50,0,2,1
+7,31,284,Mymensingh,Muktagachha Upazila,Sat Jan 13 06:08:00 UTC 2018,1,50,0,2,1
+7,31,285,Mymensingh,Muktagachha Upazila,Sat Jan 13 02:02:00 UTC 2018,1,50,0,2,1
+7,31,286,Mymensingh,Muktagachha Upazila,Sat Jan 13 04:46:00 UTC 2018,1,50,0,2,1
+7,31,287,Mymensingh,Muktagachha Upazila,Sat Jan 13 05:04:00 UTC 2018,1,50,0,2,1
+7,31,288,Mymensingh,Muktagachha Upazila,Sat Jan 13 02:21:00 UTC 2018,1,50,0,2,1
+7,31,289,Mymensingh,Muktagachha Upazila,Sat Jan 13 03:31:00 UTC 2018,1,50,0,2,1
+7,36,331,Mymensingh,Muktagachha Upazila,Sun Jan 07 01:38:00 UTC 2018,1,70,0,2,1
+7,36,332,Mymensingh,Muktagachha Upazila,Sun Jan 07 02:02:00 UTC 2018,1,70,0,2,1
+7,36,333,Mymensingh,Muktagachha Upazila,Sun Jan 07 02:23:00 UTC 2018,1,70,0,2,1
+7,36,334,Mymensingh,Muktagachha Upazila,Sun Jan 07 02:44:00 UTC 2018,1,70,0,2,1
+7,36,335,Mymensingh,Muktagachha Upazila,Sun Jan 07 03:08:00 UTC 2018,1,70,0,2,1
+7,36,336,Mymensingh,Muktagachha Upazila,Sun Jan 07 03:29:00 UTC 2018,1,70,0,2,1
+7,36,337,Mymensingh,Muktagachha Upazila,Sun Jan 07 03:48:00 UTC 2018,1,70,0,2,1
+7,36,338,Mymensingh,Muktagachha Upazila,Sun Jan 07 04:07:00 UTC 2018,1,70,0,2,1
+7,36,339,Mymensingh,Muktagachha Upazila,Sun Jan 07 04:26:00 UTC 2018,1,70,0,2,1
+7,36,340,Mymensingh,Muktagachha Upazila,Sun Jan 07 04:47:00 UTC 2018,1,70,0,2,1
+7,40,371,Mymensingh,Muktagachha Upazila,Sat Jan 06 01:47:00 UTC 2018,1,40,0,2,1
+7,40,372,Mymensingh,Muktagachha Upazila,Sat Jan 06 02:08:00 UTC 2018,1,40,0,2,1
+7,40,373,Mymensingh,Muktagachha Upazila,Sat Jan 06 02:30:00 UTC 2018,1,40,0,2,1
+7,40,374,Mymensingh,Muktagachha Upazila,Sat Jan 06 02:55:00 UTC 2018,1,40,0,2,1
+7,40,375,Mymensingh,Muktagachha Upazila,Sat Jan 06 03:23:00 UTC 2018,1,40,0,2,1
+7,40,376,Mymensingh,Muktagachha Upazila,Sat Jan 06 03:42:00 UTC 2018,1,40,0,2,1
+7,40,377,Mymensingh,Muktagachha Upazila,Sat Jan 06 04:05:00 UTC 2018,1,40,0,2,5
+7,40,378,Mymensingh,Muktagachha Upazila,Sat Jan 06 04:24:00 UTC 2018,1,40,0,2,1
+7,40,379,Mymensingh,Muktagachha Upazila,Sat Jan 06 04:52:00 UTC 2018,1,40,0,2,1
+7,40,380,Mymensingh,Muktagachha Upazila,Sat Jan 06 05:17:00 UTC 2018,1,40,0,2,1
+7,42,381,Mymensingh,Muktagachha Upazila,Thu Jan 11 08:37:00 UTC 2018,1,30,1,2,1
+7,42,382,Mymensingh,Muktagachha Upazila,Thu Jan 11 09:32:00 UTC 2018,1,30,1,2,1
+7,42,383,Mymensingh,Muktagachha Upazila,Thu Jan 11 18:13:00 UTC 2018,1,30,0,2,1
+7,42,384,Mymensingh,Muktagachha Upazila,Thu Jan 11 07:54:00 UTC 2018,1,30,0,2,1
+7,42,385,Mymensingh,Muktagachha Upazila,Thu Jan 11 09:01:00 UTC 2018,1,30,1,2,1
+7,42,386,Mymensingh,Muktagachha Upazila,Thu Jan 11 09:20:00 UTC 2018,1,30,1,2,4
+7,42,387,Mymensingh,Muktagachha Upazila,Thu Jan 11 07:10:00 UTC 2018,1,30,1,2,1
+7,42,388,Mymensingh,Muktagachha Upazila,Thu Jan 11 09:34:00 UTC 2018,1,30,1,2,1
+7,42,389,Mymensingh,Muktagachha Upazila,Thu Jan 11 10:01:00 UTC 2018,1,30,1,1,2
+7,42,390,Mymensingh,Muktagachha Upazila,Thu Jan 11 06:26:00 UTC 2018,1,30,1,2,1
+7,46,421,Mymensingh,Muktagachha Upazila,Sun Jan 14 02:47:00 UTC 2018,1,40,0,2,1
+7,46,422,Mymensingh,Muktagachha Upazila,Sun Jan 14 02:24:00 UTC 2018,1,40,0,2,1
+7,46,423,Mymensingh,Muktagachha Upazila,Sun Jan 14 03:16:00 UTC 2018,1,40,0,2,1
+7,46,424,Mymensingh,Muktagachha Upazila,Sun Jan 14 09:41:00 UTC 2018,1,40,0,2,1
+7,46,425,Mymensingh,Muktagachha Upazila,Sun Jan 14 05:33:00 UTC 2018,1,40,1,2,1
+7,46,426,Mymensingh,Muktagachha Upazila,Sun Jan 14 02:27:00 UTC 2018,1,40,0,2,1
+7,46,427,Mymensingh,Muktagachha Upazila,Sun Jan 14 06:27:00 UTC 2018,1,40,1,2,5
+7,46,428,Mymensingh,Muktagachha Upazila,Sun Jan 14 03:45:00 UTC 2018,1,40,0,2,1
+7,46,429,Mymensingh,Muktagachha Upazila,Sun Jan 14 10:40:00 UTC 2018,1,40,1,2,1
+7,46,430,Mymensingh,Muktagachha Upazila,Sun Jan 14 09:43:00 UTC 2018,1,40,0,2,1
+7,51,461,Mymensingh,Muktagachha Upazila,Fri Jan 05 02:16:00 UTC 2018,1,60,0,2,1
+7,51,462,Mymensingh,Muktagachha Upazila,Fri Jan 05 02:43:00 UTC 2018,1,60,0,2,1
+7,51,463,Mymensingh,Muktagachha Upazila,Fri Jan 05 03:03:00 UTC 2018,1,60,0,2,1
+7,51,464,Mymensingh,Muktagachha Upazila,Fri Jan 05 03:22:00 UTC 2018,1,60,0,2,1
+7,51,465,Mymensingh,Muktagachha Upazila,Fri Jan 05 03:40:00 UTC 2018,1,60,0,2,1
+7,51,466,Mymensingh,Muktagachha Upazila,Fri Jan 05 04:03:00 UTC 2018,1,60,0,2,5
+7,51,467,Mymensingh,Muktagachha Upazila,Fri Jan 05 04:25:00 UTC 2018,1,60,0,2,1
+7,51,468,Mymensingh,Muktagachha Upazila,Fri Jan 05 04:52:00 UTC 2018,1,60,0,2,5
+7,51,469,Mymensingh,Muktagachha Upazila,Fri Jan 05 05:22:00 UTC 2018,1,60,0,2,1
+7,51,470,Mymensingh,Muktagachha Upazila,Fri Jan 05 05:55:00 UTC 2018,1,60,0,2,1
+7,52,471,Mymensingh,Muktagachha Upazila,Wed Jan 10 01:23:00 UTC 2018,0,60,0,2,1
+7,52,472,Mymensingh,Muktagachha Upazila,Wed Jan 10 01:45:00 UTC 2018,0,60,0,2,1
+7,52,473,Mymensingh,Muktagachha Upazila,Wed Jan 10 02:02:00 UTC 2018,0,60,0,2,1
+7,52,474,Mymensingh,Muktagachha Upazila,Wed Jan 10 02:17:00 UTC 2018,0,60,0,2,1
+7,52,475,Mymensingh,Muktagachha Upazila,Wed Jan 10 05:02:00 UTC 2018,0,60,0,2,1
+7,52,476,Mymensingh,Muktagachha Upazila,Wed Jan 10 05:41:00 UTC 2018,0,60,0,2,5
+7,52,477,Mymensingh,Muktagachha Upazila,Wed Jan 10 02:57:00 UTC 2018,0,60,0,2,1
+7,52,478,Mymensingh,Muktagachha Upazila,Wed Jan 10 07:18:00 UTC 2018,0,60,0,2,1
+7,52,479,Mymensingh,Muktagachha Upazila,Wed Jan 10 02:35:00 UTC 2018,0,60,0,2,1
+7,52,480,Mymensingh,Muktagachha Upazila,Wed Jan 10 06:22:00 UTC 2018,0,60,0,2,1
+7,53,481,Mymensingh,Muktagachha Upazila,Mon Jan 08 03:50:00 UTC 2018,0,50,1,2,1
+7,53,482,Mymensingh,Muktagachha Upazila,Mon Jan 08 01:34:00 UTC 2018,0,50,0,2,1
+7,53,483,Mymensingh,Muktagachha Upazila,Mon Jan 08 01:53:00 UTC 2018,0,50,0,2,1
+7,53,484,Mymensingh,Muktagachha Upazila,Mon Jan 08 17:38:00 UTC 2018,0,50,0,2,1
+7,53,485,Mymensingh,Muktagachha Upazila,Mon Jan 08 04:07:00 UTC 2018,0,50,0,2,1
+7,53,486,Mymensingh,Muktagachha Upazila,Mon Jan 08 02:31:00 UTC 2018,0,50,0,2,1
+7,53,487,Mymensingh,Muktagachha Upazila,Mon Jan 08 02:51:00 UTC 2018,0,50,0,2,1
+7,53,488,Mymensingh,Muktagachha Upazila,Mon Jan 08 03:05:00 UTC 2018,0,50,1,2,1
+7,53,489,Mymensingh,Muktagachha Upazila,Mon Jan 08 03:22:00 UTC 2018,0,50,0,2,1
+7,53,490,Mymensingh,Muktagachha Upazila,Mon Jan 08 05:58:00 UTC 2018,0,50,1,2,1
+7,55,501,Mymensingh,Muktagachha Upazila,Tue Jan 09 08:56:00 UTC 2018,0,20,1,2,5
+7,55,502,Mymensingh,Muktagachha Upazila,Tue Jan 09 04:20:00 UTC 2018,0,20,1,2,5
+7,55,503,Mymensingh,Muktagachha Upazila,Tue Jan 09 10:10:00 UTC 2018,0,20,1,2,1
+7,55,504,Mymensingh,Muktagachha Upazila,Tue Jan 09 06:07:00 UTC 2018,0,20,1,2,1
+7,55,505,Mymensingh,Muktagachha Upazila,Tue Jan 09 05:41:00 UTC 2018,0,20,1,2,1
+7,55,506,Mymensingh,Muktagachha Upazila,Tue Jan 09 05:23:00 UTC 2018,0,20,1,1,6
+7,55,507,Mymensingh,Muktagachha Upazila,Tue Jan 09 08:05:00 UTC 2018,0,20,1,2,1
+7,55,508,Mymensingh,Muktagachha Upazila,Tue Jan 09 04:54:00 UTC 2018,0,20,1,2,1
+7,55,509,Mymensingh,Muktagachha Upazila,Tue Jan 09 06:36:00 UTC 2018,0,20,1,2,1
+7,55,510,Mymensingh,Muktagachha Upazila,Tue Jan 09 06:47:00 UTC 2018,0,20,1,2,1
+8,60,541,Mymensingh,Mymensingh Sadar Upazila,Sat Jan 06 05:14:00 UTC 2018,0,70,0,2,1
+8,60,542,Mymensingh,Mymensingh Sadar Upazila,Sat Jan 06 05:29:00 UTC 2018,0,70,0,1,2
+8,60,543,Mymensingh,Mymensingh Sadar Upazila,Sat Jan 06 06:03:00 UTC 2018,0,70,0,1,2
+8,60,544,Mymensingh,Mymensingh Sadar Upazila,Sat Jan 06 06:21:00 UTC 2018,0,70,0,2,1
+8,60,545,Mymensingh,Mymensingh Sadar Upazila,Sat Jan 06 06:55:00 UTC 2018,0,70,0,2,1
+8,60,546,Mymensingh,Mymensingh Sadar Upazila,Sat Jan 06 04:58:00 UTC 2018,0,70,1,2,1
+8,60,547,Mymensingh,Mymensingh Sadar Upazila,Sat Jan 06 05:50:00 UTC 2018,0,70,0,1,2
+8,60,548,Mymensingh,Mymensingh Sadar Upazila,Sat Jan 06 07:21:00 UTC 2018,0,70,0,1,2
+8,60,549,Mymensingh,Mymensingh Sadar Upazila,Sat Jan 06 07:09:00 UTC 2018,0,70,0,1,2
+8,60,550,Mymensingh,Mymensingh Sadar Upazila,Sat Jan 06 06:43:00 UTC 2018,0,70,0,1,2
+8,62,561,Mymensingh,Mymensingh Sadar Upazila,Sun Jan 07 02:42:00 UTC 2018,0,90,0,1,2
+8,62,562,Mymensingh,Mymensingh Sadar Upazila,Sun Jan 07 02:58:00 UTC 2018,0,90,0,1,2
+8,62,563,Mymensingh,Mymensingh Sadar Upazila,Sun Jan 07 03:43:00 UTC 2018,0,90,0,1,2
+8,62,564,Mymensingh,Mymensingh Sadar Upazila,Sun Jan 07 03:16:00 UTC 2018,0,90,0,2,1
+8,62,565,Mymensingh,Mymensingh Sadar Upazila,Sun Jan 07 03:31:00 UTC 2018,0,90,0,1,2
+8,62,566,Mymensingh,Mymensingh Sadar Upazila,Sun Jan 07 04:07:00 UTC 2018,0,90,0,1,2
+8,62,567,Mymensingh,Mymensingh Sadar Upazila,Sun Jan 07 04:18:00 UTC 2018,0,90,0,2,1
+8,62,568,Mymensingh,Mymensingh Sadar Upazila,Sun Jan 07 04:35:00 UTC 2018,0,90,0,2,1
+8,62,569,Mymensingh,Mymensingh Sadar Upazila,Sun Jan 07 02:20:00 UTC 2018,0,90,0,2,1
+8,62,570,Mymensingh,Mymensingh Sadar Upazila,Sun Jan 07 03:48:00 UTC 2018,0,90,0,2,1
+8,63,571,Mymensingh,Mymensingh Sadar Upazila,Mon Jan 08 08:42:00 UTC 2018,1,20,0,2,1
+8,63,572,Mymensingh,Mymensingh Sadar Upazila,Mon Jan 08 09:02:00 UTC 2018,1,20,0,2,1
+8,63,573,Mymensingh,Mymensingh Sadar Upazila,Mon Jan 08 10:33:00 UTC 2018,1,20,0,2,1
+8,63,574,Mymensingh,Mymensingh Sadar Upazila,Mon Jan 08 06:33:00 UTC 2018,1,20,1,2,1
+8,63,575,Mymensingh,Mymensingh Sadar Upazila,Mon Jan 08 11:03:00 UTC 2018,1,20,0,2,1
+8,63,576,Mymensingh,Mymensingh Sadar Upazila,Mon Jan 08 10:43:00 UTC 2018,1,20,0,1,2
+8,63,577,Mymensingh,Mymensingh Sadar Upazila,Mon Jan 08 10:13:00 UTC 2018,1,20,0,2,1
+8,63,578,Mymensingh,Mymensingh Sadar Upazila,Mon Jan 08 06:15:00 UTC 2018,1,20,1,2,1
+8,63,579,Mymensingh,Mymensingh Sadar Upazila,Mon Jan 08 09:18:00 UTC 2018,1,20,0,1,1
+8,63,580,Mymensingh,Mymensingh Sadar Upazila,Mon Jan 08 09:36:00 UTC 2018,1,20,0,1,2
+8,65,591,Mymensingh,Mymensingh Sadar Upazila,Tue Jan 09 02:32:00 UTC 2018,1,70,0,2,1
+8,65,592,Mymensingh,Mymensingh Sadar Upazila,Tue Jan 09 02:51:00 UTC 2018,1,70,0,2,1
+8,65,593,Mymensingh,Mymensingh Sadar Upazila,Tue Jan 09 03:11:00 UTC 2018,1,70,0,1,2
+8,65,594,Mymensingh,Mymensingh Sadar Upazila,Tue Jan 09 03:43:00 UTC 2018,1,70,0,2,1
+8,65,595,Mymensingh,Mymensingh Sadar Upazila,Tue Jan 09 04:35:00 UTC 2018,1,70,0,2,1
+8,65,596,Mymensingh,Mymensingh Sadar Upazila,Tue Jan 09 04:52:00 UTC 2018,1,70,0,2,1
+8,65,597,Mymensingh,Mymensingh Sadar Upazila,Tue Jan 09 04:02:00 UTC 2018,1,70,0,1,2
+8,65,598,Mymensingh,Mymensingh Sadar Upazila,Tue Jan 09 04:18:00 UTC 2018,1,70,1,2,5
+8,65,599,Mymensingh,Mymensingh Sadar Upazila,Tue Jan 09 05:31:00 UTC 2018,1,70,0,2,1
+8,65,600,Mymensingh,Mymensingh Sadar Upazila,Tue Jan 09 05:11:00 UTC 2018,1,70,0,1,1
+8,66,601,Mymensingh,Mymensingh Sadar Upazila,Mon Jan 15 02:37:00 UTC 2018,1,90,0,2,1
+8,66,602,Mymensingh,Mymensingh Sadar Upazila,Mon Jan 15 02:57:00 UTC 2018,1,90,0,2,1
+8,66,603,Mymensingh,Mymensingh Sadar Upazila,Mon Jan 15 03:20:00 UTC 2018,1,90,0,2,1
+8,66,604,Mymensingh,Mymensingh Sadar Upazila,Mon Jan 15 04:21:00 UTC 2018,1,90,0,2,1
+8,66,605,Mymensingh,Mymensingh Sadar Upazila,Mon Jan 15 03:41:00 UTC 2018,1,90,0,2,1
+8,66,606,Mymensingh,Mymensingh Sadar Upazila,Mon Jan 15 03:58:00 UTC 2018,1,90,0,2,1
+8,66,607,Mymensingh,Mymensingh Sadar Upazila,Mon Jan 15 04:37:00 UTC 2018,1,90,0,2,1
+8,66,608,Mymensingh,Mymensingh Sadar Upazila,Mon Jan 15 05:22:00 UTC 2018,1,90,0,2,1
+8,66,609,Mymensingh,Mymensingh Sadar Upazila,Mon Jan 15 05:49:00 UTC 2018,1,90,0,2,1
+8,66,610,Mymensingh,Mymensingh Sadar Upazila,Mon Jan 15 04:55:00 UTC 2018,1,90,0,2,1
+8,70,641,Mymensingh,Mymensingh Sadar Upazila,Sat Jan 13 05:01:00 UTC 2018,1,80,1,2,1
+8,70,642,Mymensingh,Mymensingh Sadar Upazila,Sat Jan 13 02:50:00 UTC 2018,1,80,0,1,2
+8,70,643,Mymensingh,Mymensingh Sadar Upazila,Sat Jan 13 05:24:00 UTC 2018,1,80,1,2,1
+8,70,644,Mymensingh,Mymensingh Sadar Upazila,Sat Jan 13 06:01:00 UTC 2018,1,80,1,2,1
+8,70,645,Mymensingh,Mymensingh Sadar Upazila,Sat Jan 13 03:36:00 UTC 2018,1,80,0,2,1
+8,70,646,Mymensingh,Mymensingh Sadar Upazila,Sat Jan 13 03:14:00 UTC 2018,1,80,0,2,1
+8,70,647,Mymensingh,Mymensingh Sadar Upazila,Sat Jan 13 06:59:00 UTC 2018,1,80,1,2,1
+8,70,648,Mymensingh,Mymensingh Sadar Upazila,Sat Jan 13 07:16:00 UTC 2018,1,80,0,2,1
+8,70,649,Mymensingh,Mymensingh Sadar Upazila,Sat Jan 13 04:02:00 UTC 2018,1,80,0,1,2
+8,70,650,Mymensingh,Mymensingh Sadar Upazila,Sat Jan 13 05:13:00 UTC 2018,1,80,1,2,7
+8,71,651,Mymensingh,Mymensingh Sadar Upazila,Fri Jan 05 04:08:00 UTC 2018,1,90,0,2,1
+8,71,652,Mymensingh,Mymensingh Sadar Upazila,Fri Jan 05 02:12:00 UTC 2018,1,90,0,1,2
+8,71,653,Mymensingh,Mymensingh Sadar Upazila,Fri Jan 05 04:27:00 UTC 2018,1,90,0,2,1
+8,71,654,Mymensingh,Mymensingh Sadar Upazila,Fri Jan 05 04:43:00 UTC 2018,1,90,1,2,1
+8,71,655,Mymensingh,Mymensingh Sadar Upazila,Fri Jan 05 05:45:00 UTC 2018,1,90,0,1,2
+8,71,656,Mymensingh,Mymensingh Sadar Upazila,Fri Jan 05 06:05:00 UTC 2018,1,90,0,2,1
+8,71,657,Mymensingh,Mymensingh Sadar Upazila,Fri Jan 05 02:28:00 UTC 2018,1,90,0,2,1
+8,71,658,Mymensingh,Mymensingh Sadar Upazila,Fri Jan 05 02:46:00 UTC 2018,1,90,0,2,1
+8,71,659,Mymensingh,Mymensingh Sadar Upazila,Fri Jan 05 02:59:00 UTC 2018,1,90,0,1,2
+8,71,660,Mymensingh,Mymensingh Sadar Upazila,Fri Jan 05 05:23:00 UTC 2018,1,90,0,2,1
+8,86,721,Mymensingh,Mymensingh Sadar Upazila,Thu Jan 11 02:16:00 UTC 2018,1,50,0,2,1
+8,86,722,Mymensingh,Mymensingh Sadar Upazila,Thu Jan 11 08:18:00 UTC 2018,1,50,1,2,1
+8,86,723,Mymensingh,Mymensingh Sadar Upazila,Thu Jan 11 02:35:00 UTC 2018,1,50,0,1,2
+8,86,724,Mymensingh,Mymensingh Sadar Upazila,Thu Jan 11 02:48:00 UTC 2018,1,50,0,1,2
+8,86,725,Mymensingh,Mymensingh Sadar Upazila,Thu Jan 11 03:10:00 UTC 2018,1,50,0,2,1
+8,86,726,Mymensingh,Mymensingh Sadar Upazila,Thu Jan 11 03:29:00 UTC 2018,1,50,0,1,2
+8,86,727,Mymensingh,Mymensingh Sadar Upazila,Thu Jan 11 04:42:00 UTC 2018,1,50,1,2,1
+8,86,728,Mymensingh,Mymensingh Sadar Upazila,Thu Jan 11 05:48:00 UTC 2018,1,50,1,2,1
+8,86,729,Mymensingh,Mymensingh Sadar Upazila,Thu Jan 11 03:55:00 UTC 2018,1,50,0,1,2
+8,86,730,Mymensingh,Mymensingh Sadar Upazila,Thu Jan 11 06:07:00 UTC 2018,1,50,1,2,1
+9,88,741,Mymensingh,Phulpur Upazila,Mon Jan 08 03:01:00 UTC 2018,0,30,1,2,1
+9,88,742,Mymensingh,Phulpur Upazila,Mon Jan 08 03:06:00 UTC 2018,0,30,1,2,1
+9,88,743,Mymensingh,Phulpur Upazila,Mon Jan 08 03:12:00 UTC 2018,0,30,1,2,1
+9,88,744,Mymensingh,Phulpur Upazila,Mon Jan 08 03:18:00 UTC 2018,0,30,1,2,1
+9,88,745,Mymensingh,Phulpur Upazila,Mon Jan 08 03:20:00 UTC 2018,0,30,1,2,1
+9,88,746,Mymensingh,Phulpur Upazila,Mon Jan 08 03:26:00 UTC 2018,0,30,1,2,1
+9,88,747,Mymensingh,Phulpur Upazila,Mon Jan 08 03:30:00 UTC 2018,0,30,1,2,1
+9,88,748,Mymensingh,Phulpur Upazila,Mon Jan 08 03:35:00 UTC 2018,0,30,1,2,1
+9,88,749,Mymensingh,Phulpur Upazila,Mon Jan 08 03:41:00 UTC 2018,0,30,1,2,1
+9,88,750,Mymensingh,Phulpur Upazila,Mon Jan 08 03:46:00 UTC 2018,0,30,1,2,1
+9,91,771,Mymensingh,Phulpur Upazila,Sat Jan 06 06:10:00 UTC 2018,1,90,0,2,1
+9,91,772,Mymensingh,Phulpur Upazila,Sat Jan 06 06:10:00 UTC 2018,1,90,0,2,4
+9,91,773,Mymensingh,Phulpur Upazila,Sat Jan 06 06:15:00 UTC 2018,1,90,0,2,4
+9,91,774,Mymensingh,Phulpur Upazila,Sat Jan 06 06:20:00 UTC 2018,1,90,0,2,1
+9,91,775,Mymensingh,Phulpur Upazila,Sat Jan 06 06:20:00 UTC 2018,1,90,0,2,7
+9,91,776,Mymensingh,Phulpur Upazila,Sat Jan 06 06:30:00 UTC 2018,1,90,0,2,4
+9,91,777,Mymensingh,Phulpur Upazila,Sat Jan 06 07:00:00 UTC 2018,1,90,0,2,1
+9,91,778,Mymensingh,Phulpur Upazila,Sat Jan 06 06:40:00 UTC 2018,1,90,0,2,1
+9,91,779,Mymensingh,Phulpur Upazila,Sat Jan 06 07:30:00 UTC 2018,1,90,0,2,4
+9,91,780,Mymensingh,Phulpur Upazila,Sat Jan 06 07:30:00 UTC 2018,1,90,0,2,4
+9,93,791,Mymensingh,Phulpur Upazila,Tue Jan 09 03:02:00 UTC 2018,1,40,0,2,1
+9,93,792,Mymensingh,Phulpur Upazila,Tue Jan 09 03:06:00 UTC 2018,1,40,0,2,1
+9,93,793,Mymensingh,Phulpur Upazila,Tue Jan 09 03:12:00 UTC 2018,1,40,0,2,1
+9,93,794,Mymensingh,Phulpur Upazila,Tue Jan 09 03:16:00 UTC 2018,1,40,0,2,1
+9,93,795,Mymensingh,Phulpur Upazila,Tue Jan 09 03:21:00 UTC 2018,1,40,0,2,1
+9,93,796,Mymensingh,Phulpur Upazila,Tue Jan 09 03:26:00 UTC 2018,1,40,0,2,1
+9,93,797,Mymensingh,Phulpur Upazila,Tue Jan 09 03:30:00 UTC 2018,1,40,0,2,1
+9,93,798,Mymensingh,Phulpur Upazila,Tue Jan 09 03:35:00 UTC 2018,1,40,0,2,1
+9,93,799,Mymensingh,Phulpur Upazila,Tue Jan 09 03:40:00 UTC 2018,1,40,0,2,1
+9,93,800,Mymensingh,Phulpur Upazila,Tue Jan 09 03:45:00 UTC 2018,1,40,0,2,1
+9,94,801,Mymensingh,Phulpur Upazila,Sun Jan 07 03:01:00 UTC 2018,0,20,1,2,1
+9,94,802,Mymensingh,Phulpur Upazila,Sun Jan 07 03:05:00 UTC 2018,0,20,1,2,1
+9,94,803,Mymensingh,Phulpur Upazila,Sun Jan 07 03:11:00 UTC 2018,0,20,1,2,1
+9,94,804,Mymensingh,Phulpur Upazila,Sun Jan 07 03:16:00 UTC 2018,0,20,1,2,1
+9,94,805,Mymensingh,Phulpur Upazila,Sun Jan 07 03:20:00 UTC 2018,0,20,1,2,1
+9,94,806,Mymensingh,Phulpur Upazila,Sun Jan 07 03:25:00 UTC 2018,0,20,1,2,1
+9,94,807,Mymensingh,Phulpur Upazila,Sun Jan 07 03:29:00 UTC 2018,0,20,1,1,2
+9,94,808,Mymensingh,Phulpur Upazila,Sun Jan 07 03:35:00 UTC 2018,0,20,1,2,1
+9,94,809,Mymensingh,Phulpur Upazila,Sun Jan 07 03:40:00 UTC 2018,0,20,1,2,1
+9,94,810,Mymensingh,Phulpur Upazila,Sun Jan 07 03:44:00 UTC 2018,0,20,1,2,1
+9,95,811,Mymensingh,Phulpur Upazila,Thu Jan 11 04:12:00 UTC 2018,0,80,0,2,1
+9,95,812,Mymensingh,Phulpur Upazila,Thu Jan 11 04:25:00 UTC 2018,0,80,0,2,1
+9,95,813,Mymensingh,Phulpur Upazila,Thu Jan 11 04:15:00 UTC 2018,0,80,0,2,7
+9,95,814,Mymensingh,Phulpur Upazila,Thu Jan 11 05:15:00 UTC 2018,0,80,1,2,1
+9,95,815,Mymensingh,Phulpur Upazila,Thu Jan 11 05:18:00 UTC 2018,0,80,0,2,7
+9,95,816,Mymensingh,Phulpur Upazila,Thu Jan 11 05:30:00 UTC 2018,0,80,0,2,7
+9,95,817,Mymensingh,Phulpur Upazila,Thu Jan 11 05:55:00 UTC 2018,0,80,0,2,9
+9,95,818,Mymensingh,Phulpur Upazila,Thu Jan 11 05:40:00 UTC 2018,0,80,0,2,7
+9,95,819,Mymensingh,Phulpur Upazila,Thu Jan 11 06:03:00 UTC 2018,0,80,0,2,7
+9,95,820,Mymensingh,Phulpur Upazila,Thu Jan 11 04:35:00 UTC 2018,0,80,0,2,9
+9,98,841,Mymensingh,Phulpur Upazila,Fri Jan 12 04:40:00 UTC 2018,1,70,0,2,5
+9,98,842,Mymensingh,Phulpur Upazila,Fri Jan 12 04:45:00 UTC 2018,1,70,0,2,7
+9,98,843,Mymensingh,Phulpur Upazila,Fri Jan 12 04:45:00 UTC 2018,1,70,0,2,1
+9,98,844,Mymensingh,Phulpur Upazila,Fri Jan 12 04:55:00 UTC 2018,1,70,0,2,4
+9,98,845,Mymensingh,Phulpur Upazila,Fri Jan 12 05:50:00 UTC 2018,1,70,0,2,1
+9,98,846,Mymensingh,Phulpur Upazila,Fri Jan 12 05:02:00 UTC 2018,1,70,0,2,1
+9,98,847,Mymensingh,Phulpur Upazila,Fri Jan 12 04:22:00 UTC 2018,1,70,0,2,9
+9,98,848,Mymensingh,Phulpur Upazila,Fri Jan 12 06:35:00 UTC 2018,1,70,0,2,4
+9,98,849,Mymensingh,Phulpur Upazila,Fri Jan 12 06:01:00 UTC 2018,1,70,0,2,1
+9,98,850,Mymensingh,Phulpur Upazila,Fri Jan 12 05:11:00 UTC 2018,1,70,0,2,1
+9,103,891,Mymensingh,Phulpur Upazila,Fri Jan 05 08:35:00 UTC 2018,0,70,1,2,1
+9,103,892,Mymensingh,Phulpur Upazila,Fri Jan 05 08:45:00 UTC 2018,0,70,0,2,7
+9,103,893,Mymensingh,Phulpur Upazila,Fri Jan 05 09:00:00 UTC 2018,0,70,0,2,1
+9,103,894,Mymensingh,Phulpur Upazila,Fri Jan 05 08:30:00 UTC 2018,0,70,0,2,4
+9,103,895,Mymensingh,Phulpur Upazila,Fri Jan 05 09:05:00 UTC 2018,0,70,0,2,1
+9,103,896,Mymensingh,Phulpur Upazila,Fri Jan 05 09:24:00 UTC 2018,0,70,0,2,1
+9,103,897,Mymensingh,Phulpur Upazila,Fri Jan 05 09:50:00 UTC 2018,0,70,0,2,1
+9,103,898,Mymensingh,Phulpur Upazila,Fri Jan 05 10:05:00 UTC 2018,0,70,0,2,1
+9,103,899,Mymensingh,Phulpur Upazila,Fri Jan 05 10:11:00 UTC 2018,0,70,0,2,1
+9,103,900,Mymensingh,Phulpur Upazila,Fri Jan 05 09:30:00 UTC 2018,0,70,0,2,1
+9,109,951,Mymensingh,Phulpur Upazila,Sun Jan 07 02:22:00 UTC 2018,1,40,0,2,1
+9,109,952,Mymensingh,Phulpur Upazila,Sun Jan 07 02:38:00 UTC 2018,1,40,0,2,1
+9,109,953,Mymensingh,Phulpur Upazila,Sun Jan 07 02:58:00 UTC 2018,1,40,0,2,1
+9,109,954,Mymensingh,Phulpur Upazila,Sun Jan 07 03:14:00 UTC 2018,1,40,0,2,1
+9,109,955,Mymensingh,Phulpur Upazila,Sun Jan 07 03:29:00 UTC 2018,1,40,0,2,1
+9,109,956,Mymensingh,Phulpur Upazila,Sun Jan 07 03:46:00 UTC 2018,1,40,0,2,1
+9,109,957,Mymensingh,Phulpur Upazila,Sun Jan 07 03:59:00 UTC 2018,1,40,0,2,1
+9,109,958,Mymensingh,Phulpur Upazila,Sun Jan 07 04:16:00 UTC 2018,1,40,0,2,1
+9,109,959,Mymensingh,Phulpur Upazila,Sun Jan 07 04:47:00 UTC 2018,1,40,0,2,1
+9,109,960,Mymensingh,Phulpur Upazila,Sun Jan 07 05:02:00 UTC 2018,1,40,0,2,1
+9,112,981,Mymensingh,Phulpur Upazila,Mon Jan 08 04:15:00 UTC 2018,1,50,0,2,1
+9,112,982,Mymensingh,Phulpur Upazila,Mon Jan 08 04:18:00 UTC 2018,1,50,0,2,7
+9,112,983,Mymensingh,Phulpur Upazila,Mon Jan 08 04:30:00 UTC 2018,1,50,0,2,1
+9,112,984,Mymensingh,Phulpur Upazila,Mon Jan 08 05:20:00 UTC 2018,1,50,0,2,1
+9,112,985,Mymensingh,Phulpur Upazila,Mon Jan 08 04:40:00 UTC 2018,1,50,0,2,7
+9,112,986,Mymensingh,Phulpur Upazila,Mon Jan 08 06:22:00 UTC 2018,1,50,0,2,7
+9,112,987,Mymensingh,Phulpur Upazila,Mon Jan 08 05:40:00 UTC 2018,1,50,0,2,1
+9,112,988,Mymensingh,Phulpur Upazila,Mon Jan 08 06:20:00 UTC 2018,1,50,0,2,7
+9,112,989,Mymensingh,Phulpur Upazila,Mon Jan 08 05:15:00 UTC 2018,1,50,0,2,1
+9,112,990,Mymensingh,Phulpur Upazila,Mon Jan 08 05:00:00 UTC 2018,1,50,0,2,7
+9,114,1001,Mymensingh,Phulpur Upazila,Mon Jan 08 02:13:00 UTC 2018,0,30,1,2,1
+9,114,1002,Mymensingh,Phulpur Upazila,Mon Jan 08 02:34:00 UTC 2018,0,30,0,2,1
+9,114,1003,Mymensingh,Phulpur Upazila,Mon Jan 08 02:50:00 UTC 2018,0,30,1,2,5
+9,114,1004,Mymensingh,Phulpur Upazila,Mon Jan 08 03:08:00 UTC 2018,0,30,1,2,5
+9,114,1005,Mymensingh,Phulpur Upazila,Mon Jan 08 03:26:00 UTC 2018,0,30,1,2,1
+9,114,1006,Mymensingh,Phulpur Upazila,Mon Jan 08 03:45:00 UTC 2018,0,30,0,2,1
+9,114,1007,Mymensingh,Phulpur Upazila,Mon Jan 08 04:04:00 UTC 2018,0,30,0,2,1
+9,114,1008,Mymensingh,Phulpur Upazila,Mon Jan 08 04:21:00 UTC 2018,0,30,0,2,1
+9,114,1009,Mymensingh,Phulpur Upazila,Mon Jan 08 04:37:00 UTC 2018,0,30,0,2,1
+9,114,1010,Mymensingh,Phulpur Upazila,Mon Jan 08 04:53:00 UTC 2018,0,30,1,2,1
+9,116,1021,Mymensingh,Phulpur Upazila,Fri Jan 05 02:15:00 UTC 2018,1,20,1,2,1
+9,116,1022,Mymensingh,Phulpur Upazila,Fri Jan 05 02:31:00 UTC 2018,1,20,0,2,1
+9,116,1023,Mymensingh,Phulpur Upazila,Fri Jan 05 02:46:00 UTC 2018,1,20,1,2,1
+9,116,1024,Mymensingh,Phulpur Upazila,Fri Jan 05 03:05:00 UTC 2018,1,20,1,2,1
+9,116,1025,Mymensingh,Phulpur Upazila,Fri Jan 05 03:19:00 UTC 2018,1,20,0,2,1
+9,116,1026,Mymensingh,Phulpur Upazila,Fri Jan 05 03:28:00 UTC 2018,1,20,0,2,1
+9,116,1027,Mymensingh,Phulpur Upazila,Fri Jan 05 03:45:00 UTC 2018,1,20,1,2,1
+9,116,1028,Mymensingh,Phulpur Upazila,Fri Jan 05 04:02:00 UTC 2018,1,20,1,2,1
+9,116,1029,Mymensingh,Phulpur Upazila,Fri Jan 05 04:17:00 UTC 2018,1,20,0,2,1
+9,116,1030,Mymensingh,Phulpur Upazila,Fri Jan 05 04:30:00 UTC 2018,1,20,1,2,1
+9,117,1031,Mymensingh,Phulpur Upazila,Fri Jan 05 03:02:00 UTC 2018,1,40,0,2,1
+9,117,1032,Mymensingh,Phulpur Upazila,Fri Jan 05 03:06:00 UTC 2018,1,40,0,2,1
+9,117,1033,Mymensingh,Phulpur Upazila,Fri Jan 05 03:09:00 UTC 2018,1,40,0,2,1
+9,117,1034,Mymensingh,Phulpur Upazila,Fri Jan 05 03:14:00 UTC 2018,1,40,0,2,1
+9,117,1035,Mymensingh,Phulpur Upazila,Fri Jan 05 03:20:00 UTC 2018,1,40,0,2,1
+9,117,1036,Mymensingh,Phulpur Upazila,Fri Jan 05 03:24:00 UTC 2018,1,40,0,2,1
+9,117,1037,Mymensingh,Phulpur Upazila,Fri Jan 05 03:27:00 UTC 2018,1,40,0,2,1
+9,117,1038,Mymensingh,Phulpur Upazila,Fri Jan 05 03:33:00 UTC 2018,1,40,0,2,1
+9,117,1039,Mymensingh,Phulpur Upazila,Fri Jan 05 03:40:00 UTC 2018,1,40,0,2,1
+9,117,1040,Mymensingh,Phulpur Upazila,Fri Jan 05 03:45:00 UTC 2018,1,40,0,2,1
+9,119,1051,Mymensingh,Phulpur Upazila,Sat Jan 06 02:20:00 UTC 2018,0,20,1,2,1
+9,119,1052,Mymensingh,Phulpur Upazila,Sat Jan 06 02:39:00 UTC 2018,0,20,0,2,1
+9,119,1053,Mymensingh,Phulpur Upazila,Sat Jan 06 03:00:00 UTC 2018,0,20,1,2,1
+9,119,1054,Mymensingh,Phulpur Upazila,Sat Jan 06 03:15:00 UTC 2018,0,20,1,2,1
+9,119,1055,Mymensingh,Phulpur Upazila,Sat Jan 06 03:31:00 UTC 2018,0,20,0,2,1
+9,119,1056,Mymensingh,Phulpur Upazila,Sat Jan 06 03:46:00 UTC 2018,0,20,1,2,1
+9,119,1057,Mymensingh,Phulpur Upazila,Sat Jan 06 04:03:00 UTC 2018,0,20,1,2,1
+9,119,1058,Mymensingh,Phulpur Upazila,Sat Jan 06 04:18:00 UTC 2018,0,20,1,2,1
+9,119,1059,Mymensingh,Phulpur Upazila,Sat Jan 06 04:36:00 UTC 2018,0,20,1,2,1
+9,119,1060,Mymensingh,Phulpur Upazila,Sat Jan 06 04:51:00 UTC 2018,0,20,1,2,1
+9,122,1081,Mymensingh,Phulpur Upazila,Tue Jan 02 04:01:00 UTC 2018,1,70,0,2,1
+9,122,1082,Mymensingh,Phulpur Upazila,Tue Jan 02 04:04:00 UTC 2018,1,70,0,2,1
+9,122,1083,Mymensingh,Phulpur Upazila,Tue Jan 02 04:10:00 UTC 2018,1,70,0,2,1
+9,122,1084,Mymensingh,Phulpur Upazila,Tue Jan 02 05:12:00 UTC 2018,1,70,0,2,1
+9,122,1085,Mymensingh,Phulpur Upazila,Tue Jan 02 04:12:00 UTC 2018,1,70,0,2,1
+9,122,1086,Mymensingh,Phulpur Upazila,Tue Jan 02 04:15:00 UTC 2018,1,70,0,2,1
+9,122,1087,Mymensingh,Phulpur Upazila,Tue Jan 02 04:15:00 UTC 2018,1,70,0,2,1
+9,122,1088,Mymensingh,Phulpur Upazila,Tue Jan 02 04:18:00 UTC 2018,1,70,0,2,1
+9,122,1089,Mymensingh,Phulpur Upazila,Tue Jan 02 04:20:00 UTC 2018,1,70,0,2,1
+9,122,1090,Mymensingh,Phulpur Upazila,Tue Jan 02 04:23:00 UTC 2018,1,70,0,2,1
+9,125,1111,Mymensingh,Phulpur Upazila,Sat Jan 06 03:00:00 UTC 2018,1,80,0,2,1
+9,125,1112,Mymensingh,Phulpur Upazila,Sat Jan 06 03:07:00 UTC 2018,1,80,0,2,1
+9,125,1113,Mymensingh,Phulpur Upazila,Sat Jan 06 03:11:00 UTC 2018,1,80,0,2,1
+9,125,1114,Mymensingh,Phulpur Upazila,Sat Jan 06 03:15:00 UTC 2018,1,80,0,2,1
+9,125,1115,Mymensingh,Phulpur Upazila,Sat Jan 06 03:20:00 UTC 2018,1,80,0,2,1
+9,125,1116,Mymensingh,Phulpur Upazila,Sat Jan 06 03:25:00 UTC 2018,1,80,0,2,1
+9,125,1117,Mymensingh,Phulpur Upazila,Sat Jan 06 03:32:00 UTC 2018,1,80,0,2,1
+9,125,1118,Mymensingh,Phulpur Upazila,Sat Jan 06 15:37:00 UTC 2018,1,80,0,2,1
+9,125,1119,Mymensingh,Phulpur Upazila,Sat Jan 06 03:50:00 UTC 2018,1,80,0,2,1
+9,125,1120,Mymensingh,Phulpur Upazila,Sat Jan 06 03:58:00 UTC 2018,1,80,0,2,1
+9,126,1121,Mymensingh,Phulpur Upazila,Thu Jan 11 03:01:00 UTC 2018,1,30,0,2,1
+9,126,1122,Mymensingh,Phulpur Upazila,Thu Jan 11 03:05:00 UTC 2018,1,30,0,2,1
+9,126,1123,Mymensingh,Phulpur Upazila,Thu Jan 11 03:12:00 UTC 2018,1,30,0,2,1
+9,126,1124,Mymensingh,Phulpur Upazila,Thu Jan 11 03:16:00 UTC 2018,1,30,0,2,1
+9,126,1125,Mymensingh,Phulpur Upazila,Thu Jan 11 03:20:00 UTC 2018,1,30,0,2,1
+9,126,1126,Mymensingh,Phulpur Upazila,Thu Jan 11 03:25:00 UTC 2018,1,30,0,2,1
+9,126,1127,Mymensingh,Phulpur Upazila,Thu Jan 11 03:29:00 UTC 2018,1,30,0,2,1
+9,126,1128,Mymensingh,Phulpur Upazila,Thu Jan 11 03:35:00 UTC 2018,1,30,0,2,1
+9,126,1129,Mymensingh,Phulpur Upazila,Thu Jan 11 03:40:00 UTC 2018,1,30,0,2,1
+9,126,1130,Mymensingh,Phulpur Upazila,Thu Jan 11 03:45:00 UTC 2018,1,30,0,2,1
+9,131,1171,Mymensingh,Phulpur Upazila,Wed Jan 10 03:01:00 UTC 2018,1,80,0,2,1
+9,131,1172,Mymensingh,Phulpur Upazila,Wed Jan 10 03:07:00 UTC 2018,1,80,0,2,1
+9,131,1173,Mymensingh,Phulpur Upazila,Wed Jan 10 03:12:00 UTC 2018,1,80,0,2,1
+9,131,1174,Mymensingh,Phulpur Upazila,Wed Jan 10 03:20:00 UTC 2018,1,80,0,2,1
+9,131,1175,Mymensingh,Phulpur Upazila,Wed Jan 10 03:25:00 UTC 2018,1,80,0,2,1
+9,131,1176,Mymensingh,Phulpur Upazila,Wed Jan 10 03:30:00 UTC 2018,1,80,0,2,1
+9,131,1177,Mymensingh,Phulpur Upazila,Wed Jan 10 03:35:00 UTC 2018,1,80,0,2,1
+9,131,1178,Mymensingh,Phulpur Upazila,Wed Jan 10 03:45:00 UTC 2018,1,80,0,2,1
+9,131,1179,Mymensingh,Phulpur Upazila,Wed Jan 10 03:51:00 UTC 2018,1,80,0,2,1
+9,131,1180,Mymensingh,Phulpur Upazila,Wed Jan 10 04:00:00 UTC 2018,1,80,0,2,1
+1,135,1211,Rajshahi,BAGMARA,Mon Jan 29 04:01:00 UTC 2018,0,30,0,2,1
+1,135,1212,Rajshahi,BAGMARA,Mon Jan 29 04:20:00 UTC 2018,0,30,1,2,1
+1,135,1213,Rajshahi,BAGMARA,Mon Jan 29 04:39:00 UTC 2018,0,30,1,2,5
+1,135,1214,Rajshahi,BAGMARA,Mon Jan 29 05:03:00 UTC 2018,0,30,1,2,1
+1,135,1215,Rajshahi,BAGMARA,Mon Jan 29 05:19:00 UTC 2018,0,30,1,2,1
+1,135,1216,Rajshahi,BAGMARA,Mon Jan 29 05:39:00 UTC 2018,0,30,1,2,5
+1,135,1217,Rajshahi,BAGMARA,Mon Jan 29 06:05:00 UTC 2018,0,30,1,1,2
+1,135,1218,Rajshahi,BAGMARA,Mon Jan 29 06:21:00 UTC 2018,0,30,1,2,1
+1,135,1219,Rajshahi,BAGMARA,Mon Jan 29 06:38:00 UTC 2018,0,30,1,2,5
+1,135,1220,Rajshahi,BAGMARA,Mon Jan 29 07:09:00 UTC 2018,0,30,1,2,1
+1,137,1231,Rajshahi,BAGMARA,Sat Jan 20 04:00:00 UTC 2018,0,30,1,2,1
+1,137,1232,Rajshahi,BAGMARA,Sat Jan 20 04:20:00 UTC 2018,0,30,1,2,7
+1,137,1233,Rajshahi,BAGMARA,Sat Jan 20 04:37:00 UTC 2018,0,30,1,2,1
+1,137,1234,Rajshahi,BAGMARA,Sat Jan 20 05:06:00 UTC 2018,0,30,1,2,1
+1,137,1235,Rajshahi,BAGMARA,Sat Jan 20 05:23:00 UTC 2018,0,30,1,2,1
+1,137,1236,Rajshahi,BAGMARA,Sat Jan 20 05:39:00 UTC 2018,0,30,1,2,1
+1,137,1237,Rajshahi,BAGMARA,"",0,30,1,2,1
+1,137,1238,Rajshahi,BAGMARA,Sat Jan 20 06:20:00 UTC 2018,0,30,1,2,1
+1,137,1239,Rajshahi,BAGMARA,Sat Jan 20 06:43:00 UTC 2018,0,30,1,2,1
+1,137,1240,Rajshahi,BAGMARA,Sat Jan 20 07:03:00 UTC 2018,0,30,1,2,1
+1,142,1281,Rajshahi,BAGMARA,Sun Jan 21 04:00:00 UTC 2018,1,50,1,2,1
+1,142,1282,Rajshahi,BAGMARA,Sun Jan 21 04:30:00 UTC 2018,1,50,0,2,1
+1,142,1283,Rajshahi,BAGMARA,Sun Jan 21 04:30:00 UTC 2018,1,50,1,1,8
+1,142,1284,Rajshahi,BAGMARA,Sun Jan 21 04:45:00 UTC 2018,1,50,0,1,8
+1,142,1285,Rajshahi,BAGMARA,Sun Jan 21 05:00:00 UTC 2018,1,50,1,1,5
+1,142,1286,Rajshahi,BAGMARA,Sun Jan 21 05:15:00 UTC 2018,1,50,1,2,1
+1,142,1287,Rajshahi,BAGMARA,Sun Jan 21 05:15:00 UTC 2018,1,50,0,2,7
+1,142,1288,Rajshahi,BAGMARA,Sun Jan 21 05:30:00 UTC 2018,1,50,1,1,2
+1,142,1289,Rajshahi,BAGMARA,"",1,50,0,2,1
+1,142,1290,Rajshahi,BAGMARA,Sun Jan 21 06:00:00 UTC 2018,1,50,0,1,8
+1,143,1291,Rajshahi,BAGMARA,Tue Jan 23 04:00:00 UTC 2018,1,90,1,2,6
+1,143,1292,Rajshahi,BAGMARA,Tue Jan 23 04:15:00 UTC 2018,1,90,1,1,8
+1,143,1293,Rajshahi,BAGMARA,Tue Jan 23 04:30:00 UTC 2018,1,90,0,1,8
+1,143,1294,Rajshahi,BAGMARA,Tue Jan 23 04:45:00 UTC 2018,1,90,0,2,5
+1,143,1295,Rajshahi,BAGMARA,Tue Jan 23 04:45:00 UTC 2018,1,90,0,2,1
+1,143,1296,Rajshahi,BAGMARA,Tue Jan 23 04:45:00 UTC 2018,1,90,0,1,2
+1,143,1297,Rajshahi,BAGMARA,Tue Jan 23 22:00:00 UTC 2018,1,90,0,2,2
+1,143,1298,Rajshahi,BAGMARA,Tue Jan 23 06:00:00 UTC 2018,1,90,0,2,1
+1,143,1299,Rajshahi,BAGMARA,Tue Jan 23 06:45:00 UTC 2018,1,90,0,2,5
+1,143,1300,Rajshahi,BAGMARA,Tue Jan 23 07:00:00 UTC 2018,1,90,0,2,5
+1,146,1311,Rajshahi,BAGMARA,Mon Jan 22 04:00:00 UTC 2018,1,90,1,2,7
+1,146,1312,Rajshahi,BAGMARA,Mon Jan 22 04:20:00 UTC 2018,1,90,1,2,7
+1,146,1313,Rajshahi,BAGMARA,Mon Jan 22 04:45:00 UTC 2018,1,90,0,1,8
+1,146,1314,Rajshahi,BAGMARA,Mon Jan 22 05:00:00 UTC 2018,1,90,0,1,2
+1,146,1315,Rajshahi,BAGMARA,Mon Jan 22 05:15:00 UTC 2018,1,90,0,1,8
+1,146,1316,Rajshahi,BAGMARA,Mon Jan 22 05:30:00 UTC 2018,1,90,0,1,8
+1,146,1317,Rajshahi,BAGMARA,Mon Jan 22 05:35:00 UTC 2018,1,90,0,2,7
+1,146,1318,Rajshahi,BAGMARA,Mon Jan 22 06:00:00 UTC 2018,1,90,0,2,1
+1,146,1319,Rajshahi,BAGMARA,Mon Jan 22 06:20:00 UTC 2018,1,90,0,1,1
+1,146,1320,Rajshahi,BAGMARA,Mon Jan 22 06:30:00 UTC 2018,1,90,0,2,5
+1,150,1351,Rajshahi,BAGMARA,Sat Jan 27 04:00:00 UTC 2018,0,20,1,1,2
+1,150,1352,Rajshahi,BAGMARA,Sat Jan 27 04:15:00 UTC 2018,0,20,1,2,5
+1,150,1353,Rajshahi,BAGMARA,Sat Jan 27 04:30:00 UTC 2018,0,20,1,1,6
+1,150,1354,Rajshahi,BAGMARA,Sat Jan 27 04:45:00 UTC 2018,0,20,1,2,1
+1,150,1355,Rajshahi,BAGMARA,Sat Jan 27 05:00:00 UTC 2018,0,20,1,2,1
+1,150,1356,Rajshahi,BAGMARA,Sat Jan 27 05:15:00 UTC 2018,0,20,1,1,2
+1,150,1357,Rajshahi,BAGMARA,Sat Jan 27 05:30:00 UTC 2018,0,20,1,2,5
+1,150,1358,Rajshahi,BAGMARA,Sat Jan 27 05:45:00 UTC 2018,0,20,1,2,5
+1,150,1359,Rajshahi,BAGMARA,Sat Jan 27 06:00:00 UTC 2018,0,20,0,2,1
+1,150,1360,Rajshahi,BAGMARA,Sat Jan 27 06:15:00 UTC 2018,0,20,1,2,5
+1,151,1361,Rajshahi,BAGMARA,Sun Jan 28 04:00:00 UTC 2018,1,60,1,2,7
+1,151,1362,Rajshahi,BAGMARA,Sun Jan 28 04:15:00 UTC 2018,1,60,1,2,5
+1,151,1363,Rajshahi,BAGMARA,Sun Jan 28 04:30:00 UTC 2018,1,60,1,2,2
+1,151,1364,Rajshahi,BAGMARA,Sun Jan 28 04:50:00 UTC 2018,1,60,0,2,1
+1,151,1365,Rajshahi,BAGMARA,Sun Jan 28 05:05:00 UTC 2018,1,60,0,2,1
+1,151,1366,Rajshahi,BAGMARA,Sun Jan 28 05:20:00 UTC 2018,1,60,0,1,2
+1,151,1367,Rajshahi,BAGMARA,Sun Jan 28 05:40:00 UTC 2018,1,60,0,2,5
+1,151,1368,Rajshahi,BAGMARA,Sun Jan 28 06:00:00 UTC 2018,1,60,1,1,2
+1,151,1369,Rajshahi,BAGMARA,Sun Jan 28 06:20:00 UTC 2018,1,60,0,2,1
+1,151,1370,Rajshahi,BAGMARA,Sun Jan 28 06:20:00 UTC 2018,1,60,0,2,1
+1,154,1391,Rajshahi,BAGMARA,Tue Jan 30 03:00:00 UTC 2018,1,50,1,2,1
+1,154,1392,Rajshahi,BAGMARA,Tue Jan 30 03:15:00 UTC 2018,1,50,0,2,2
+1,154,1393,Rajshahi,BAGMARA,Tue Jan 30 03:30:00 UTC 2018,1,50,0,2,1
+1,154,1394,Rajshahi,BAGMARA,Tue Jan 30 03:45:00 UTC 2018,1,50,0,1,2
+1,154,1395,Rajshahi,BAGMARA,Tue Jan 30 04:00:00 UTC 2018,1,50,0,2,5
+1,154,1396,Rajshahi,BAGMARA,Tue Jan 30 04:00:00 UTC 2018,1,50,0,1,2
+1,154,1397,Rajshahi,BAGMARA,Tue Jan 30 04:15:00 UTC 2018,1,50,0,1,8
+1,154,1398,Rajshahi,BAGMARA,Tue Jan 30 04:30:00 UTC 2018,1,50,1,2,7
+1,154,1399,Rajshahi,BAGMARA,Tue Jan 30 04:50:00 UTC 2018,1,50,0,2,1
+1,154,1400,Rajshahi,BAGMARA,Tue Jan 30 05:10:00 UTC 2018,1,50,0,2,1
+1,157,1421,Rajshahi,BAGMARA,Thu Jan 25 04:00:00 UTC 2018,1,60,1,2,1
+1,157,1422,Rajshahi,BAGMARA,Thu Jan 25 04:15:00 UTC 2018,1,60,1,1,7
+1,157,1423,Rajshahi,BAGMARA,Thu Jan 25 04:30:00 UTC 2018,1,60,1,2,1
+1,157,1424,Rajshahi,BAGMARA,Thu Jan 25 04:45:00 UTC 2018,1,60,1,1,2
+1,157,1425,Rajshahi,BAGMARA,Thu Jan 25 05:00:00 UTC 2018,1,60,0,1,2
+1,157,1426,Rajshahi,BAGMARA,Thu Jan 25 05:15:00 UTC 2018,1,60,0,1,2
+1,157,1427,Rajshahi,BAGMARA,Thu Jan 25 05:30:00 UTC 2018,1,60,0,2,5
+1,157,1428,Rajshahi,BAGMARA,Thu Jan 25 05:50:00 UTC 2018,1,60,0,2,7
+1,157,1429,Rajshahi,BAGMARA,Thu Jan 25 06:00:00 UTC 2018,1,60,0,1,6
+1,157,1430,Rajshahi,BAGMARA,Thu Jan 25 06:30:00 UTC 2018,1,60,0,2,1
+1,161,1461,Rajshahi,BAGMARA,Sun Jan 21 04:20:00 UTC 2018,1,60,1,2,1
+1,161,1462,Rajshahi,BAGMARA,Sun Jan 21 05:26:00 UTC 2018,1,60,0,2,1
+1,161,1463,Rajshahi,BAGMARA,Sun Jan 21 05:38:00 UTC 2018,1,60,0,2,1
+1,161,1464,Rajshahi,BAGMARA,Sun Jan 21 05:50:00 UTC 2018,1,60,0,2,1
+1,161,1465,Rajshahi,BAGMARA,Sun Jan 21 06:01:00 UTC 2018,1,60,0,2,1
+1,161,1466,Rajshahi,BAGMARA,Sun Jan 21 06:12:00 UTC 2018,1,60,0,2,1
+1,161,1467,Rajshahi,BAGMARA,Sun Jan 21 06:42:00 UTC 2018,1,60,0,2,4
+1,161,1468,Rajshahi,BAGMARA,Sun Jan 21 06:59:00 UTC 2018,1,60,0,2,4
+1,161,1469,Rajshahi,BAGMARA,Sun Jan 21 05:08:00 UTC 2018,1,60,1,2,1
+1,161,1470,Rajshahi,BAGMARA,Sun Jan 21 04:38:00 UTC 2018,1,60,1,2,1
+1,162,1471,Rajshahi,BAGMARA,Fri Jan 26 04:02:00 UTC 2018,1,60,1,2,1
+1,162,1472,Rajshahi,BAGMARA,Fri Jan 26 06:02:00 UTC 2018,1,60,1,1,2
+1,162,1473,Rajshahi,BAGMARA,Fri Jan 26 04:21:00 UTC 2018,1,60,0,2,1
+1,162,1474,Rajshahi,BAGMARA,Fri Jan 26 04:39:00 UTC 2018,1,60,0,2,1
+1,162,1475,Rajshahi,BAGMARA,Fri Jan 26 05:01:00 UTC 2018,1,60,0,2,1
+1,162,1476,Rajshahi,BAGMARA,Fri Jan 26 05:21:00 UTC 2018,1,60,0,2,1
+1,162,1477,Rajshahi,BAGMARA,Fri Jan 26 05:37:00 UTC 2018,1,60,0,2,1
+1,162,1478,Rajshahi,BAGMARA,Fri Jan 26 06:23:00 UTC 2018,1,60,1,2,1
+1,162,1479,Rajshahi,BAGMARA,Mon Feb 12 04:31:00 UTC 2018,1,60,0,2,1
+1,162,1480,Rajshahi,BAGMARA,Fri Jan 26 06:39:00 UTC 2018,1,60,0,2,4
+1,164,1481,Rajshahi,BAGMARA,Mon Jan 22 04:01:00 UTC 2018,0,80,0,2,1
+1,164,1482,Rajshahi,BAGMARA,Mon Jan 22 04:21:00 UTC 2018,0,80,1,2,1
+1,164,1483,Rajshahi,BAGMARA,Mon Jan 22 04:34:00 UTC 2018,0,80,0,2,1
+1,164,1485,Rajshahi,BAGMARA,Mon Jan 22 05:15:00 UTC 2018,0,80,1,2,1
+1,164,1486,Rajshahi,BAGMARA,Mon Jan 22 05:32:00 UTC 2018,0,80,0,2,1
+1,164,1487,Rajshahi,BAGMARA,Mon Jan 22 05:41:00 UTC 2018,0,80,0,2,1
+1,164,1488,Rajshahi,BAGMARA,Mon Jan 22 05:51:00 UTC 2018,0,80,0,2,4
+1,164,1489,Rajshahi,BAGMARA,Mon Jan 22 06:09:00 UTC 2018,0,80,0,2,5
+1,164,1490,Rajshahi,BAGMARA,Mon Jan 22 06:26:00 UTC 2018,0,80,0,2,1
+1,170,1541,Rajshahi,BAGMARA,Wed Jan 24 04:00:00 UTC 2018,1,30,1,1,2
+1,170,1542,Rajshahi,BAGMARA,Wed Jan 24 04:15:00 UTC 2018,1,30,1,1,2
+1,170,1543,Rajshahi,BAGMARA,Wed Jan 24 04:30:00 UTC 2018,1,30,1,1,8
+1,170,1544,Rajshahi,BAGMARA,Wed Jan 24 04:45:00 UTC 2018,1,30,1,1,6
+1,170,1545,Rajshahi,BAGMARA,Wed Jan 24 05:00:00 UTC 2018,1,30,1,2,1
+1,170,1546,Rajshahi,BAGMARA,Wed Jan 24 06:30:00 UTC 2018,1,30,1,2,5
+1,170,1547,Rajshahi,BAGMARA,Wed Jan 24 05:35:00 UTC 2018,1,30,1,2,4
+1,170,1548,Rajshahi,BAGMARA,Wed Jan 24 06:00:00 UTC 2018,1,30,1,2,1
+1,170,1549,Rajshahi,BAGMARA,Wed Jan 24 06:15:00 UTC 2018,1,30,1,2,1
+1,170,1550,Rajshahi,BAGMARA,Wed Jan 24 06:30:00 UTC 2018,1,30,1,2,1
+1,173,1571,Rajshahi,BAGMARA,Fri Jan 26 04:00:00 UTC 2018,1,30,1,1,8
+1,173,1572,Rajshahi,BAGMARA,Fri Jan 26 04:30:00 UTC 2018,1,30,1,1,3
+1,173,1573,Rajshahi,BAGMARA,Fri Jan 26 04:30:00 UTC 2018,1,30,1,2,1
+1,173,1574,Rajshahi,BAGMARA,Fri Jan 26 04:45:00 UTC 2018,1,30,0,2,1
+1,173,1575,Rajshahi,BAGMARA,Fri Jan 26 22:15:00 UTC 2018,1,30,0,2,1
+1,173,1576,Rajshahi,BAGMARA,Fri Jan 26 06:15:00 UTC 2018,1,30,0,2,1
+1,173,1577,Rajshahi,BAGMARA,Fri Jan 26 06:30:00 UTC 2018,1,30,0,2,1
+1,173,1578,Rajshahi,BAGMARA,Fri Jan 26 06:45:00 UTC 2018,1,30,1,1,2
+1,173,1579,Rajshahi,BAGMARA,Fri Jan 26 06:30:00 UTC 2018,1,30,0,2,1
+1,173,1580,Rajshahi,BAGMARA,Fri Jan 26 06:45:00 UTC 2018,1,30,0,2,1
+1,175,1591,Rajshahi,BAGMARA,Sun Feb 25 04:19:00 UTC 2018,1,60,0,2,1
+1,175,1592,Rajshahi,BAGMARA,Sun Feb 25 04:41:00 UTC 2018,1,60,0,2,1
+1,175,1593,Rajshahi,BAGMARA,Sun Feb 25 06:31:00 UTC 2018,1,60,0,2,1
+1,175,1594,Rajshahi,BAGMARA,Sun Feb 25 04:01:00 UTC 2018,1,60,0,2,1
+1,175,1595,Rajshahi,BAGMARA,Sun Feb 25 06:17:00 UTC 2018,1,60,0,1,2
+1,175,1596,Rajshahi,BAGMARA,Sun Feb 25 06:01:00 UTC 2018,1,60,0,2,1
+1,175,1597,Rajshahi,BAGMARA,Sun Feb 25 05:31:00 UTC 2018,1,60,1,2,1
+1,175,1598,Rajshahi,BAGMARA,Sun Feb 25 05:47:00 UTC 2018,1,60,1,2,1
+1,175,1599,Rajshahi,BAGMARA,Sun Feb 25 05:03:00 UTC 2018,1,60,0,2,1
+1,175,1600,Rajshahi,BAGMARA,"",1,60,0,2,1
+1,177,1611,Rajshahi,BAGMARA,Sat Feb 24 06:21:00 UTC 2018,0,90,1,2,1
+1,177,1612,Rajshahi,BAGMARA,Sat Feb 24 04:02:00 UTC 2018,0,90,0,2,1
+1,177,1613,Rajshahi,BAGMARA,Sat Feb 24 04:19:00 UTC 2018,0,90,0,2,1
+1,177,1614,Rajshahi,BAGMARA,Sat Feb 24 04:38:00 UTC 2018,0,90,0,2,1
+1,177,1615,Rajshahi,BAGMARA,Sat Feb 24 05:01:00 UTC 2018,0,90,0,2,1
+1,177,1616,Rajshahi,BAGMARA,Sat Feb 24 05:19:00 UTC 2018,0,90,1,2,1
+1,177,1617,Rajshahi,BAGMARA,Sat Feb 24 05:12:00 UTC 2018,0,90,0,2,4
+1,177,1618,Rajshahi,BAGMARA,Sat Feb 24 05:21:00 UTC 2018,0,90,0,2,1
+1,177,1619,Rajshahi,BAGMARA,Sat Feb 24 05:41:00 UTC 2018,0,90,0,2,1
+1,177,1620,Rajshahi,BAGMARA,Sat Feb 24 06:01:00 UTC 2018,0,90,0,2,4
+1,179,1631,Rajshahi,BAGMARA,Sat Jan 20 04:00:00 UTC 2018,0,50,1,2,1
+1,179,1632,Rajshahi,BAGMARA,Sat Jan 20 04:15:00 UTC 2018,0,50,1,1,1
+1,179,1633,Rajshahi,BAGMARA,Sat Jan 20 04:30:00 UTC 2018,0,50,0,1,1
+7,179,1634,Rajshahi,BAGMARA,Sat Jan 20 04:45:00 UTC 2018,0,50,1,1,8
+1,179,1635,Rajshahi,BAGMARA,Sat Jan 20 04:55:00 UTC 2018,0,50,1,2,1
+1,179,1636,Rajshahi,BAGMARA,Sat Jan 20 05:00:00 UTC 2018,0,50,0,2,7
+1,179,1637,Rajshahi,BAGMARA,Sat Jan 20 05:30:00 UTC 2018,0,50,0,1,8
+1,179,1638,Rajshahi,BAGMARA,Sat Jan 20 05:45:00 UTC 2018,0,50,0,1,8
+1,179,1639,Rajshahi,BAGMARA,Sat Jan 20 06:05:00 UTC 2018,0,50,0,2,7
+1,179,1640,Rajshahi,BAGMARA,Sat Jan 20 06:25:00 UTC 2018,0,50,0,1,8
+1,183,1671,Rajshahi,BAGMARA,Fri Feb 23 04:01:00 UTC 2018,1,80,0,2,1
+1,183,1672,Rajshahi,BAGMARA,Fri Feb 23 04:14:00 UTC 2018,1,80,0,2,1
+1,183,1673,Rajshahi,BAGMARA,Fri Feb 23 04:28:00 UTC 2018,1,80,0,2,1
+1,183,1674,Rajshahi,BAGMARA,Fri Feb 23 04:46:00 UTC 2018,1,80,0,2,1
+1,183,1675,Rajshahi,BAGMARA,Fri Feb 23 05:03:00 UTC 2018,1,80,1,2,1
+1,183,1676,Rajshahi,BAGMARA,Fri Feb 23 05:15:00 UTC 2018,1,80,1,2,1
+1,183,1677,Rajshahi,BAGMARA,Fri Feb 23 05:29:00 UTC 2018,1,80,0,2,2
+1,183,1678,Rajshahi,BAGMARA,Fri Feb 23 05:41:00 UTC 2018,1,80,0,2,2
+1,183,1679,Rajshahi,BAGMARA,Fri Feb 23 06:01:00 UTC 2018,1,80,0,2,1
+1,183,1680,Rajshahi,BAGMARA,Fri Feb 23 06:23:00 UTC 2018,1,80,0,2,1
+1,186,1701,Rajshahi,BAGMARA,Sat Jan 27 04:40:00 UTC 2018,1,40,1,2,1
+1,186,1702,Rajshahi,BAGMARA,Sat Jan 27 05:02:00 UTC 2018,1,40,1,2,1
+1,186,1703,Rajshahi,BAGMARA,Sat Jan 27 05:21:00 UTC 2018,1,40,1,2,1
+1,186,1704,Rajshahi,BAGMARA,Sat Jan 27 06:14:00 UTC 2018,1,40,0,1,2
+1,186,1705,Rajshahi,BAGMARA,Sat Jan 27 05:39:00 UTC 2018,1,40,1,1,2
+1,186,1706,Rajshahi,BAGMARA,Sat Jan 27 06:37:00 UTC 2018,1,40,0,2,1
+1,186,1707,Rajshahi,BAGMARA,Sat Jan 27 04:01:00 UTC 2018,1,40,1,2,1
+1,186,1708,Rajshahi,BAGMARA,Sat Jan 27 04:21:00 UTC 2018,1,40,1,2,5
+1,186,1709,Rajshahi,BAGMARA,Sat Jan 27 07:03:00 UTC 2018,1,40,1,2,1
+1,186,1710,Rajshahi,BAGMARA,"",1,40,1,2,2
+1,188,1721,Rajshahi,BAGMARA,Sun Jan 28 04:36:00 UTC 2018,1,40,1,2,1
+1,188,1722,Rajshahi,BAGMARA,Sun Jan 28 05:22:00 UTC 2018,1,40,1,2,1
+1,188,1723,Rajshahi,BAGMARA,Sun Jan 28 04:01:00 UTC 2018,1,40,1,2,1
+1,188,1724,Rajshahi,BAGMARA,Sun Jan 28 05:01:00 UTC 2018,1,40,1,2,1
+1,188,1725,Rajshahi,BAGMARA,Sun Jan 28 07:03:00 UTC 2018,1,40,0,2,1
+1,188,1726,Rajshahi,BAGMARA,Sun Jan 28 05:38:00 UTC 2018,1,40,1,1,2
+1,188,1727,Rajshahi,BAGMARA,Sun Jan 28 04:19:00 UTC 2018,1,40,1,2,1
+1,188,1728,Rajshahi,BAGMARA,Sun Jan 28 06:02:00 UTC 2018,1,40,1,1,2
+1,188,1729,Rajshahi,BAGMARA,Sun Jan 28 06:20:00 UTC 2018,1,40,1,2,1
+1,188,1730,Rajshahi,BAGMARA,Sun Jan 28 06:18:00 UTC 2018,1,40,0,2,1
+3,190,1741,Rajshahi,DURGAPUR,Tue Jan 23 02:59:00 UTC 2018,1,50,0,2,1
+3,190,1742,Rajshahi,DURGAPUR,Tue Jan 23 03:01:00 UTC 2018,1,50,0,2,1
+3,190,1743,Rajshahi,DURGAPUR,Tue Jan 23 03:04:00 UTC 2018,1,50,0,2,1
+3,190,1744,Rajshahi,DURGAPUR,Tue Jan 23 03:07:00 UTC 2018,1,50,0,2,1
+3,190,1745,Rajshahi,DURGAPUR,Tue Jan 23 03:10:00 UTC 2018,1,50,0,2,1
+3,190,1746,Rajshahi,DURGAPUR,Tue Jan 23 03:13:00 UTC 2018,1,50,0,2,1
+3,190,1747,Rajshahi,DURGAPUR,Tue Jan 23 03:15:00 UTC 2018,1,50,0,2,1
+3,190,1748,Rajshahi,DURGAPUR,Tue Jan 23 03:18:00 UTC 2018,1,50,0,2,1
+3,190,1749,Rajshahi,DURGAPUR,Tue Jan 23 03:20:00 UTC 2018,1,50,0,2,1
+3,190,1750,Rajshahi,DURGAPUR,Tue Jan 23 03:23:00 UTC 2018,1,50,0,2,1
+3,194,1771,Rajshahi,DURGAPUR,Mon Jan 22 07:30:00 UTC 2018,1,90,0,2,1
+3,194,1772,Rajshahi,DURGAPUR,Sun Jan 21 08:53:00 UTC 2018,1,90,0,2,1
+3,194,1773,Rajshahi,DURGAPUR,Mon Jan 22 07:33:00 UTC 2018,1,90,0,2,1
+3,194,1774,Rajshahi,DURGAPUR,Mon Jan 22 07:42:00 UTC 2018,1,90,0,2,1
+3,194,1775,Rajshahi,DURGAPUR,Mon Jan 22 07:35:00 UTC 2018,1,90,0,2,1
+3,194,1776,Rajshahi,DURGAPUR,Mon Jan 22 07:37:00 UTC 2018,1,90,0,2,1
+3,194,1777,Rajshahi,DURGAPUR,Mon Jan 22 07:43:00 UTC 2018,1,90,0,2,1
+3,194,1778,Rajshahi,DURGAPUR,Sun Jan 21 12:15:00 UTC 2018,1,90,0,2,1
+3,194,1779,Rajshahi,DURGAPUR,Sun Jan 21 12:19:00 UTC 2018,1,90,0,2,4
+3,194,1780,Rajshahi,DURGAPUR,Mon Jan 22 07:44:00 UTC 2018,1,90,0,2,1
+3,201,1841,Rajshahi,DURGAPUR,Wed Jan 24 07:42:00 UTC 2018,1,70,0,2,1
+3,201,1842,Rajshahi,DURGAPUR,Wed Jan 24 07:52:00 UTC 2018,1,70,0,2,1
+3,201,1843,Rajshahi,DURGAPUR,Tue Jan 23 08:04:00 UTC 2018,1,70,0,2,1
+3,201,1844,Rajshahi,DURGAPUR,Tue Jan 23 08:16:00 UTC 2018,1,70,0,2,1
+3,201,1845,Rajshahi,DURGAPUR,Tue Jan 23 08:24:00 UTC 2018,1,70,0,2,1
+3,201,1846,Rajshahi,DURGAPUR,Tue Jan 23 08:31:00 UTC 2018,1,70,0,2,1
+3,201,1847,Rajshahi,DURGAPUR,Wed Jan 24 08:40:00 UTC 2018,1,70,0,2,1
+3,201,1848,Rajshahi,DURGAPUR,Tue Jan 23 08:47:00 UTC 2018,1,70,0,2,1
+3,201,1849,Rajshahi,DURGAPUR,Tue Jan 23 08:56:00 UTC 2018,1,70,0,2,1
+3,201,1850,Rajshahi,DURGAPUR,Wed Jan 24 09:06:00 UTC 2018,1,70,0,2,1
+5,202,1851,Rajshahi,MOHANPUR,Sat Feb 17 03:55:00 UTC 2018,0,80,1,1,2
+5,202,1852,Rajshahi,MOHANPUR,Sat Feb 17 04:05:00 UTC 2018,0,80,0,2,7
+5,202,1853,Rajshahi,MOHANPUR,Sat Feb 17 04:14:00 UTC 2018,0,80,1,2,1
+5,202,1854,Rajshahi,MOHANPUR,Sat Feb 17 10:39:00 UTC 2018,0,80,0,2,4
+5,202,1855,Rajshahi,MOHANPUR,Sat Feb 17 10:57:00 UTC 2018,0,80,0,1,3
+5,202,1856,Rajshahi,MOHANPUR,Sat Feb 17 11:32:00 UTC 2018,0,80,0,2,1
+5,202,1858,Rajshahi,MOHANPUR,Sat Feb 17 09:33:00 UTC 2018,0,80,0,1,2
+5,202,1859,Rajshahi,MOHANPUR,Sat Feb 17 10:15:00 UTC 2018,0,80,0,2,7
+5,202,1860,Rajshahi,MOHANPUR,Sat Feb 17 03:41:00 UTC 2018,0,80,0,2,1
+5,204,1871,Rajshahi,MOHANPUR,Thu Feb 08 03:06:00 UTC 2018,0,40,1,2,1
+5,204,1872,Rajshahi,MOHANPUR,Thu Feb 08 03:19:00 UTC 2018,0,40,0,2,1
+5,204,1873,Rajshahi,MOHANPUR,Thu Feb 08 03:42:00 UTC 2018,0,40,0,2,1
+5,204,1874,Rajshahi,MOHANPUR,Thu Feb 08 07:55:00 UTC 2018,0,40,0,1,2
+5,204,1875,Rajshahi,MOHANPUR,Thu Feb 08 10:27:00 UTC 2018,0,40,0,2,1
+5,204,1876,Rajshahi,MOHANPUR,Thu Feb 08 09:58:00 UTC 2018,0,40,0,1,8
+5,204,1877,Rajshahi,MOHANPUR,Thu Feb 08 06:47:00 UTC 2018,0,40,0,2,1
+5,204,1878,Rajshahi,MOHANPUR,Thu Feb 08 07:13:00 UTC 2018,0,40,1,2,1
+5,204,1879,Rajshahi,MOHANPUR,Thu Feb 08 09:29:00 UTC 2018,0,40,0,2,5
+5,204,1880,Rajshahi,MOHANPUR,Thu Feb 08 05:18:00 UTC 2018,0,40,0,2,1
+5,205,1881,Rajshahi,MOHANPUR,Sat Feb 10 05:21:00 UTC 2018,1,50,1,2,1
+5,205,1882,Rajshahi,MOHANPUR,Sat Feb 10 08:15:00 UTC 2018,1,50,0,1,2
+5,205,1883,Rajshahi,MOHANPUR,Sat Feb 10 04:02:00 UTC 2018,1,50,0,2,7
+5,205,1884,Rajshahi,MOHANPUR,Sat Feb 10 03:04:00 UTC 2018,1,50,1,2,4
+5,205,1885,Rajshahi,MOHANPUR,Sat Feb 10 06:17:00 UTC 2018,1,50,1,2,1
+5,205,1886,Rajshahi,MOHANPUR,Sat Feb 10 03:22:00 UTC 2018,1,50,0,2,1
+5,205,1887,Rajshahi,MOHANPUR,Sat Feb 10 05:33:00 UTC 2018,1,50,0,2,1
+5,205,1888,Rajshahi,MOHANPUR,Sat Feb 10 06:48:00 UTC 2018,1,50,1,2,5
+5,205,1889,Rajshahi,MOHANPUR,Sat Feb 10 07:07:00 UTC 2018,1,50,0,1,3
+5,205,1890,Rajshahi,MOHANPUR,Sat Feb 10 07:33:00 UTC 2018,1,50,0,2,1
+5,206,1891,Rajshahi,MOHANPUR,Wed Feb 07 03:06:00 UTC 2018,1,50,0,2,1
+5,206,1892,Rajshahi,MOHANPUR,Wed Feb 07 03:15:00 UTC 2018,1,50,0,2,1
+5,206,1893,Rajshahi,MOHANPUR,Wed Feb 07 03:34:00 UTC 2018,1,50,0,1,2
+5,206,1894,Rajshahi,MOHANPUR,Wed Feb 07 03:47:00 UTC 2018,1,50,0,2,1
+5,206,1895,Rajshahi,MOHANPUR,Wed Feb 07 04:03:00 UTC 2018,1,50,0,1,2
+5,206,1896,Rajshahi,MOHANPUR,Wed Feb 07 04:18:00 UTC 2018,1,50,1,2,1
+5,206,1897,Rajshahi,MOHANPUR,Wed Feb 07 04:32:00 UTC 2018,1,50,0,2,1
+5,206,1898,Rajshahi,MOHANPUR,Wed Feb 07 04:43:00 UTC 2018,1,50,0,2,1
+5,206,1899,Rajshahi,MOHANPUR,Wed Feb 07 05:02:00 UTC 2018,1,50,1,2,1
+5,206,1900,Rajshahi,MOHANPUR,Wed Feb 07 05:17:00 UTC 2018,1,50,0,2,1
+5,207,1901,Rajshahi,MOHANPUR,Sat Feb 10 03:03:00 UTC 2018,0,80,0,2,1
+5,207,1902,Rajshahi,MOHANPUR,Sat Feb 10 03:16:00 UTC 2018,0,80,0,1,2
+5,207,1903,Rajshahi,MOHANPUR,Sat Feb 10 03:36:00 UTC 2018,0,80,0,2,1
+5,207,1904,Rajshahi,MOHANPUR,Sat Feb 10 03:46:00 UTC 2018,0,80,0,2,1
+5,207,1905,Rajshahi,MOHANPUR,Sat Feb 10 04:04:00 UTC 2018,0,80,0,1,2
+5,207,1906,Rajshahi,MOHANPUR,Sat Feb 10 04:19:00 UTC 2018,0,80,0,2,1
+5,207,1907,Rajshahi,MOHANPUR,Sat Feb 10 04:38:00 UTC 2018,0,80,0,1,2
+5,207,1908,Rajshahi,MOHANPUR,Sat Feb 10 04:49:00 UTC 2018,0,80,0,2,1
+5,207,1909,Rajshahi,MOHANPUR,Sat Feb 10 05:07:00 UTC 2018,0,80,1,2,1
+5,207,1910,Rajshahi,MOHANPUR,Sat Feb 10 05:24:00 UTC 2018,0,80,0,1,2
+5,208,1911,Rajshahi,MOHANPUR,Fri Feb 09 03:01:00 UTC 2018,0,80,1,2,1
+5,208,1912,Rajshahi,MOHANPUR,Fri Feb 09 03:15:00 UTC 2018,0,80,0,2,1
+5,208,1913,Rajshahi,MOHANPUR,Fri Feb 09 03:34:00 UTC 2018,0,80,0,1,2
+5,208,1914,Rajshahi,MOHANPUR,Fri Feb 09 03:44:00 UTC 2018,0,80,0,2,1
+5,208,1915,Rajshahi,MOHANPUR,Fri Feb 09 04:02:00 UTC 2018,0,80,1,2,1
+5,208,1916,Rajshahi,MOHANPUR,Fri Feb 09 04:15:00 UTC 2018,0,80,0,1,2
+5,208,1917,Rajshahi,MOHANPUR,Fri Feb 09 04:32:00 UTC 2018,0,80,0,2,1
+5,208,1918,Rajshahi,MOHANPUR,Fri Feb 09 04:45:00 UTC 2018,0,80,0,2,1
+5,208,1919,Rajshahi,MOHANPUR,Fri Feb 09 05:04:00 UTC 2018,0,80,0,1,2
+5,208,1920,Rajshahi,MOHANPUR,Fri Feb 09 05:33:00 UTC 2018,0,80,0,2,1
+5,209,1921,Rajshahi,MOHANPUR,Thu Feb 08 03:06:00 UTC 2018,1,70,1,2,1
+5,209,1922,Rajshahi,MOHANPUR,Thu Feb 08 03:16:00 UTC 2018,1,70,1,2,1
+5,209,1923,Rajshahi,MOHANPUR,Thu Feb 08 03:33:00 UTC 2018,1,70,0,2,1
+5,209,1924,Rajshahi,MOHANPUR,Thu Feb 08 03:45:00 UTC 2018,1,70,0,2,1
+5,209,1925,Rajshahi,MOHANPUR,Thu Feb 08 04:03:00 UTC 2018,1,70,0,2,1
+5,209,1926,Rajshahi,MOHANPUR,Thu Feb 08 04:17:00 UTC 2018,1,70,0,1,2
+5,209,1927,Rajshahi,MOHANPUR,Thu Feb 08 04:35:00 UTC 2018,1,70,0,1,2
+5,209,1928,Rajshahi,MOHANPUR,Thu Feb 08 04:46:00 UTC 2018,1,70,0,2,1
+5,209,1929,Rajshahi,MOHANPUR,Thu Feb 08 05:02:00 UTC 2018,1,70,0,2,1
+5,209,1930,Rajshahi,MOHANPUR,Thu Feb 08 05:17:00 UTC 2018,1,70,0,1,2
+5,211,1941,Rajshahi,MOHANPUR,Thu Feb 15 03:05:00 UTC 2018,1,20,0,2,1
+5,211,1942,Rajshahi,MOHANPUR,Thu Feb 15 03:17:00 UTC 2018,1,20,0,1,2
+5,211,1943,Rajshahi,MOHANPUR,Thu Feb 15 03:31:00 UTC 2018,1,20,1,2,1
+5,211,1944,Rajshahi,MOHANPUR,Thu Feb 15 03:46:00 UTC 2018,1,20,0,2,1
+5,211,1945,Rajshahi,MOHANPUR,Thu Feb 15 04:02:00 UTC 2018,1,20,0,1,2
+5,211,1946,Rajshahi,MOHANPUR,Thu Feb 15 04:17:00 UTC 2018,1,20,1,2,1
+5,211,1947,Rajshahi,MOHANPUR,Thu Feb 15 04:32:00 UTC 2018,1,20,0,2,1
+5,211,1948,Rajshahi,MOHANPUR,Thu Feb 15 04:47:00 UTC 2018,1,20,0,2,1
+5,211,1949,Rajshahi,MOHANPUR,Thu Feb 15 05:06:00 UTC 2018,1,20,0,1,2
+5,211,1950,Rajshahi,MOHANPUR,Thu Feb 15 05:17:00 UTC 2018,1,20,0,2,1
+5,213,1961,Rajshahi,MOHANPUR,Thu Feb 15 02:57:00 UTC 2018,0,70,0,1,2
+5,213,1962,Rajshahi,MOHANPUR,Thu Feb 15 03:18:00 UTC 2018,0,70,0,2,7
+5,213,1963,Rajshahi,MOHANPUR,Thu Feb 15 03:45:00 UTC 2018,0,70,0,1,2
+5,213,1964,Rajshahi,MOHANPUR,Sun Feb 18 11:10:00 UTC 2018,0,70,0,2,1
+5,213,1965,Rajshahi,MOHANPUR,Thu Feb 15 04:57:00 UTC 2018,0,70,0,2,7
+5,213,1966,Rajshahi,MOHANPUR,Thu Feb 15 04:46:00 UTC 2018,0,70,0,2,1
+5,213,1967,Rajshahi,MOHANPUR,Thu Feb 15 04:07:00 UTC 2018,0,70,0,2,1
+5,213,1968,Rajshahi,MOHANPUR,Thu Feb 15 11:45:00 UTC 2018,0,70,0,1,2
+5,213,1969,Rajshahi,MOHANPUR,Thu Feb 15 04:23:00 UTC 2018,0,70,0,1,2
+5,213,1970,Rajshahi,MOHANPUR,Thu Feb 15 11:57:00 UTC 2018,0,70,0,2,1
+5,214,1971,Rajshahi,MOHANPUR,Tue Feb 06 07:40:00 UTC 2018,1,80,0,2,1
+5,214,1972,Rajshahi,MOHANPUR,Tue Feb 06 07:43:00 UTC 2018,1,80,0,2,1
+5,214,1973,Rajshahi,MOHANPUR,Tue Feb 06 07:45:00 UTC 2018,1,80,0,2,1
+5,214,1974,Rajshahi,MOHANPUR,Tue Feb 06 07:47:00 UTC 2018,1,80,0,2,1
+5,214,1975,Rajshahi,MOHANPUR,Tue Feb 06 07:49:00 UTC 2018,1,80,0,2,1
+5,214,1976,Rajshahi,MOHANPUR,Tue Feb 06 07:51:00 UTC 2018,1,80,0,2,1
+5,214,1977,Rajshahi,MOHANPUR,Tue Feb 06 07:52:00 UTC 2018,1,80,0,2,1
+5,214,1978,Rajshahi,MOHANPUR,Tue Feb 06 07:54:00 UTC 2018,1,80,0,2,1
+5,214,1979,Rajshahi,MOHANPUR,Tue Feb 06 07:56:00 UTC 2018,1,80,0,2,1
+5,214,1980,Rajshahi,MOHANPUR,Tue Feb 06 07:58:00 UTC 2018,1,80,0,2,1
+5,219,2011,Rajshahi,MOHANPUR,Sun Feb 04 08:31:00 UTC 2018,1,50,0,2,1
+5,219,2012,Rajshahi,MOHANPUR,Sun Feb 04 04:32:00 UTC 2018,1,50,0,2,1
+5,219,2013,Rajshahi,MOHANPUR,Sun Feb 04 04:43:00 UTC 2018,1,50,0,2,1
+5,219,2014,Rajshahi,MOHANPUR,Sun Feb 04 05:17:00 UTC 2018,1,50,0,2,1
+5,219,2015,Rajshahi,MOHANPUR,Sun Feb 04 05:35:00 UTC 2018,1,50,0,2,1
+5,219,2016,Rajshahi,MOHANPUR,Sun Feb 04 05:48:00 UTC 2018,1,50,0,2,1
+5,219,2017,Rajshahi,MOHANPUR,Sun Feb 04 18:14:00 UTC 2018,1,50,0,2,1
+5,219,2018,Rajshahi,MOHANPUR,Sun Feb 04 05:51:00 UTC 2018,1,50,0,2,1
+5,219,2019,Rajshahi,MOHANPUR,Sun Feb 04 09:02:00 UTC 2018,1,50,0,2,1
+5,219,2020,Rajshahi,MOHANPUR,Sun Feb 04 07:08:00 UTC 2018,1,50,0,2,1
+5,224,2061,Rajshahi,MOHANPUR,Sat Feb 10 01:41:00 UTC 2018,1,60,1,2,1
+5,224,2062,Rajshahi,MOHANPUR,Sat Feb 10 02:07:00 UTC 2018,1,60,0,2,1
+5,224,2063,Rajshahi,MOHANPUR,Sat Feb 10 02:28:00 UTC 2018,1,60,0,2,1
+5,224,2064,Rajshahi,MOHANPUR,Sat Feb 10 02:49:00 UTC 2018,1,60,0,2,1
+5,224,2065,Rajshahi,MOHANPUR,Sat Feb 10 03:28:00 UTC 2018,1,60,0,2,1
+5,224,2066,Rajshahi,MOHANPUR,Sat Feb 10 04:04:00 UTC 2018,1,60,0,2,1
+5,224,2067,Rajshahi,MOHANPUR,Sat Feb 10 04:30:00 UTC 2018,1,60,0,2,1
+5,224,2068,Rajshahi,MOHANPUR,Sat Feb 10 05:02:00 UTC 2018,1,60,0,2,1
+5,224,2069,Rajshahi,MOHANPUR,Sat Feb 10 05:35:00 UTC 2018,1,60,0,2,1
+5,224,2070,Rajshahi,MOHANPUR,Sat Feb 10 05:30:00 UTC 2018,1,60,0,2,1
+5,225,2071,Rajshahi,MOHANPUR,Fri Feb 09 01:32:00 UTC 2018,1,80,0,2,1
+5,225,2072,Rajshahi,MOHANPUR,Fri Feb 09 01:48:00 UTC 2018,1,80,0,2,1
+5,225,2073,Rajshahi,MOHANPUR,Fri Feb 09 02:07:00 UTC 2018,1,80,0,2,1
+5,225,2074,Rajshahi,MOHANPUR,Fri Feb 09 02:30:00 UTC 2018,1,80,0,2,1
+5,225,2075,Rajshahi,MOHANPUR,Fri Feb 09 03:03:00 UTC 2018,1,80,0,2,1
+5,225,2076,Rajshahi,MOHANPUR,Fri Feb 09 03:43:00 UTC 2018,1,80,0,2,1
+5,225,2077,Rajshahi,MOHANPUR,Fri Feb 09 04:03:00 UTC 2018,1,80,0,2,1
+5,225,2078,Rajshahi,MOHANPUR,Fri Feb 09 04:29:00 UTC 2018,1,80,0,2,1
+5,225,2079,Rajshahi,MOHANPUR,Fri Feb 09 05:05:00 UTC 2018,1,80,0,2,1
+5,225,2080,Rajshahi,MOHANPUR,Fri Feb 09 05:35:00 UTC 2018,1,80,0,2,1
+12,226,2081,Rajshahi,TANORE,Fri Jan 26 03:03:00 UTC 2018,1,20,1,2,1
+12,226,2082,Rajshahi,TANORE,Fri Jan 26 03:30:00 UTC 2018,1,20,1,2,1
+12,226,2083,Rajshahi,TANORE,Fri Jan 26 03:42:00 UTC 2018,1,20,1,2,1
+12,226,2084,Rajshahi,TANORE,Fri Jan 26 03:56:00 UTC 2018,1,20,1,2,1
+12,226,2085,Rajshahi,TANORE,Fri Jan 26 04:09:00 UTC 2018,1,20,1,2,1
+12,226,2086,Rajshahi,TANORE,Fri Jan 26 04:40:00 UTC 2018,1,20,1,2,1
+12,226,2087,Rajshahi,TANORE,Fri Jan 26 04:59:00 UTC 2018,1,20,1,2,1
+12,226,2088,Rajshahi,TANORE,Fri Jan 26 05:17:00 UTC 2018,1,20,1,2,1
+12,226,2089,Rajshahi,TANORE,Fri Jan 26 05:29:00 UTC 2018,1,20,1,2,1
+12,226,2090,Rajshahi,TANORE,Fri Jan 26 05:44:00 UTC 2018,1,20,1,2,1
+12,232,2132,Rajshahi,TANORE,Tue Feb 06 10:36:00 UTC 2018,0,20,0,2,1
+12,232,2134,Rajshahi,TANORE,Tue Feb 06 04:19:00 UTC 2018,0,20,1,2,1
+12,232,2138,Rajshahi,TANORE,Tue Feb 06 05:29:00 UTC 2018,0,20,0,2,1
+12,232,2139,Rajshahi,TANORE,Tue Feb 06 05:44:00 UTC 2018,0,20,0,2,1
+12,232,2140,Rajshahi,TANORE,Tue Feb 06 10:21:00 UTC 2018,0,20,0,2,1
+12,234,2151,Rajshahi,TANORE,Fri Feb 09 03:01:00 UTC 2018,0,40,0,2,1
+12,234,2152,Rajshahi,TANORE,Fri Feb 09 03:18:00 UTC 2018,0,40,0,2,1
+12,234,2153,Rajshahi,TANORE,Fri Feb 09 03:37:00 UTC 2018,0,40,0,2,1
+12,234,2154,Rajshahi,TANORE,Fri Feb 09 03:48:00 UTC 2018,0,40,0,2,1
+12,234,2155,Rajshahi,TANORE,Fri Feb 09 04:10:00 UTC 2018,0,40,0,2,1
+12,234,2156,Rajshahi,TANORE,Fri Feb 09 04:26:00 UTC 2018,0,40,0,2,1
+12,234,2157,Rajshahi,TANORE,Fri Feb 09 04:48:00 UTC 2018,0,40,0,2,1
+12,234,2158,Rajshahi,TANORE,Fri Feb 09 05:09:00 UTC 2018,0,40,0,2,1
+12,234,2159,Rajshahi,TANORE,Fri Feb 09 05:35:00 UTC 2018,0,40,1,2,1
+12,234,2160,Rajshahi,TANORE,Fri Feb 09 05:51:00 UTC 2018,0,40,0,2,1
+12,235,2161,Rajshahi,TANORE,Thu Feb 01 03:02:00 UTC 2018,0,90,0,2,1
+12,235,2162,Rajshahi,TANORE,Thu Feb 01 03:16:00 UTC 2018,0,90,0,2,1
+12,235,2163,Rajshahi,TANORE,Thu Feb 01 03:37:00 UTC 2018,0,90,0,2,1
+12,235,2164,Rajshahi,TANORE,Thu Feb 01 03:50:00 UTC 2018,0,90,0,2,1
+12,235,2165,Rajshahi,TANORE,Thu Feb 01 04:06:00 UTC 2018,0,90,0,2,1
+12,235,2166,Rajshahi,TANORE,Thu Feb 01 04:23:00 UTC 2018,0,90,0,2,1
+12,235,2167,Rajshahi,TANORE,Thu Feb 01 04:58:00 UTC 2018,0,90,0,2,1
+12,235,2168,Rajshahi,TANORE,Thu Feb 01 05:11:00 UTC 2018,0,90,0,2,1
+12,235,2169,Rajshahi,TANORE,Thu Feb 01 05:25:00 UTC 2018,0,90,0,2,1
+12,235,2170,Rajshahi,TANORE,Thu Feb 01 05:42:00 UTC 2018,0,90,0,2,1
+12,238,2191,Rajshahi,TANORE,Mon Feb 05 02:44:00 UTC 2018,1,70,0,2,1
+12,238,2192,Rajshahi,TANORE,Mon Feb 05 03:03:00 UTC 2018,1,70,0,2,4
+12,238,2193,Rajshahi,TANORE,Mon Feb 05 03:16:00 UTC 2018,1,70,0,2,1
+12,238,2194,Rajshahi,TANORE,Mon Feb 05 03:33:00 UTC 2018,1,70,0,2,1
+12,238,2195,Rajshahi,TANORE,Mon Feb 05 03:48:00 UTC 2018,1,70,0,2,1
+12,238,2196,Rajshahi,TANORE,Mon Feb 05 04:18:00 UTC 2018,1,70,0,1,2
+12,238,2197,Rajshahi,TANORE,Mon Feb 05 04:31:00 UTC 2018,1,70,0,1,2
+12,238,2198,Rajshahi,TANORE,Mon Feb 05 04:49:00 UTC 2018,1,70,0,2,5
+12,238,2199,Rajshahi,TANORE,Mon Feb 05 05:03:00 UTC 2018,1,70,0,2,1
+12,238,2200,Rajshahi,TANORE,Mon Feb 05 05:17:00 UTC 2018,1,70,0,2,1
+12,241,2211,Rajshahi,TANORE,Fri Feb 02 05:04:00 UTC 2018,1,20,1,2,5
+12,241,2212,Rajshahi,TANORE,Fri Feb 02 04:29:00 UTC 2018,1,20,1,2,1
+12,241,2213,Rajshahi,TANORE,Fri Feb 02 05:27:00 UTC 2018,1,20,1,2,1
+12,241,2214,Rajshahi,TANORE,Fri Feb 02 05:44:00 UTC 2018,1,20,0,2,1
+12,241,2215,Rajshahi,TANORE,Fri Feb 02 02:58:00 UTC 2018,1,20,1,2,1
+12,241,2216,Rajshahi,TANORE,Fri Feb 02 03:32:00 UTC 2018,1,20,1,2,1
+12,241,2217,Rajshahi,TANORE,Fri Feb 02 06:25:00 UTC 2018,1,20,0,1,2
+12,241,2218,Rajshahi,TANORE,Fri Feb 02 06:41:00 UTC 2018,1,20,0,2,5
+12,241,2219,Rajshahi,TANORE,Fri Feb 02 04:02:00 UTC 2018,1,20,1,2,1
+12,241,2220,Rajshahi,TANORE,Fri Feb 02 06:56:00 UTC 2018,1,20,0,2,1
+12,242,2221,Rajshahi,TANORE,Sun Feb 04 02:45:00 UTC 2018,0,30,1,2,7
+12,242,2222,Rajshahi,TANORE,Sun Feb 04 02:55:00 UTC 2018,0,30,1,2,1
+12,242,2223,Rajshahi,TANORE,Sun Feb 04 04:01:00 UTC 2018,0,30,0,2,1
+12,242,2224,Rajshahi,TANORE,Sun Feb 04 04:46:00 UTC 2018,0,30,0,2,1
+12,242,2225,Rajshahi,TANORE,Fri Feb 09 04:15:00 UTC 2018,0,30,0,2,1
+12,242,2226,Rajshahi,TANORE,Sun Feb 04 04:33:00 UTC 2018,0,30,0,2,1
+12,242,2227,Rajshahi,TANORE,Sun Feb 04 03:46:00 UTC 2018,0,30,1,2,1
+12,242,2228,Rajshahi,TANORE,Sun Feb 04 04:47:00 UTC 2018,0,30,0,2,1
+12,242,2229,Rajshahi,TANORE,Sun Feb 04 05:02:00 UTC 2018,0,30,0,2,4
+12,242,2230,Rajshahi,TANORE,Sun Feb 04 05:31:00 UTC 2018,0,30,0,1,2
+12,244,2241,Rajshahi,TANORE,Sat Feb 03 02:30:00 UTC 2018,1,90,0,2,1
+12,244,2242,Rajshahi,TANORE,Sat Feb 03 03:31:00 UTC 2018,1,90,0,2,1
+12,244,2243,Rajshahi,TANORE,Sat Feb 03 03:48:00 UTC 2018,1,90,0,2,1
+12,244,2244,Rajshahi,TANORE,Sat Feb 03 04:00:00 UTC 2018,1,90,0,1,2
+12,244,2245,Rajshahi,TANORE,Sat Feb 03 04:16:00 UTC 2018,1,90,0,2,4
+12,244,2246,Rajshahi,TANORE,Sat Feb 03 04:31:00 UTC 2018,1,90,0,2,1
+12,244,2247,Rajshahi,TANORE,Sat Feb 03 04:44:00 UTC 2018,1,90,0,2,1
+12,244,2248,Rajshahi,TANORE,Sat Feb 03 04:59:00 UTC 2018,1,90,0,1,3
+12,244,2249,Rajshahi,TANORE,Sat Feb 03 05:26:00 UTC 2018,1,90,0,2,1
+12,244,2250,Rajshahi,TANORE,Sat Feb 03 05:38:00 UTC 2018,1,90,0,2,1
+12,253,2331,Rajshahi,TANORE,Thu Feb 01 03:02:00 UTC 2018,1,90,0,2,1
+12,253,2332,Rajshahi,TANORE,Thu Feb 01 03:16:00 UTC 2018,1,90,0,2,1
+12,253,2333,Rajshahi,TANORE,Thu Feb 01 03:34:00 UTC 2018,1,90,0,2,1
+12,253,2334,Rajshahi,TANORE,Thu Feb 01 03:50:00 UTC 2018,1,90,0,2,1
+12,253,2335,Rajshahi,TANORE,Thu Feb 01 04:15:00 UTC 2018,1,90,0,2,1
+12,253,2336,Rajshahi,TANORE,Thu Feb 01 04:33:00 UTC 2018,1,90,0,2,1
+12,253,2337,Rajshahi,TANORE,Thu Feb 01 04:58:00 UTC 2018,1,90,0,2,1
+12,253,2338,Rajshahi,TANORE,Thu Feb 01 05:17:00 UTC 2018,1,90,0,2,1
+12,253,2339,Rajshahi,TANORE,Thu Feb 01 05:30:00 UTC 2018,1,90,0,2,1
+12,253,2340,Rajshahi,TANORE,Thu Feb 01 05:45:00 UTC 2018,1,90,0,2,1
+12,254,2341,Rajshahi,TANORE,Tue Jan 30 03:01:00 UTC 2018,0,50,1,2,1
+12,254,2342,Rajshahi,TANORE,Tue Jan 30 03:18:00 UTC 2018,0,50,0,2,1
+12,254,2343,Rajshahi,TANORE,Tue Jan 30 03:33:00 UTC 2018,0,50,0,2,1
+12,254,2344,Rajshahi,TANORE,Tue Jan 30 03:47:00 UTC 2018,0,50,0,2,1
+12,254,2345,Rajshahi,TANORE,Tue Jan 30 04:01:00 UTC 2018,0,50,0,2,1
+12,254,2346,Rajshahi,TANORE,Tue Jan 30 04:17:00 UTC 2018,0,50,0,2,1
+12,254,2347,Rajshahi,TANORE,Tue Jan 30 05:13:00 UTC 2018,0,50,0,2,1
+12,254,2348,Rajshahi,TANORE,Tue Jan 30 05:38:00 UTC 2018,0,50,0,2,1
+12,254,2349,Rajshahi,TANORE,Tue Jan 30 05:55:00 UTC 2018,0,50,0,2,1
+12,254,2350,Rajshahi,TANORE,Tue Jan 30 06:17:00 UTC 2018,0,50,1,2,1
+12,261,2401,Rajshahi,TANORE,Wed Feb 07 03:03:00 UTC 2018,1,80,0,2,1
+12,261,2402,Rajshahi,TANORE,Wed Feb 07 03:19:00 UTC 2018,1,80,0,2,1
+12,261,2403,Rajshahi,TANORE,Wed Feb 07 03:39:00 UTC 2018,1,80,0,2,1
+12,261,2404,Rajshahi,TANORE,Wed Feb 07 03:51:00 UTC 2018,1,80,0,2,1
+12,261,2405,Rajshahi,TANORE,Wed Feb 07 04:10:00 UTC 2018,1,80,0,2,1
+12,261,2406,Rajshahi,TANORE,Wed Feb 07 04:32:00 UTC 2018,1,80,0,2,1
+12,261,2407,Rajshahi,TANORE,Wed Feb 07 04:58:00 UTC 2018,1,80,0,2,1
+12,261,2408,Rajshahi,TANORE,Wed Feb 07 06:19:00 UTC 2018,1,80,0,2,1
+12,261,2409,Rajshahi,TANORE,Wed Feb 07 06:44:00 UTC 2018,1,80,0,2,1
+12,261,2410,Rajshahi,TANORE,Wed Feb 07 06:59:00 UTC 2018,1,80,0,2,1
+12,264,2421,Rajshahi,TANORE,Thu Feb 08 03:05:00 UTC 2018,1,30,1,2,1
+12,264,2422,Rajshahi,TANORE,Thu Feb 08 03:20:00 UTC 2018,1,30,0,2,1
+12,264,2423,Rajshahi,TANORE,Thu Feb 08 03:35:00 UTC 2018,1,30,0,2,1
+12,264,2424,Rajshahi,TANORE,Thu Feb 08 03:52:00 UTC 2018,1,30,0,2,1
+12,264,2425,Rajshahi,TANORE,Thu Feb 08 04:09:00 UTC 2018,1,30,1,2,1
+12,264,2426,Rajshahi,TANORE,Thu Feb 08 04:20:00 UTC 2018,1,30,0,2,1
+12,264,2427,Rajshahi,TANORE,Thu Feb 08 04:43:00 UTC 2018,1,30,0,2,1
+12,264,2428,Rajshahi,TANORE,Thu Feb 08 04:56:00 UTC 2018,1,30,0,2,1
+12,264,2429,Rajshahi,TANORE,Thu Feb 08 05:28:00 UTC 2018,1,30,0,2,1
+12,264,2430,Rajshahi,TANORE,Thu Feb 08 05:42:00 UTC 2018,1,30,0,2,1
+12,267,2451,Rajshahi,TANORE,Thu Feb 01 05:32:00 UTC 2018,1,30,0,1,2
+12,267,2452,Rajshahi,TANORE,Thu Feb 01 05:53:00 UTC 2018,1,30,0,2,1
+12,267,2453,Rajshahi,TANORE,Thu Feb 01 06:03:00 UTC 2018,1,30,0,2,1
+12,267,2454,Rajshahi,TANORE,Thu Feb 01 06:16:00 UTC 2018,1,30,0,2,1
+12,267,2455,Rajshahi,TANORE,Thu Feb 01 06:34:00 UTC 2018,1,30,0,1,2
+12,267,2456,Rajshahi,TANORE,Thu Feb 01 03:05:00 UTC 2018,1,30,1,2,1
+12,267,2457,Rajshahi,TANORE,Thu Feb 01 06:49:00 UTC 2018,1,30,0,2,4
+12,267,2458,Rajshahi,TANORE,Thu Feb 01 07:04:00 UTC 2018,1,30,0,2,1
+12,267,2459,Rajshahi,TANORE,Thu Feb 01 07:26:00 UTC 2018,1,30,0,2,1
+12,267,2460,Rajshahi,TANORE,Thu Feb 01 07:41:00 UTC 2018,1,30,0,2,1
+2,268,2461,Rangpur,Badarganj,Mon Jan 08 05:21:00 UTC 2018,1,30,0,2,1
+2,268,2462,Rangpur,Badarganj,Mon Jan 08 04:22:00 UTC 2018,1,30,1,2,1
+2,268,2463,Rangpur,Badarganj,Mon Jan 08 05:32:00 UTC 2018,1,30,0,2,1
+2,268,2464,Rangpur,Badarganj,Mon Jan 08 05:46:00 UTC 2018,1,30,0,2,1
+2,268,2465,Rangpur,Badarganj,Mon Jan 08 05:58:00 UTC 2018,1,30,0,2,1
+2,268,2466,Rangpur,Badarganj,Mon Jan 08 06:08:00 UTC 2018,1,30,0,2,1
+2,268,2467,Rangpur,Badarganj,Mon Jan 08 06:18:00 UTC 2018,1,30,0,2,1
+2,268,2468,Rangpur,Badarganj,Mon Jan 08 06:35:00 UTC 2018,1,30,0,2,1
+2,268,2469,Rangpur,Badarganj,Mon Jan 08 06:56:00 UTC 2018,1,30,0,2,1
+2,268,2470,Rangpur,Badarganj,Mon Jan 08 07:09:00 UTC 2018,1,30,0,2,1
+2,276,2531,Rangpur,Badarganj,Tue Jan 09 01:39:00 UTC 2018,1,20,1,2,1
+2,276,2532,Rangpur,Badarganj,Tue Jan 09 01:57:00 UTC 2018,1,20,1,2,1
+2,276,2533,Rangpur,Badarganj,Tue Jan 09 02:21:00 UTC 2018,1,20,1,2,1
+2,276,2534,Rangpur,Badarganj,Tue Jan 09 02:46:00 UTC 2018,1,20,1,2,1
+2,276,2535,Rangpur,Badarganj,Tue Jan 09 02:58:00 UTC 2018,1,20,1,2,1
+2,276,2536,Rangpur,Badarganj,Tue Jan 09 03:15:00 UTC 2018,1,20,1,2,1
+2,276,2537,Rangpur,Badarganj,Tue Jan 09 03:34:00 UTC 2018,1,20,1,2,1
+2,276,2538,Rangpur,Badarganj,Tue Jan 09 03:55:00 UTC 2018,1,20,1,2,1
+2,276,2539,Rangpur,Badarganj,Tue Jan 09 04:13:00 UTC 2018,1,20,1,2,1
+2,276,2540,Rangpur,Badarganj,Tue Jan 09 04:35:00 UTC 2018,1,20,1,2,1
+2,283,2581,Rangpur,Badarganj,Sat Jan 06 02:49:00 UTC 2018,0,20,1,2,5
+2,283,2582,Rangpur,Badarganj,Sat Jan 06 03:20:00 UTC 2018,0,20,1,2,1
+2,283,2583,Rangpur,Badarganj,Sat Jan 06 04:07:00 UTC 2018,0,20,1,2,1
+2,283,2584,Rangpur,Badarganj,Sat Jan 06 04:46:00 UTC 2018,0,20,1,2,1
+2,283,2585,Rangpur,Badarganj,Sat Jan 06 05:20:00 UTC 2018,0,20,1,2,1
+2,283,2586,Rangpur,Badarganj,Sat Jan 06 05:54:00 UTC 2018,0,20,1,2,1
+2,283,2587,Rangpur,Badarganj,Sat Jan 06 06:29:00 UTC 2018,0,20,1,2,1
+2,283,2588,Rangpur,Badarganj,Sat Jan 06 06:54:00 UTC 2018,0,20,1,2,1
+2,283,2589,Rangpur,Badarganj,Sat Jan 06 07:35:00 UTC 2018,0,20,1,2,1
+2,283,2590,Rangpur,Badarganj,Sat Jan 06 07:58:00 UTC 2018,0,20,1,2,1
+6,285,2591,Rangpur,Mithapukur,Fri Jan 12 02:30:00 UTC 2018,0,60,1,2,1
+6,285,2592,Rangpur,Mithapukur,Fri Jan 12 02:45:00 UTC 2018,0,60,1,2,1
+6,285,2593,Rangpur,Mithapukur,Fri Jan 12 03:00:00 UTC 2018,0,60,1,2,1
+6,285,2594,Rangpur,Mithapukur,Fri Jan 12 03:15:00 UTC 2018,0,60,1,1,3
+6,285,2595,Rangpur,Mithapukur,Fri Jan 12 03:25:00 UTC 2018,0,60,1,2,1
+6,285,2596,Rangpur,Mithapukur,Fri Jan 12 03:40:00 UTC 2018,0,60,1,2,1
+6,285,2597,Rangpur,Mithapukur,Fri Jan 12 03:58:00 UTC 2018,0,60,0,2,1
+6,285,2598,Rangpur,Mithapukur,Fri Jan 12 04:15:00 UTC 2018,0,60,0,2,1
+6,285,2599,Rangpur,Mithapukur,Fri Jan 12 04:30:00 UTC 2018,0,60,1,1,3
+6,285,2600,Rangpur,Mithapukur,Fri Jan 12 04:45:00 UTC 2018,0,60,0,2,1
+6,305,2781,Rangpur,Mithapukur,Sun Jan 07 02:40:00 UTC 2018,1,20,1,2,1
+6,305,2782,Rangpur,Mithapukur,Sun Jan 07 03:00:00 UTC 2018,1,20,1,2,1
+6,305,2783,Rangpur,Mithapukur,Sun Jan 07 03:20:00 UTC 2018,1,20,1,2,1
+6,305,2784,Rangpur,Mithapukur,Sun Jan 07 03:40:00 UTC 2018,1,20,1,1,3
+6,305,2785,Rangpur,Mithapukur,Sun Jan 07 04:00:00 UTC 2018,1,20,1,1,2
+6,305,2786,Rangpur,Mithapukur,Sun Jan 07 04:20:00 UTC 2018,1,20,1,2,1
+6,305,2787,Rangpur,Mithapukur,Sun Jan 07 04:40:00 UTC 2018,1,20,1,2,1
+6,305,2788,Rangpur,Mithapukur,Sun Jan 07 05:00:00 UTC 2018,1,20,1,2,1
+6,305,2789,Rangpur,Mithapukur,Sun Jan 07 05:15:00 UTC 2018,1,20,1,2,1
+6,305,2790,Rangpur,Mithapukur,Sun Jan 07 05:30:00 UTC 2018,1,20,1,1,2
+6,306,2791,Rangpur,Mithapukur,Mon Jan 08 02:40:00 UTC 2018,1,20,1,2,1
+6,306,2792,Rangpur,Mithapukur,Mon Jan 08 03:00:00 UTC 2018,1,20,1,2,1
+6,306,2793,Rangpur,Mithapukur,Mon Jan 08 03:15:00 UTC 2018,1,20,1,2,1
+6,306,2794,Rangpur,Mithapukur,Mon Jan 08 03:30:00 UTC 2018,1,20,1,2,5
+6,306,2795,Rangpur,Mithapukur,Mon Jan 08 03:50:00 UTC 2018,1,20,1,2,1
+6,306,2796,Rangpur,Mithapukur,Mon Jan 08 04:10:00 UTC 2018,1,20,1,2,1
+6,306,2797,Rangpur,Mithapukur,Mon Jan 08 04:30:00 UTC 2018,1,20,1,2,1
+6,306,2798,Rangpur,Mithapukur,Mon Jan 08 04:45:00 UTC 2018,1,20,1,1,2
+6,306,2799,Rangpur,Mithapukur,Mon Jan 08 05:10:00 UTC 2018,1,20,1,2,1
+6,306,2800,Rangpur,Mithapukur,Mon Jan 08 05:30:00 UTC 2018,1,20,1,2,1
+6,311,2831,Rangpur,Mithapukur,Tue Jan 09 02:30:00 UTC 2018,1,30,1,2,1
+6,311,2832,Rangpur,Mithapukur,Tue Jan 09 02:45:00 UTC 2018,1,30,1,2,1
+6,311,2833,Rangpur,Mithapukur,Tue Jan 09 03:02:00 UTC 2018,1,30,1,2,1
+6,311,2834,Rangpur,Mithapukur,Tue Jan 09 03:15:00 UTC 2018,1,30,1,2,1
+6,311,2835,Rangpur,Mithapukur,Tue Jan 09 03:35:00 UTC 2018,1,30,1,2,5
+6,311,2836,Rangpur,Mithapukur,Tue Jan 09 04:00:00 UTC 2018,1,30,1,2,1
+6,311,2837,Rangpur,Mithapukur,Tue Jan 09 04:20:00 UTC 2018,1,30,1,2,1
+6,311,2838,Rangpur,Mithapukur,Tue Jan 09 04:40:00 UTC 2018,1,30,1,2,5
+6,311,2839,Rangpur,Mithapukur,Tue Jan 09 04:55:00 UTC 2018,1,30,1,2,1
+6,311,2840,Rangpur,Mithapukur,Tue Jan 09 05:15:00 UTC 2018,1,30,1,2,1
+6,314,2851,Rangpur,Mithapukur,Wed Jan 10 02:15:00 UTC 2018,1,70,0,2,1
+6,314,2852,Rangpur,Mithapukur,Wed Jan 10 02:30:00 UTC 2018,1,70,0,2,1
+6,314,2853,Rangpur,Mithapukur,Wed Jan 10 02:45:00 UTC 2018,1,70,0,2,1
+6,314,2854,Rangpur,Mithapukur,Wed Jan 10 03:00:00 UTC 2018,1,70,0,2,1
+6,314,2855,Rangpur,Mithapukur,Wed Jan 10 03:10:00 UTC 2018,1,70,0,2,1
+6,314,2856,Rangpur,Mithapukur,Wed Jan 10 03:25:00 UTC 2018,1,70,0,1,2
+6,314,2857,Rangpur,Mithapukur,Wed Jan 10 03:40:00 UTC 2018,1,70,0,1,2
+6,314,2858,Rangpur,Mithapukur,Wed Jan 10 04:00:00 UTC 2018,1,70,0,2,1
+6,314,2859,Rangpur,Mithapukur,Wed Jan 10 04:15:00 UTC 2018,1,70,0,2,1
+6,314,2860,Rangpur,Mithapukur,Wed Jan 10 04:30:00 UTC 2018,1,70,0,1,2
+6,319,2891,Rangpur,Mithapukur,Thu Jan 11 02:20:00 UTC 2018,0,60,1,2,5
+6,319,2892,Rangpur,Mithapukur,Thu Jan 11 02:35:00 UTC 2018,0,60,1,2,1
+6,319,2893,Rangpur,Mithapukur,Thu Jan 11 02:47:00 UTC 2018,0,60,1,1,6
+6,319,2894,Rangpur,Mithapukur,Thu Jan 11 03:05:00 UTC 2018,0,60,1,1,5
+6,319,2895,Rangpur,Mithapukur,Thu Jan 11 03:15:00 UTC 2018,0,60,1,2,1
+6,319,2896,Rangpur,Mithapukur,Thu Jan 11 03:30:00 UTC 2018,0,60,0,2,1
+6,319,2897,Rangpur,Mithapukur,Thu Jan 11 03:50:00 UTC 2018,0,60,1,1,2
+6,319,2898,Rangpur,Mithapukur,Thu Jan 11 04:10:00 UTC 2018,0,60,0,2,1
+6,319,2899,Rangpur,Mithapukur,Thu Jan 11 04:30:00 UTC 2018,0,60,0,2,1
+6,319,2900,Rangpur,Mithapukur,Thu Jan 11 04:45:00 UTC 2018,0,60,1,1,2
+10,320,2901,Rangpur,Pirgachha,Sat Jan 13 02:30:00 UTC 2018,1,90,0,2,1
+10,320,2902,Rangpur,Pirgachha,Sat Jan 13 02:45:00 UTC 2018,1,90,0,2,1
+10,320,2903,Rangpur,Pirgachha,Sat Jan 13 03:00:00 UTC 2018,1,90,0,1,1
+10,320,2904,Rangpur,Pirgachha,Sat Jan 13 03:15:00 UTC 2018,1,90,0,1,2
+10,320,2905,Rangpur,Pirgachha,Sat Jan 13 03:30:00 UTC 2018,1,90,0,1,2
+10,320,2906,Rangpur,Pirgachha,Sat Jan 13 03:45:00 UTC 2018,1,90,0,1,2
+10,320,2907,Rangpur,Pirgachha,Sat Jan 13 04:00:00 UTC 2018,1,90,0,1,2
+10,320,2908,Rangpur,Pirgachha,Sat Jan 13 04:20:00 UTC 2018,1,90,0,1,2
+10,320,2909,Rangpur,Pirgachha,Sat Jan 13 04:40:00 UTC 2018,1,90,0,2,1
+10,320,2910,Rangpur,Pirgachha,Sat Jan 13 05:00:00 UTC 2018,1,90,0,2,1
+10,322,2921,Rangpur,Pirgachha,Fri Jan 12 02:00:00 UTC 2018,0,70,0,2,1
+10,322,2922,Rangpur,Pirgachha,Fri Jan 12 02:15:00 UTC 2018,0,70,0,2,1
+10,322,2923,Rangpur,Pirgachha,Fri Jan 12 02:35:00 UTC 2018,0,70,0,2,1
+10,322,2924,Rangpur,Pirgachha,Fri Jan 12 02:50:00 UTC 2018,0,70,0,2,7
+10,322,2925,Rangpur,Pirgachha,Fri Jan 12 03:00:00 UTC 2018,0,70,0,2,1
+10,322,2926,Rangpur,Pirgachha,Fri Jan 12 03:15:00 UTC 2018,0,70,0,2,1
+10,322,2927,Rangpur,Pirgachha,Fri Jan 12 03:30:00 UTC 2018,0,70,0,2,1
+10,322,2928,Rangpur,Pirgachha,Fri Jan 12 03:45:00 UTC 2018,0,70,0,1,2
+10,322,2929,Rangpur,Pirgachha,Fri Jan 12 04:00:00 UTC 2018,0,70,0,1,2
+10,322,2930,Rangpur,Pirgachha,Fri Jan 12 04:15:00 UTC 2018,0,70,0,2,1
+10,325,2951,Rangpur,Pirgachha,Wed Jan 10 04:30:00 UTC 2018,0,60,0,2,7
+10,325,2952,Rangpur,Pirgachha,Wed Jan 10 04:45:00 UTC 2018,0,60,0,2,7
+10,325,2953,Rangpur,Pirgachha,Wed Jan 10 03:25:00 UTC 2018,0,60,0,2,1
+10,325,2954,Rangpur,Pirgachha,Wed Jan 10 03:45:00 UTC 2018,0,60,0,2,1
+10,325,2955,Rangpur,Pirgachha,Wed Jan 10 04:05:00 UTC 2018,0,60,0,2,1
+10,325,2956,Rangpur,Pirgachha,Wed Jan 10 02:50:00 UTC 2018,0,60,1,2,1
+10,325,2957,Rangpur,Pirgachha,Wed Jan 10 03:10:00 UTC 2018,0,60,1,2,1
+10,325,2958,Rangpur,Pirgachha,Wed Jan 10 05:00:00 UTC 2018,0,60,0,1,2
+10,325,2959,Rangpur,Pirgachha,Wed Jan 10 05:20:00 UTC 2018,0,60,0,1,2
+10,325,2960,Rangpur,Pirgachha,Wed Jan 10 05:35:00 UTC 2018,0,60,0,1,2
+10,329,2991,Rangpur,Pirgachha,Fri Jan 12 09:27:00 UTC 2018,1,60,0,2,1
+10,329,2992,Rangpur,Pirgachha,Fri Jan 12 09:45:00 UTC 2018,1,60,0,2,1
+10,329,2993,Rangpur,Pirgachha,Fri Jan 12 10:03:00 UTC 2018,1,60,0,2,1
+10,329,2994,Rangpur,Pirgachha,Fri Jan 12 10:20:00 UTC 2018,1,60,0,2,1
+10,329,2995,Rangpur,Pirgachha,Fri Jan 12 10:27:00 UTC 2018,1,60,0,2,1
+10,329,2996,Rangpur,Pirgachha,Fri Jan 12 10:42:00 UTC 2018,1,60,0,2,1
+10,329,2997,Rangpur,Pirgachha,Fri Jan 12 11:04:00 UTC 2018,1,60,0,2,1
+10,329,2998,Rangpur,Pirgachha,Sat Jan 13 02:45:00 UTC 2018,1,60,0,2,1
+10,329,2999,Rangpur,Pirgachha,Sat Jan 13 03:03:00 UTC 2018,1,60,0,2,1
+10,329,3000,Rangpur,Pirgachha,Sat Jan 13 03:27:00 UTC 2018,1,60,0,2,1
+10,330,3001,Rangpur,Pirgachha,Sun Jan 14 08:15:00 UTC 2018,1,70,0,2,1
+10,330,3002,Rangpur,Pirgachha,Sun Jan 14 08:32:00 UTC 2018,1,70,0,2,1
+10,330,3003,Rangpur,Pirgachha,Sun Jan 14 08:48:00 UTC 2018,1,70,0,2,1
+10,330,3004,Rangpur,Pirgachha,Sun Jan 14 09:05:00 UTC 2018,1,70,0,2,1
+10,330,3005,Rangpur,Pirgachha,Sun Jan 14 09:20:00 UTC 2018,1,70,0,2,1
+10,330,3006,Rangpur,Pirgachha,Sun Jan 14 09:35:00 UTC 2018,1,70,0,2,1
+10,330,3007,Rangpur,Pirgachha,Sun Jan 14 09:50:00 UTC 2018,1,70,0,2,1
+10,330,3008,Rangpur,Pirgachha,Sun Jan 14 10:05:00 UTC 2018,1,70,0,2,1
+10,330,3009,Rangpur,Pirgachha,Sun Jan 14 10:22:00 UTC 2018,1,70,0,2,1
+10,330,3010,Rangpur,Pirgachha,Sun Jan 14 10:40:00 UTC 2018,1,70,0,2,1
+10,336,3051,Rangpur,Pirgachha,Sat Jan 13 08:10:00 UTC 2018,1,60,0,2,1
+10,336,3052,Rangpur,Pirgachha,Sat Jan 13 08:27:00 UTC 2018,1,60,0,2,1
+10,336,3053,Rangpur,Pirgachha,Sat Jan 13 08:40:00 UTC 2018,1,60,0,2,1
+10,336,3054,Rangpur,Pirgachha,Sat Jan 13 08:56:00 UTC 2018,1,60,0,2,1
+10,336,3055,Rangpur,Pirgachha,Sat Jan 13 09:15:00 UTC 2018,1,60,0,2,1
+10,336,3056,Rangpur,Pirgachha,Sat Jan 13 09:33:00 UTC 2018,1,60,0,2,1
+10,336,3057,Rangpur,Pirgachha,Sat Jan 13 09:50:00 UTC 2018,1,60,0,2,1
+10,336,3058,Rangpur,Pirgachha,Sat Jan 13 10:09:00 UTC 2018,1,60,0,2,1
+10,336,3059,Rangpur,Pirgachha,Sat Jan 13 10:20:00 UTC 2018,1,60,0,2,1
+10,336,3060,Rangpur,Pirgachha,Sat Jan 13 10:40:00 UTC 2018,1,60,0,2,1
+10,338,3071,Rangpur,Pirgachha,Sun Jan 14 03:00:00 UTC 2018,1,90,0,2,1
+10,338,3072,Rangpur,Pirgachha,Sun Jan 14 03:15:00 UTC 2018,1,90,0,2,1
+10,338,3073,Rangpur,Pirgachha,Sun Jan 14 03:25:00 UTC 2018,1,90,0,2,1
+10,338,3074,Rangpur,Pirgachha,Sun Jan 14 03:35:00 UTC 2018,1,90,0,2,1
+10,338,3075,Rangpur,Pirgachha,Sun Jan 14 03:45:00 UTC 2018,1,90,0,2,1
+10,338,3076,Rangpur,Pirgachha,Sun Jan 14 03:55:00 UTC 2018,1,90,0,1,2
+10,338,3077,Rangpur,Pirgachha,Sun Jan 14 04:10:00 UTC 2018,1,90,0,2,1
+10,338,3078,Rangpur,Pirgachha,Sun Jan 14 04:25:00 UTC 2018,1,90,0,2,1
+10,338,3079,Rangpur,Pirgachha,Sun Jan 14 04:40:00 UTC 2018,1,90,0,2,1
+10,338,3080,Rangpur,Pirgachha,Sun Jan 14 05:00:00 UTC 2018,1,90,0,1,2
+10,342,3101,Rangpur,Pirgachha,Wed Jan 10 02:42:00 UTC 2018,0,60,1,2,1
+10,342,3102,Rangpur,Pirgachha,Wed Jan 10 03:00:00 UTC 2018,0,60,1,2,1
+10,342,3103,Rangpur,Pirgachha,Wed Jan 10 03:17:00 UTC 2018,0,60,1,2,1
+10,342,3104,Rangpur,Pirgachha,Wed Jan 10 03:30:00 UTC 2018,0,60,1,2,1
+10,342,3105,Rangpur,Pirgachha,Wed Jan 10 03:45:00 UTC 2018,0,60,1,2,1
+10,342,3106,Rangpur,Pirgachha,Wed Jan 10 04:02:00 UTC 2018,0,60,1,2,1
+10,342,3107,Rangpur,Pirgachha,Wed Jan 10 04:18:00 UTC 2018,0,60,1,2,1
+10,342,3108,Rangpur,Pirgachha,Wed Jan 10 04:36:00 UTC 2018,0,60,1,2,5
+10,342,3109,Rangpur,Pirgachha,Wed Jan 10 04:54:00 UTC 2018,0,60,1,2,5
+10,342,3110,Rangpur,Pirgachha,Wed Jan 10 05:13:00 UTC 2018,0,60,1,2,1
+10,343,3111,Rangpur,Pirgachha,Sun Jan 07 02:30:00 UTC 2018,0,40,0,2,1
+10,343,3112,Rangpur,Pirgachha,Sun Jan 07 02:50:00 UTC 2018,0,40,1,2,1
+10,343,3113,Rangpur,Pirgachha,Sun Jan 07 03:09:00 UTC 2018,0,40,0,2,1
+10,343,3114,Rangpur,Pirgachha,Sun Jan 07 03:27:00 UTC 2018,0,40,0,2,1
+10,343,3115,Rangpur,Pirgachha,Sun Jan 07 03:45:00 UTC 2018,0,40,1,2,1
+10,343,3116,Rangpur,Pirgachha,Sun Jan 07 04:07:00 UTC 2018,0,40,0,2,1
+10,343,3117,Rangpur,Pirgachha,Sun Jan 07 04:25:00 UTC 2018,0,40,1,2,1
+10,343,3118,Rangpur,Pirgachha,Sun Jan 07 04:42:00 UTC 2018,0,40,0,2,1
+10,343,3119,Rangpur,Pirgachha,Sun Jan 07 05:03:00 UTC 2018,0,40,0,2,1
+10,343,3120,Rangpur,Pirgachha,Sun Jan 07 05:20:00 UTC 2018,0,40,1,2,1
+10,346,3141,Rangpur,Pirgachha,Mon Jan 08 03:00:00 UTC 2018,0,40,0,2,1
+10,346,3142,Rangpur,Pirgachha,Mon Jan 08 03:16:00 UTC 2018,0,40,0,2,1
+10,346,3143,Rangpur,Pirgachha,Mon Jan 08 03:32:00 UTC 2018,0,40,0,2,1
+10,346,3144,Rangpur,Pirgachha,Mon Jan 08 03:50:00 UTC 2018,0,40,0,2,1
+10,346,3145,Rangpur,Pirgachha,Mon Jan 08 04:10:00 UTC 2018,0,40,0,2,1
+10,346,3146,Rangpur,Pirgachha,Mon Jan 08 04:28:00 UTC 2018,0,40,0,2,4
+10,346,3147,Rangpur,Pirgachha,Mon Jan 08 04:45:00 UTC 2018,0,40,0,2,1
+10,346,3148,Rangpur,Pirgachha,Mon Jan 08 05:05:00 UTC 2018,0,40,1,1,1
+10,346,3149,Rangpur,Pirgachha,Mon Jan 08 05:23:00 UTC 2018,0,40,0,2,4
+10,346,3150,Rangpur,Pirgachha,Mon Jan 08 05:45:00 UTC 2018,0,40,1,2,1
+10,348,3161,Rangpur,Pirgachha,Sun Jan 14 02:30:00 UTC 2018,0,20,1,2,1
+10,348,3162,Rangpur,Pirgachha,Sun Jan 14 04:00:00 UTC 2018,0,20,1,2,1
+10,348,3163,Rangpur,Pirgachha,Sun Jan 14 04:35:00 UTC 2018,0,20,1,1,1
+10,348,3164,Rangpur,Pirgachha,Sun Jan 14 04:20:00 UTC 2018,0,20,1,1,1
+10,348,3165,Rangpur,Pirgachha,Sun Jan 14 02:50:00 UTC 2018,0,20,1,2,1
+10,348,3166,Rangpur,Pirgachha,Sun Jan 14 03:25:00 UTC 2018,0,20,1,2,1
+10,348,3167,Rangpur,Pirgachha,Sun Jan 14 03:40:00 UTC 2018,0,20,1,2,1
+10,348,3168,Rangpur,Pirgachha,Sun Jan 14 04:50:00 UTC 2018,0,20,1,2,1
+10,348,3169,Rangpur,Pirgachha,Sun Jan 14 03:10:00 UTC 2018,0,20,1,2,1
+10,348,3170,Rangpur,Pirgachha,Sun Jan 14 05:10:00 UTC 2018,0,20,1,2,7
+10,349,3171,Rangpur,Pirgachha,Sun Jan 07 02:30:00 UTC 2018,1,50,0,2,1
+10,349,3172,Rangpur,Pirgachha,Sun Jan 07 02:50:00 UTC 2018,1,50,0,2,1
+10,349,3173,Rangpur,Pirgachha,Sun Jan 07 03:05:00 UTC 2018,1,50,0,2,7
+10,349,3174,Rangpur,Pirgachha,Sun Jan 07 03:20:00 UTC 2018,1,50,0,2,1
+10,349,3175,Rangpur,Pirgachha,Sun Jan 07 03:35:00 UTC 2018,1,50,0,2,1
+10,349,3176,Rangpur,Pirgachha,Sun Jan 07 03:50:00 UTC 2018,1,50,0,2,1
+10,349,3177,Rangpur,Pirgachha,Sun Jan 07 04:15:00 UTC 2018,1,50,0,2,1
+10,349,3178,Rangpur,Pirgachha,Sun Jan 07 04:30:00 UTC 2018,1,50,0,2,1
+10,349,3179,Rangpur,Pirgachha,Sun Jan 07 04:50:00 UTC 2018,1,50,0,2,1
+10,349,3180,Rangpur,Pirgachha,Sun Jan 07 05:05:00 UTC 2018,1,50,0,2,1
+10,352,3201,Rangpur,Pirgachha,Tue Jan 09 02:50:00 UTC 2018,0,30,1,2,1
+10,352,3202,Rangpur,Pirgachha,Tue Jan 09 03:10:00 UTC 2018,0,30,1,2,1
+10,352,3203,Rangpur,Pirgachha,Tue Jan 09 03:25:00 UTC 2018,0,30,1,2,1
+10,352,3204,Rangpur,Pirgachha,Tue Jan 09 03:40:00 UTC 2018,0,30,0,2,1
+10,352,3205,Rangpur,Pirgachha,Tue Jan 09 04:00:00 UTC 2018,0,30,1,2,1
+10,352,3206,Rangpur,Pirgachha,Tue Jan 09 04:20:00 UTC 2018,0,30,0,2,1
+10,352,3207,Rangpur,Pirgachha,Tue Jan 09 04:40:00 UTC 2018,0,30,0,2,1
+10,352,3208,Rangpur,Pirgachha,Tue Jan 09 05:00:00 UTC 2018,0,30,1,2,1
+10,352,3209,Rangpur,Pirgachha,Tue Jan 09 05:20:00 UTC 2018,0,30,0,2,1
+10,352,3210,Rangpur,Pirgachha,Tue Jan 09 05:35:00 UTC 2018,0,30,0,2,1
+10,353,3211,Rangpur,Pirgachha,Mon Jan 08 03:00:00 UTC 2018,0,90,0,2,1
+10,353,3212,Rangpur,Pirgachha,Mon Jan 08 02:40:00 UTC 2018,0,90,1,2,1
+10,353,3213,Rangpur,Pirgachha,Mon Jan 08 02:40:00 UTC 2018,0,90,1,2,1
+10,353,3214,Rangpur,Pirgachha,Mon Jan 08 03:35:00 UTC 2018,0,90,0,2,1
+10,353,3215,Rangpur,Pirgachha,Mon Jan 08 03:50:00 UTC 2018,0,90,0,2,1
+10,353,3216,Rangpur,Pirgachha,Mon Jan 08 04:10:00 UTC 2018,0,90,0,2,1
+10,353,3217,Rangpur,Pirgachha,Mon Jan 08 04:25:00 UTC 2018,0,90,1,2,1
+10,353,3218,Rangpur,Pirgachha,Mon Jan 08 04:50:00 UTC 2018,0,90,0,2,1
+10,353,3219,Rangpur,Pirgachha,Mon Jan 08 05:10:00 UTC 2018,0,90,0,2,1
+10,353,3220,Rangpur,Pirgachha,Mon Jan 08 05:25:00 UTC 2018,0,90,0,2,1
+10,354,3221,Rangpur,Pirgachha,Thu Jan 11 08:12:00 UTC 2018,1,20,0,2,1
+10,354,3222,Rangpur,Pirgachha,Thu Jan 11 08:25:00 UTC 2018,1,20,0,2,1
+10,354,3223,Rangpur,Pirgachha,Thu Jan 11 08:40:00 UTC 2018,1,20,0,2,1
+10,354,3224,Rangpur,Pirgachha,Thu Jan 11 08:58:00 UTC 2018,1,20,0,2,1
+10,354,3225,Rangpur,Pirgachha,Thu Jan 11 09:15:00 UTC 2018,1,20,0,2,1
+10,354,3226,Rangpur,Pirgachha,Thu Jan 11 09:32:00 UTC 2018,1,20,0,2,1
+10,354,3227,Rangpur,Pirgachha,Thu Jan 11 09:48:00 UTC 2018,1,20,0,2,1
+10,354,3228,Rangpur,Pirgachha,Thu Jan 11 10:03:00 UTC 2018,1,20,0,2,1
+10,354,3229,Rangpur,Pirgachha,Thu Jan 11 10:20:00 UTC 2018,1,20,0,2,1
+10,354,3230,Rangpur,Pirgachha,Thu Jan 11 10:37:00 UTC 2018,1,20,0,2,1
+10,357,3251,Rangpur,Pirgachha,Tue Jan 09 02:45:00 UTC 2018,0,80,0,2,7
+10,357,3252,Rangpur,Pirgachha,Tue Jan 09 03:04:00 UTC 2018,0,80,0,2,1
+10,357,3253,Rangpur,Pirgachha,Tue Jan 09 03:23:00 UTC 2018,0,80,0,2,5
+10,357,3254,Rangpur,Pirgachha,Tue Jan 09 03:40:00 UTC 2018,0,80,0,2,1
+10,357,3255,Rangpur,Pirgachha,Tue Jan 09 03:58:00 UTC 2018,0,80,0,2,1
+10,357,3256,Rangpur,Pirgachha,Tue Jan 09 04:15:00 UTC 2018,0,80,0,2,1
+10,357,3257,Rangpur,Pirgachha,Tue Jan 09 04:59:00 UTC 2018,0,80,0,2,1
+10,357,3258,Rangpur,Pirgachha,Tue Jan 09 05:15:00 UTC 2018,0,80,1,2,1
+10,357,3259,Rangpur,Pirgachha,Tue Jan 09 05:33:00 UTC 2018,0,80,1,2,1
+10,357,3260,Rangpur,Pirgachha,Tue Jan 09 05:50:00 UTC 2018,0,80,1,2,1
+11,359,3271,Rangpur,Pirganj,Thu Jan 18 03:30:00 UTC 2018,1,60,0,2,1
+11,359,3272,Rangpur,Pirganj,Thu Jan 18 06:50:00 UTC 2018,1,60,0,2,1
+11,359,3273,Rangpur,Pirganj,Thu Jan 18 07:02:00 UTC 2018,1,60,0,2,1
+11,359,3274,Rangpur,Pirganj,Thu Jan 18 07:16:00 UTC 2018,1,60,0,2,1
+11,359,3275,Rangpur,Pirganj,Thu Jan 18 07:30:00 UTC 2018,1,60,0,2,1
+11,359,3276,Rangpur,Pirganj,Thu Jan 18 07:53:00 UTC 2018,1,60,0,2,1
+11,359,3277,Rangpur,Pirganj,Thu Jan 18 08:20:00 UTC 2018,1,60,0,2,7
+11,359,3278,Rangpur,Pirganj,Thu Jan 18 08:32:00 UTC 2018,1,60,0,2,1
+11,359,3279,Rangpur,Pirganj,Thu Jan 18 08:47:00 UTC 2018,1,60,0,2,1
+11,359,3280,Rangpur,Pirganj,Thu Jan 18 09:06:00 UTC 2018,1,60,0,2,1
+11,363,3301,Rangpur,Pirganj,Wed Jan 17 07:19:00 UTC 2018,1,30,1,2,1
+11,363,3302,Rangpur,Pirganj,Wed Jan 17 07:25:00 UTC 2018,1,30,0,2,1
+11,363,3303,Rangpur,Pirganj,Wed Jan 17 04:08:00 UTC 2018,1,30,1,1,1
+11,363,3304,Rangpur,Pirganj,Wed Jan 17 07:33:00 UTC 2018,1,30,0,2,1
+11,363,3305,Rangpur,Pirganj,Wed Jan 17 07:47:00 UTC 2018,1,30,0,2,1
+11,363,3306,Rangpur,Pirganj,Wed Jan 17 07:58:00 UTC 2018,1,30,0,2,7
+11,363,3307,Rangpur,Pirganj,Wed Jan 17 08:20:00 UTC 2018,1,30,0,2,1
+11,363,3308,Rangpur,Pirganj,Wed Jan 17 08:43:00 UTC 2018,1,30,0,2,1
+11,363,3309,Rangpur,Pirganj,Wed Jan 17 08:57:00 UTC 2018,1,30,0,2,1
+11,363,3310,Rangpur,Pirganj,Wed Jan 17 09:28:00 UTC 2018,1,30,0,2,5
+11,364,3311,Rangpur,Pirganj,Fri Jan 12 07:05:00 UTC 2018,0,70,0,2,1
+11,364,3312,Rangpur,Pirganj,Fri Jan 12 07:19:00 UTC 2018,0,70,0,2,1
+11,364,3313,Rangpur,Pirganj,Fri Jan 12 07:32:00 UTC 2018,0,70,0,2,1
+11,364,3314,Rangpur,Pirganj,Fri Jan 12 07:45:00 UTC 2018,0,70,0,2,1
+11,364,3315,Rangpur,Pirganj,Fri Jan 12 07:58:00 UTC 2018,0,70,0,2,1
+11,364,3316,Rangpur,Pirganj,Fri Jan 12 08:16:00 UTC 2018,0,70,0,2,1
+11,364,3317,Rangpur,Pirganj,Fri Jan 12 08:40:00 UTC 2018,0,70,0,2,1
+11,364,3318,Rangpur,Pirganj,Fri Jan 12 08:56:00 UTC 2018,0,70,0,2,1
+11,364,3319,Rangpur,Pirganj,Fri Jan 12 09:19:00 UTC 2018,0,70,0,2,1
+11,364,3320,Rangpur,Pirganj,Fri Jan 12 09:38:00 UTC 2018,0,70,0,2,1
+11,365,3321,Rangpur,Pirganj,Sun Jan 14 05:23:00 UTC 2018,0,40,1,2,1
+11,365,3322,Rangpur,Pirganj,Sun Jan 14 07:11:00 UTC 2018,0,40,0,2,1
+11,365,3323,Rangpur,Pirganj,Sun Jan 14 06:03:00 UTC 2018,0,40,1,2,1
+11,365,3324,Rangpur,Pirganj,Sun Jan 14 08:41:00 UTC 2018,0,40,0,2,1
+11,365,3325,Rangpur,Pirganj,Sun Jan 14 08:59:00 UTC 2018,0,40,0,2,1
+11,365,3326,Rangpur,Pirganj,Sun Jan 14 09:12:00 UTC 2018,0,40,0,2,1
+11,365,3327,Rangpur,Pirganj,Sun Jan 14 09:20:00 UTC 2018,0,40,0,2,1
+11,365,3328,Rangpur,Pirganj,Sun Jan 14 09:30:00 UTC 2018,0,40,0,2,1
+11,365,3329,Rangpur,Pirganj,Sun Jan 14 09:52:00 UTC 2018,0,40,0,2,1
+11,365,3330,Rangpur,Pirganj,Sun Jan 14 10:00:00 UTC 2018,0,40,0,2,1
+11,369,3361,Rangpur,Pirganj,Mon Jan 15 03:05:00 UTC 2018,1,80,0,2,1
+11,369,3362,Rangpur,Pirganj,Mon Jan 15 03:15:00 UTC 2018,1,80,0,2,1
+11,369,3363,Rangpur,Pirganj,Mon Jan 15 03:30:00 UTC 2018,1,80,0,2,1
+11,369,3364,Rangpur,Pirganj,Mon Jan 15 03:40:00 UTC 2018,1,80,0,2,1
+11,369,3365,Rangpur,Pirganj,Mon Jan 15 03:50:00 UTC 2018,1,80,0,2,1
+11,369,3366,Rangpur,Pirganj,Mon Jan 15 04:05:00 UTC 2018,1,80,0,2,1
+11,369,3367,Rangpur,Pirganj,Mon Jan 15 04:15:00 UTC 2018,1,80,0,2,1
+11,369,3368,Rangpur,Pirganj,Mon Jan 15 04:25:00 UTC 2018,1,80,0,1,2
+11,369,3369,Rangpur,Pirganj,Mon Jan 15 04:40:00 UTC 2018,1,80,0,2,1
+11,369,3370,Rangpur,Pirganj,Mon Jan 15 04:50:00 UTC 2018,1,80,0,2,1
+11,372,3391,Rangpur,Pirganj,Sun Jan 14 02:20:00 UTC 2018,0,70,1,2,1
+11,372,3392,Rangpur,Pirganj,Sun Jan 14 02:29:00 UTC 2018,0,70,0,2,1
+11,372,3393,Rangpur,Pirganj,Sun Jan 14 02:40:00 UTC 2018,0,70,0,2,1
+11,372,3394,Rangpur,Pirganj,Sun Jan 14 02:51:00 UTC 2018,0,70,0,2,1
+11,372,3395,Rangpur,Pirganj,Sun Jan 14 03:20:00 UTC 2018,0,70,0,2,1
+11,372,3396,Rangpur,Pirganj,Sun Jan 14 03:32:00 UTC 2018,0,70,0,2,1
+11,372,3397,Rangpur,Pirganj,Sun Jan 14 03:50:00 UTC 2018,0,70,0,2,1
+11,372,3398,Rangpur,Pirganj,Sun Jan 14 04:00:00 UTC 2018,0,70,0,2,1
+11,372,3399,Rangpur,Pirganj,Sun Jan 14 04:15:00 UTC 2018,0,70,0,2,1
+11,372,3400,Rangpur,Pirganj,Sun Jan 14 04:22:00 UTC 2018,0,70,0,2,2
+11,373,3401,Rangpur,Pirganj,Wed Jan 10 02:14:00 UTC 2018,1,50,0,2,1
+11,373,3402,Rangpur,Pirganj,Wed Jan 10 02:25:00 UTC 2018,1,50,0,2,1
+11,373,3403,Rangpur,Pirganj,Wed Jan 10 02:31:00 UTC 2018,1,50,0,2,1
+11,373,3404,Rangpur,Pirganj,Wed Jan 10 02:45:00 UTC 2018,1,50,0,1,2
+11,373,3405,Rangpur,Pirganj,Wed Jan 10 03:01:00 UTC 2018,1,50,0,2,1
+11,373,3406,Rangpur,Pirganj,Wed Jan 10 03:31:00 UTC 2018,1,50,0,2,1
+11,373,3407,Rangpur,Pirganj,Wed Jan 10 03:33:00 UTC 2018,1,50,0,2,1
+11,373,3408,Rangpur,Pirganj,Wed Jan 10 04:05:00 UTC 2018,1,50,0,2,1
+11,373,3409,Rangpur,Pirganj,Wed Jan 10 04:40:00 UTC 2018,1,50,0,2,1
+11,373,3410,Rangpur,Pirganj,Wed Jan 10 04:50:00 UTC 2018,1,50,0,2,1
+11,377,3441,Rangpur,Pirganj,Sun Jan 07 05:32:00 UTC 2018,0,50,1,2,1
+11,377,3442,Rangpur,Pirganj,Sun Jan 07 06:07:00 UTC 2018,0,50,1,2,5
+11,377,3443,Rangpur,Pirganj,Sun Jan 07 06:14:00 UTC 2018,0,50,1,2,5
+11,377,3444,Rangpur,Pirganj,Sun Jan 07 06:36:00 UTC 2018,0,50,1,2,1
+11,377,3445,Rangpur,Pirganj,Sun Jan 07 06:46:00 UTC 2018,0,50,0,2,1
+11,377,3446,Rangpur,Pirganj,Sun Jan 07 06:26:00 UTC 2018,0,50,1,2,5
+11,377,3447,Rangpur,Pirganj,Sun Jan 07 06:55:00 UTC 2018,0,50,0,2,2
+11,377,3448,Rangpur,Pirganj,Sun Jan 07 07:00:00 UTC 2018,0,50,0,2,1
+11,377,3449,Rangpur,Pirganj,Sun Jan 07 07:10:00 UTC 2018,0,50,0,2,1
+11,377,3450,Rangpur,Pirganj,Sun Jan 07 07:15:00 UTC 2018,0,50,0,1,2
+11,380,3461,Rangpur,Pirganj,Sat Jan 13 05:34:00 UTC 2018,1,70,0,2,1
+11,380,3462,Rangpur,Pirganj,Sat Jan 13 04:09:00 UTC 2018,1,70,0,2,1
+11,380,3463,Rangpur,Pirganj,Sat Jan 13 07:13:00 UTC 2018,1,70,0,2,1
+11,380,3464,Rangpur,Pirganj,Sat Jan 13 03:36:00 UTC 2018,1,70,0,2,1
+11,380,3465,Rangpur,Pirganj,Sat Jan 13 03:38:00 UTC 2018,1,70,0,2,1
+11,380,3466,Rangpur,Pirganj,Sat Jan 13 03:50:00 UTC 2018,1,70,0,2,1
+11,380,3467,Rangpur,Pirganj,Sat Jan 13 04:58:00 UTC 2018,1,70,0,2,1
+11,380,3468,Rangpur,Pirganj,Sat Jan 13 08:49:00 UTC 2018,1,70,0,2,1
+11,380,3469,Rangpur,Pirganj,Sat Jan 13 08:59:00 UTC 2018,1,70,0,2,1
+11,380,3470,Rangpur,Pirganj,Sat Jan 13 09:09:00 UTC 2018,1,70,0,2,1
+11,381,3471,Rangpur,Pirganj,Mon Jan 15 07:15:00 UTC 2018,1,40,0,2,1
+11,381,3472,Rangpur,Pirganj,Mon Jan 15 07:30:00 UTC 2018,1,40,0,2,1
+11,381,3473,Rangpur,Pirganj,Mon Jan 15 07:10:00 UTC 2018,1,40,0,2,1
+11,381,3474,Rangpur,Pirganj,Mon Jan 15 07:40:00 UTC 2018,1,40,0,2,1
+11,381,3475,Rangpur,Pirganj,Mon Jan 15 08:18:00 UTC 2018,1,40,0,2,1
+11,381,3476,Rangpur,Pirganj,Mon Jan 15 08:40:00 UTC 2018,1,40,0,2,1
+11,381,3477,Rangpur,Pirganj,Mon Jan 15 08:56:00 UTC 2018,1,40,0,2,1
+11,381,3478,Rangpur,Pirganj,Mon Jan 15 09:13:00 UTC 2018,1,40,0,2,1
+11,381,3479,Rangpur,Pirganj,Mon Jan 15 09:32:00 UTC 2018,1,40,0,2,1
+11,381,3480,Rangpur,Pirganj,Mon Jan 15 10:05:00 UTC 2018,1,40,0,2,1
+11,382,3481,Rangpur,Pirganj,Tue Jan 09 05:50:00 UTC 2018,1,50,0,2,1
+11,382,3482,Rangpur,Pirganj,Tue Jan 09 04:10:00 UTC 2018,1,50,0,2,1
+11,382,3483,Rangpur,Pirganj,Tue Jan 09 04:20:00 UTC 2018,1,50,0,2,1
+11,382,3484,Rangpur,Pirganj,Tue Jan 09 16:30:00 UTC 2018,1,50,0,2,1
+11,382,3485,Rangpur,Pirganj,Tue Jan 09 16:00:00 UTC 2018,1,50,0,2,1
+11,382,3486,Rangpur,Pirganj,Tue Jan 09 15:04:00 UTC 2018,1,50,0,2,1
+11,382,3487,Rangpur,Pirganj,Tue Jan 09 17:09:00 UTC 2018,1,50,0,2,1
+11,382,3488,Rangpur,Pirganj,Tue Jan 09 05:20:00 UTC 2018,1,50,0,2,1
+11,382,3489,Rangpur,Pirganj,Tue Jan 09 18:20:00 UTC 2018,1,50,0,2,1
+11,382,3490,Rangpur,Pirganj,Tue Jan 09 05:30:00 UTC 2018,1,50,0,2,1
+11,384,3501,Rangpur,Pirganj,Tue Jan 09 04:22:00 UTC 2018,1,30,0,2,1
+11,384,3502,Rangpur,Pirganj,Tue Jan 09 05:30:00 UTC 2018,1,30,0,2,1
+11,384,3503,Rangpur,Pirganj,Tue Jan 09 05:39:00 UTC 2018,1,30,0,2,1
+11,384,3504,Rangpur,Pirganj,Tue Jan 09 04:29:00 UTC 2018,1,30,0,2,1
+11,384,3505,Rangpur,Pirganj,Tue Jan 09 04:24:00 UTC 2018,1,30,0,2,1
+11,384,3506,Rangpur,Pirganj,Tue Jan 09 09:19:00 UTC 2018,1,30,1,2,1
+11,384,3507,Rangpur,Pirganj,Tue Jan 09 04:39:00 UTC 2018,1,30,0,2,1
+11,384,3508,Rangpur,Pirganj,Tue Jan 09 05:36:00 UTC 2018,1,30,0,2,1
+11,384,3509,Rangpur,Pirganj,Tue Jan 09 05:49:00 UTC 2018,1,30,0,2,1
+11,384,3510,Rangpur,Pirganj,Tue Jan 09 09:01:00 UTC 2018,1,30,0,2,1
+11,386,3521,Rangpur,Pirganj,Sun Jan 07 06:52:00 UTC 2018,0,50,1,2,1
+11,386,3522,Rangpur,Pirganj,Sun Jan 07 06:47:00 UTC 2018,0,50,1,2,1
+11,386,3523,Rangpur,Pirganj,Sun Jan 07 06:37:00 UTC 2018,0,50,1,2,1
+11,386,3524,Rangpur,Pirganj,Sun Jan 07 09:52:00 UTC 2018,0,50,1,2,1
+11,386,3525,Rangpur,Pirganj,Sun Jan 07 06:32:00 UTC 2018,0,50,1,2,1
+11,386,3526,Rangpur,Pirganj,Sun Jan 07 05:52:00 UTC 2018,0,50,0,2,1
+11,386,3527,Rangpur,Pirganj,Sun Jan 07 08:43:00 UTC 2018,0,50,1,2,1
+11,386,3528,Rangpur,Pirganj,Sun Jan 07 09:25:00 UTC 2018,0,50,0,2,1
+11,386,3529,Rangpur,Pirganj,Sun Jan 07 07:02:00 UTC 2018,0,50,0,2,1
+11,386,3530,Rangpur,Pirganj,Sun Jan 07 05:36:00 UTC 2018,0,50,0,2,1
+11,389,3551,Rangpur,Pirganj,Tue Jan 16 02:37:00 UTC 2018,1,80,0,2,1
+11,389,3552,Rangpur,Pirganj,Tue Jan 16 02:50:00 UTC 2018,1,80,0,2,1
+11,389,3553,Rangpur,Pirganj,Tue Jan 16 03:00:00 UTC 2018,1,80,0,2,1
+11,389,3554,Rangpur,Pirganj,Tue Jan 16 03:08:00 UTC 2018,1,80,0,2,1
+11,389,3555,Rangpur,Pirganj,Tue Jan 16 03:20:00 UTC 2018,1,80,0,2,1
+11,389,3556,Rangpur,Pirganj,Tue Jan 16 03:28:00 UTC 2018,1,80,0,2,1
+11,389,3557,Rangpur,Pirganj,Tue Jan 16 04:58:00 UTC 2018,1,80,0,2,1
+11,389,3558,Rangpur,Pirganj,Tue Jan 16 04:27:00 UTC 2018,1,80,0,2,1
+11,389,3559,Rangpur,Pirganj,Tue Jan 16 04:58:00 UTC 2018,1,80,0,2,1
+11,389,3560,Rangpur,Pirganj,Tue Jan 16 05:10:00 UTC 2018,1,80,0,2,1
+11,390,3561,Rangpur,Pirganj,Mon Jan 08 09:08:00 UTC 2018,1,60,0,2,1
+11,390,3562,Rangpur,Pirganj,Mon Jan 08 03:45:00 UTC 2018,1,60,0,2,1
+11,390,3563,Rangpur,Pirganj,Mon Jan 08 04:00:00 UTC 2018,1,60,0,2,1
+11,390,3564,Rangpur,Pirganj,Mon Jan 08 04:10:00 UTC 2018,1,60,0,2,1
+11,390,3565,Rangpur,Pirganj,Mon Jan 08 09:15:00 UTC 2018,1,60,0,2,1
+11,390,3566,Rangpur,Pirganj,Mon Jan 08 09:25:00 UTC 2018,1,60,0,2,1
+11,390,3567,Rangpur,Pirganj,Mon Jan 08 04:20:00 UTC 2018,1,60,0,1,2
+11,390,3568,Rangpur,Pirganj,Mon Jan 08 04:30:00 UTC 2018,1,60,0,2,1
+11,390,3569,Rangpur,Pirganj,Mon Jan 08 04:40:00 UTC 2018,1,60,0,1,2
+11,390,3570,Rangpur,Pirganj,Mon Jan 08 05:01:00 UTC 2018,1,60,0,2,1
+11,397,3621,Rangpur,Pirganj,Wed Jan 10 04:47:00 UTC 2018,1,20,0,2,1
+11,397,3622,Rangpur,Pirganj,Wed Jan 10 04:25:00 UTC 2018,1,20,0,2,1
+11,397,3623,Rangpur,Pirganj,Wed Jan 10 03:56:00 UTC 2018,1,20,0,2,1
+11,397,3624,Rangpur,Pirganj,Wed Jan 10 04:59:00 UTC 2018,1,20,0,2,1
+11,397,3625,Rangpur,Pirganj,Wed Jan 10 06:04:00 UTC 2018,1,20,1,2,1
+11,397,3626,Rangpur,Pirganj,Wed Jan 10 05:06:00 UTC 2018,1,20,0,2,1
+11,397,3627,Rangpur,Pirganj,Wed Jan 10 06:00:00 UTC 2018,1,20,1,2,1
+11,397,3628,Rangpur,Pirganj,Wed Jan 10 05:19:00 UTC 2018,1,20,0,2,1
+11,397,3629,Rangpur,Pirganj,Wed Jan 10 05:32:00 UTC 2018,1,20,0,2,1
+11,397,3630,Rangpur,Pirganj,Wed Jan 10 07:53:00 UTC 2018,1,20,0,2,1
+11,398,3631,Rangpur,Pirganj,Tue Jan 16 06:05:00 UTC 2018,0,70,0,2,1
+11,398,3632,Rangpur,Pirganj,Tue Jan 16 06:22:00 UTC 2018,0,70,0,2,1
+11,398,3633,Rangpur,Pirganj,Tue Jan 16 06:35:00 UTC 2018,0,70,0,2,1
+11,398,3634,Rangpur,Pirganj,Tue Jan 16 06:49:00 UTC 2018,0,70,0,2,1
+11,398,3635,Rangpur,Pirganj,Tue Jan 16 07:14:00 UTC 2018,0,70,0,2,1
+11,398,3636,Rangpur,Pirganj,Tue Jan 16 07:31:00 UTC 2018,0,70,0,2,1
+11,398,3637,Rangpur,Pirganj,Tue Jan 16 07:46:00 UTC 2018,0,70,0,2,1
+11,398,3638,Rangpur,Pirganj,Tue Jan 16 07:55:00 UTC 2018,0,70,0,2,1
+11,398,3639,Rangpur,Pirganj,Tue Jan 16 08:29:00 UTC 2018,0,70,0,2,1
+11,398,3640,Rangpur,Pirganj,Tue Jan 16 09:03:00 UTC 2018,0,70,0,2,1
+4,505,5001,Mymensingh,Haluaghat Upazila,Tue Jan 09 05:05:00 UTC 2018,1,90,0,2,1
+4,505,5003,Mymensingh,Haluaghat Upazila,Tue Jan 09 05:20:00 UTC 2018,1,90,0,2,1
+4,505,5006,Mymensingh,Haluaghat Upazila,Tue Jan 09 05:30:00 UTC 2018,1,90,0,2,1
+4,505,5007,Mymensingh,Haluaghat Upazila,Tue Jan 09 04:50:00 UTC 2018,1,90,0,2,4
+4,505,5008,Mymensingh,Haluaghat Upazila,Tue Jan 09 04:50:00 UTC 2018,1,90,0,2,1
+4,505,5009,Mymensingh,Haluaghat Upazila,Tue Jan 09 04:50:00 UTC 2018,1,90,0,2,7
+4,505,5012,Mymensingh,Haluaghat Upazila,Tue Jan 09 04:50:00 UTC 2018,1,90,0,2,9
+4,505,5015,Mymensingh,Haluaghat Upazila,Tue Jan 09 05:45:00 UTC 2018,1,90,0,2,1
+4,505,5018,Mymensingh,Haluaghat Upazila,Tue Jan 09 06:45:00 UTC 2018,1,90,0,2,1
+4,505,5020,Mymensingh,Haluaghat Upazila,Tue Jan 09 06:30:00 UTC 2018,1,90,0,2,1
+8,522,3711,Mymensingh,Mymensingh Sadar Upazila,Fri Jan 12 04:17:00 UTC 2018,0,60,1,2,5
+8,522,3712,Mymensingh,Mymensingh Sadar Upazila,Fri Jan 12 05:12:00 UTC 2018,0,60,0,2,2
+8,522,3713,Mymensingh,Mymensingh Sadar Upazila,Fri Jan 12 05:51:00 UTC 2018,0,60,0,2,7
+8,522,3714,Mymensingh,Mymensingh Sadar Upazila,Fri Jan 12 05:29:00 UTC 2018,0,60,0,1,2
+8,522,3715,Mymensingh,Mymensingh Sadar Upazila,Fri Jan 12 07:02:00 UTC 2018,0,60,0,1,2
+8,522,3716,Mymensingh,Mymensingh Sadar Upazila,Fri Jan 12 06:04:00 UTC 2018,0,60,0,2,1
+8,522,3717,Mymensingh,Mymensingh Sadar Upazila,Fri Jan 12 04:33:00 UTC 2018,0,60,0,1,2
+8,522,3718,Mymensingh,Mymensingh Sadar Upazila,Fri Jan 12 09:28:00 UTC 2018,0,60,0,1,2
+8,522,3719,Mymensingh,Mymensingh Sadar Upazila,Fri Jan 12 09:47:00 UTC 2018,0,60,0,2,1
+8,522,3720,Mymensingh,Mymensingh Sadar Upazila,Fri Jan 12 04:01:00 UTC 2018,0,60,1,2,5
+8,523,3721,Mymensingh,Mymensingh Sadar Upazila,Wed Jan 10 03:22:00 UTC 2018,0,50,0,2,4
+8,523,3722,Mymensingh,Mymensingh Sadar Upazila,Wed Jan 10 09:02:00 UTC 2018,0,50,0,2,1
+8,523,3723,Mymensingh,Mymensingh Sadar Upazila,Wed Jan 10 02:52:00 UTC 2018,0,50,1,2,1
+8,523,3724,Mymensingh,Mymensingh Sadar Upazila,Wed Jan 10 03:09:00 UTC 2018,0,50,0,1,2
+8,523,3725,Mymensingh,Mymensingh Sadar Upazila,Wed Jan 10 02:11:00 UTC 2018,0,50,0,1,2
+8,523,3726,Mymensingh,Mymensingh Sadar Upazila,Wed Jan 10 02:32:00 UTC 2018,0,50,0,2,1
+8,523,3727,Mymensingh,Mymensingh Sadar Upazila,Wed Jan 10 08:46:00 UTC 2018,0,50,0,1,2
+8,523,3728,Mymensingh,Mymensingh Sadar Upazila,Wed Jan 10 07:21:00 UTC 2018,0,50,0,2,1
+8,523,3729,Mymensingh,Mymensingh Sadar Upazila,Wed Jan 10 03:48:00 UTC 2018,0,50,1,2,1
+8,523,3730,Mymensingh,Mymensingh Sadar Upazila,Wed Jan 10 04:04:00 UTC 2018,0,50,0,2,1
+9,532,3741,Mymensingh,Phulpur Upazila,Fri Jan 12 03:04:00 UTC 2018,1,30,0,2,1
+9,532,3742,Mymensingh,Phulpur Upazila,Fri Jan 12 03:09:00 UTC 2018,1,30,0,2,1
+9,532,3743,Mymensingh,Phulpur Upazila,Fri Jan 12 03:15:00 UTC 2018,1,30,0,2,1
+9,532,3744,Mymensingh,Phulpur Upazila,Fri Jan 12 03:20:00 UTC 2018,1,30,0,2,1
+9,532,3745,Mymensingh,Phulpur Upazila,Fri Jan 12 03:25:00 UTC 2018,1,30,0,2,1
+9,532,3746,Mymensingh,Phulpur Upazila,Fri Jan 12 03:30:00 UTC 2018,1,30,0,2,1
+9,532,3747,Mymensingh,Phulpur Upazila,Fri Jan 12 03:40:00 UTC 2018,1,30,0,2,1
+9,532,3748,Mymensingh,Phulpur Upazila,Fri Jan 12 03:45:00 UTC 2018,1,30,0,2,1
+9,532,3749,Mymensingh,Phulpur Upazila,Fri Jan 12 03:53:00 UTC 2018,1,30,0,2,1
+9,532,3750,Mymensingh,Phulpur Upazila,Fri Jan 12 04:00:00 UTC 2018,1,30,0,2,1
+5,560,3811,Rajshahi,MOHANPUR,Wed Feb 14 10:45:00 UTC 2018,1,80,1,2,1
+5,560,3812,Rajshahi,MOHANPUR,Wed Feb 14 10:13:00 UTC 2018,1,80,0,2,1
+5,560,3813,Rajshahi,MOHANPUR,Wed Feb 14 11:02:00 UTC 2018,1,80,0,2,5
+5,560,3814,Rajshahi,MOHANPUR,Wed Feb 14 04:48:00 UTC 2018,1,80,0,2,1
+5,560,3815,Rajshahi,MOHANPUR,Wed Feb 14 05:07:00 UTC 2018,1,80,0,2,1
+5,560,3816,Rajshahi,MOHANPUR,Wed Feb 14 05:21:00 UTC 2018,1,80,0,2,7
+5,560,3817,Rajshahi,MOHANPUR,Wed Feb 14 09:57:00 UTC 2018,1,80,0,1,2
+5,560,3818,Rajshahi,MOHANPUR,Wed Feb 14 11:19:00 UTC 2018,1,80,0,2,2
+5,560,3819,Rajshahi,MOHANPUR,Wed Feb 14 08:36:00 UTC 2018,1,80,0,2,7
+5,560,3820,Rajshahi,MOHANPUR,Wed Feb 14 11:37:00 UTC 2018,1,80,0,2,7
+12,566,3821,Rajshahi,TANORE,Sat Feb 03 03:01:00 UTC 2018,1,70,0,2,1
+12,566,3822,Rajshahi,TANORE,Sat Feb 03 03:17:00 UTC 2018,1,70,0,2,1
+12,566,3823,Rajshahi,TANORE,Sat Feb 03 03:33:00 UTC 2018,1,70,0,2,1
+12,566,3824,Rajshahi,TANORE,Sat Feb 03 03:52:00 UTC 2018,1,70,0,2,1
+12,566,3825,Rajshahi,TANORE,Sat Feb 03 04:13:00 UTC 2018,1,70,0,2,1
+12,566,3826,Rajshahi,TANORE,Sat Feb 03 04:43:00 UTC 2018,1,70,0,2,1
+12,566,3827,Rajshahi,TANORE,Sat Feb 03 05:11:00 UTC 2018,1,70,0,2,1
+12,566,3828,Rajshahi,TANORE,Sat Feb 03 05:27:00 UTC 2018,1,70,0,2,1
+12,566,3829,Rajshahi,TANORE,Sat Feb 03 05:51:00 UTC 2018,1,70,1,2,1
+12,566,3830,Rajshahi,TANORE,Sat Feb 03 06:01:00 UTC 2018,1,70,0,2,1
+2,574,3861,Rangpur,Badarganj,Sun Jan 07 06:26:00 UTC 2018,1,90,0,2,1
+2,574,3862,Rangpur,Badarganj,Sun Jan 07 06:42:00 UTC 2018,1,90,0,2,1
+2,574,3863,Rangpur,Badarganj,Sun Jan 07 06:57:00 UTC 2018,1,90,0,2,1
+2,574,3864,Rangpur,Badarganj,Sun Jan 07 07:11:00 UTC 2018,1,90,0,2,1
+2,574,3865,Rangpur,Badarganj,Sun Jan 07 07:23:00 UTC 2018,1,90,0,2,1
+2,574,3866,Rangpur,Badarganj,Sun Jan 07 07:40:00 UTC 2018,1,90,0,2,1
+2,574,3867,Rangpur,Badarganj,Sun Jan 07 07:46:00 UTC 2018,1,90,0,2,1
+2,574,3868,Rangpur,Badarganj,Sun Jan 07 07:58:00 UTC 2018,1,90,0,1,1
+2,574,3869,Rangpur,Badarganj,Sun Jan 07 08:17:00 UTC 2018,1,90,0,2,1
+2,574,3870,Rangpur,Badarganj,Sun Jan 07 08:37:00 UTC 2018,1,90,0,2,1
+2,575,3871,Rangpur,Badarganj,Wed Jan 10 03:13:00 UTC 2018,1,40,0,2,1
+2,575,3872,Rangpur,Badarganj,Wed Jan 10 03:47:00 UTC 2018,1,40,0,2,1
+2,575,3873,Rangpur,Badarganj,Wed Jan 10 04:24:00 UTC 2018,1,40,0,2,1
+2,575,3874,Rangpur,Badarganj,Wed Jan 10 05:09:00 UTC 2018,1,40,0,2,1
+2,575,3875,Rangpur,Badarganj,Wed Jan 10 05:35:00 UTC 2018,1,40,0,2,1
+2,575,3876,Rangpur,Badarganj,Wed Jan 10 05:54:00 UTC 2018,1,40,0,2,1
+2,575,3877,Rangpur,Badarganj,Wed Jan 10 06:19:00 UTC 2018,1,40,0,2,1
+2,575,3878,Rangpur,Badarganj,Wed Jan 10 08:33:00 UTC 2018,1,40,0,2,1
+2,575,3879,Rangpur,Badarganj,Wed Jan 10 08:54:00 UTC 2018,1,40,0,2,1
+2,575,3880,Rangpur,Badarganj,Wed Jan 10 09:21:00 UTC 2018,1,40,0,2,1
+6,578,3901,Rangpur,Mithapukur,Sat Jan 13 02:25:00 UTC 2018,1,40,0,2,1
+6,578,3902,Rangpur,Mithapukur,Sat Jan 13 02:40:00 UTC 2018,1,40,0,2,1
+6,578,3903,Rangpur,Mithapukur,Sat Jan 13 03:00:00 UTC 2018,1,40,0,2,1
+6,578,3904,Rangpur,Mithapukur,Sat Jan 13 03:15:00 UTC 2018,1,40,0,2,1
+6,578,3905,Rangpur,Mithapukur,Sat Jan 13 03:30:00 UTC 2018,1,40,0,2,1
+6,578,3906,Rangpur,Mithapukur,Sat Jan 13 03:45:00 UTC 2018,1,40,0,1,2
+6,578,3907,Rangpur,Mithapukur,Sat Jan 13 04:00:00 UTC 2018,1,40,0,2,1
+6,578,3908,Rangpur,Mithapukur,Sat Jan 13 04:15:00 UTC 2018,1,40,0,2,1
+6,578,3909,Rangpur,Mithapukur,Sat Jan 13 04:30:00 UTC 2018,1,40,0,2,1
+6,578,3910,Rangpur,Mithapukur,Sat Jan 13 04:45:00 UTC 2018,1,40,0,1,2
+6,579,3911,Rangpur,Mithapukur,Tue Jan 16 02:30:00 UTC 2018,1,40,0,2,1
+6,579,3912,Rangpur,Mithapukur,Tue Jan 16 02:45:00 UTC 2018,1,40,0,2,1
+6,579,3913,Rangpur,Mithapukur,Tue Jan 16 03:00:00 UTC 2018,1,40,0,2,1
+6,579,3914,Rangpur,Mithapukur,Tue Jan 16 03:15:00 UTC 2018,1,40,0,2,1
+6,579,3915,Rangpur,Mithapukur,Tue Jan 16 03:30:00 UTC 2018,1,40,0,2,1
+6,579,3916,Rangpur,Mithapukur,Tue Jan 16 03:45:00 UTC 2018,1,40,0,2,1
+6,579,3917,Rangpur,Mithapukur,Tue Jan 16 04:00:00 UTC 2018,1,40,0,1,2
+6,579,3918,Rangpur,Mithapukur,Tue Jan 16 04:15:00 UTC 2018,1,40,0,1,2
+6,579,3919,Rangpur,Mithapukur,Tue Jan 16 04:30:00 UTC 2018,1,40,0,2,1
+6,579,3920,Rangpur,Mithapukur,Tue Jan 16 04:45:00 UTC 2018,1,40,0,1,2
+11,600,3961,Rangpur,Pirganj,Mon Jan 15 02:57:00 UTC 2018,0,50,0,2,1
+11,600,3962,Rangpur,Pirganj,Mon Jan 15 03:10:00 UTC 2018,0,50,0,2,1
+11,600,3963,Rangpur,Pirganj,Mon Jan 15 03:15:00 UTC 2018,0,50,0,2,1
+11,600,3964,Rangpur,Pirganj,Mon Jan 15 03:15:00 UTC 2018,0,50,0,2,1
+11,600,3965,Rangpur,Pirganj,Mon Jan 15 03:30:00 UTC 2018,0,50,0,2,1
+11,600,3966,Rangpur,Pirganj,Mon Jan 15 09:59:00 UTC 2018,0,50,0,2,1
+11,600,3967,Rangpur,Pirganj,Mon Jan 15 03:40:00 UTC 2018,0,50,0,2,1
+11,600,3968,Rangpur,Pirganj,Mon Jan 15 04:00:00 UTC 2018,0,50,0,2,1
+11,600,3969,Rangpur,Pirganj,Mon Jan 15 04:22:00 UTC 2018,0,50,0,2,1
+11,600,3970,Rangpur,Pirganj,Mon Jan 15 04:40:00 UTC 2018,0,50,0,2,1
+11,606,3971,Rangpur,Pirganj,Sat Jan 13 22:30:00 UTC 2018,1,20,0,2,1
+11,606,3972,Rangpur,Pirganj,Sat Jan 13 02:52:00 UTC 2018,1,20,1,2,1
+11,606,3973,Rangpur,Pirganj,Sat Jan 13 03:10:00 UTC 2018,1,20,1,2,1
+11,606,3974,Rangpur,Pirganj,Sat Jan 13 09:14:00 UTC 2018,1,20,1,2,1
+11,606,3975,Rangpur,Pirganj,Sat Jan 13 02:29:00 UTC 2018,1,20,1,2,1
+11,606,3976,Rangpur,Pirganj,Sat Jan 13 22:10:00 UTC 2018,1,20,0,2,1
+11,606,3977,Rangpur,Pirganj,Sat Jan 13 04:25:00 UTC 2018,1,20,1,2,1
+11,606,3978,Rangpur,Pirganj,Sat Jan 13 22:20:00 UTC 2018,1,20,0,2,1
+11,606,3979,Rangpur,Pirganj,Sat Jan 13 04:46:00 UTC 2018,1,20,0,2,1
+11,606,3980,Rangpur,Pirganj,Sat Jan 13 16:49:00 UTC 2018,1,20,1,2,5
